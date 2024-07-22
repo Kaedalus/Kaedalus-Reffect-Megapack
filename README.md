@@ -6,6 +6,10 @@ Every image is pulled directly from the Wiki, except for: Firebrand Pages, Thief
 
 Reffect Version of latest update: v0.2.1
 
+[> Direct download link <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.0.0/KaedalusReffectMegapack.zip)
+
+[> Link to screenshots on imgur <](https://imgur.com/a/AKNGE3r)
+
 Please let me know if you find any errors or missing effects!
 
 Currently the main issue is that icons take quite a while to load when starting up, due to the large amount. Another issue is that text with increased size is blurry, so some numbers look a bit ugly.
