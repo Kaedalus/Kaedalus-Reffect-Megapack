@@ -12,812 +12,6 @@
   "elements": [
     {
       "enabled": true,
-      "name": "BoonsCondisHealth",
-      "pos": [
-        0.0,
-        0.0
-      ],
-      "opacity": 1.0,
-      "filter": {
-        "player": {
-          "combat": null,
-          "specs": [],
-          "mounts": []
-        },
-        "map": "Any"
-      },
-      "animation": null,
-      "type": "Group",
-      "members": [
-        {
-          "enabled": true,
-          "name": "MainBoons",
-          "pos": [
-            0.0,
-            0.0
-          ],
-          "opacity": 1.0,
-          "filter": {
-            "player": {
-              "combat": null,
-              "specs": [],
-              "mounts": []
-            },
-            "map": "Any"
-          },
-          "animation": null,
-          "type": "Group",
-          "members": [
-            {
-              "enabled": true,
-              "name": "Quickness",
-              "pos": [
-                -100.0,
-                32.0
-              ],
-              "opacity": 1.0,
-              "filter": {
-                "player": {
-                  "combat": null,
-                  "specs": [],
-                  "mounts": []
-                },
-                "map": "Any"
-              },
-              "animation": null,
-              "type": "Icon",
-              "progress": {
-                "source": {
-                  "Buff": 1187
-                },
-                "threshold": "Present"
-              },
-              "icon": {
-                "Url": "https://wiki.guildwars2.com/images/b/b4/Quickness.png"
-              },
-              "duration_bar": true,
-              "duration_text": false,
-              "stacks_text": false,
-              "tint": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ],
-              "size": [
-                32.0,
-                32.0
-              ]
-            },
-            {
-              "enabled": true,
-              "name": "Alacrity",
-              "pos": [
-                -100.0,
-                64.0
-              ],
-              "opacity": 1.0,
-              "filter": {
-                "player": {
-                  "combat": null,
-                  "specs": [],
-                  "mounts": []
-                },
-                "map": "Any"
-              },
-              "animation": null,
-              "type": "Icon",
-              "progress": {
-                "source": {
-                  "Buff": 30328
-                },
-                "threshold": "Present"
-              },
-              "icon": {
-                "Url": "https://wiki.guildwars2.com/images/4/4c/Alacrity.png"
-              },
-              "duration_bar": true,
-              "duration_text": false,
-              "stacks_text": false,
-              "tint": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ],
-              "size": [
-                32.0,
-                32.0
-              ]
-            },
-            {
-              "enabled": true,
-              "name": "Stability",
-              "pos": [
-                100.0,
-                64.0
-              ],
-              "opacity": 1.0,
-              "filter": {
-                "player": {
-                  "combat": null,
-                  "specs": [],
-                  "mounts": []
-                },
-                "map": "Any"
-              },
-              "animation": null,
-              "type": "Icon",
-              "progress": {
-                "source": {
-                  "Buff": 1122
-                },
-                "threshold": "Present"
-              },
-              "icon": {
-                "Url": "https://wiki.guildwars2.com/images/a/ae/Stability.png"
-              },
-              "duration_bar": true,
-              "duration_text": false,
-              "stacks_text": true,
-              "tint": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ],
-              "size": [
-                32.0,
-                32.0
-              ]
-            },
-            {
-              "enabled": true,
-              "name": "AegisCombatOnly",
-              "pos": [
-                100.0,
-                32.0
-              ],
-              "opacity": 1.0,
-              "filter": {
-                "player": {
-                  "combat": true,
-                  "specs": [
-                    "Guardian",
-                    "Dragonhunter",
-                    "Firebrand",
-                    "Willbender"
-                  ],
-                  "mounts": []
-                },
-                "map": "Any"
-              },
-              "animation": null,
-              "type": "Icon",
-              "progress": {
-                "source": {
-                  "Buff": 743
-                },
-                "threshold": "Present"
-              },
-              "icon": {
-                "Url": "https://wiki.guildwars2.com/images/e/e5/Aegis.png"
-              },
-              "duration_bar": true,
-              "duration_text": false,
-              "stacks_text": false,
-              "tint": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ],
-              "size": [
-                32.0,
-                32.0
-              ]
-            },
-            {
-              "enabled": true,
-              "name": "AegisOutOfCombat",
-              "pos": [
-                100.0,
-                32.0
-              ],
-              "opacity": 1.0,
-              "filter": {
-                "player": {
-                  "combat": null,
-                  "specs": [
-                    "Warrior",
-                    "Berserker",
-                    "Spellbreaker",
-                    "Bladesworn",
-                    "Revenant",
-                    "Herald",
-                    "Renegade",
-                    "Vindicator",
-                    "Engineer",
-                    "Scrapper",
-                    "Holosmith",
-                    "Mechanist",
-                    "Ranger",
-                    "Druid",
-                    "Soulbeast",
-                    "Untamed",
-                    "Thief",
-                    "Daredevil",
-                    "Deadeye",
-                    "Specter",
-                    "Elementalist",
-                    "Tempest",
-                    "Weaver",
-                    "Catalyst",
-                    "Mesmer",
-                    "Chronomancer",
-                    "Mirage",
-                    "Virtuoso",
-                    "Necromancer",
-                    "Reaper",
-                    "Scourge",
-                    "Harbinger"
-                  ],
-                  "mounts": []
-                },
-                "map": "Any"
-              },
-              "animation": null,
-              "type": "Icon",
-              "progress": {
-                "source": {
-                  "Buff": 743
-                },
-                "threshold": "Present"
-              },
-              "icon": {
-                "Url": "https://wiki.guildwars2.com/images/e/e5/Aegis.png"
-              },
-              "duration_bar": true,
-              "duration_text": false,
-              "stacks_text": false,
-              "tint": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ],
-              "size": [
-                32.0,
-                32.0
-              ]
-            }
-          ]
-        },
-        {
-          "enabled": true,
-          "name": "SecondaryBoons",
-          "pos": [
-            -4.0,
-            0.0
-          ],
-          "opacity": 0.80910003,
-          "filter": {
-            "player": {
-              "combat": null,
-              "specs": [],
-              "mounts": []
-            },
-            "map": "Any"
-          },
-          "animation": null,
-          "type": "Group",
-          "members": [
-            {
-              "enabled": true,
-              "name": "Might",
-              "pos": [
-                -124.0,
-                24.0
-              ],
-              "opacity": 1.0,
-              "filter": {
-                "player": {
-                  "combat": null,
-                  "specs": [],
-                  "mounts": []
-                },
-                "map": "Any"
-              },
-              "animation": null,
-              "type": "Icon",
-              "progress": {
-                "source": {
-                  "Buff": 740
-                },
-                "threshold": "Present"
-              },
-              "icon": {
-                "Url": "https://wiki.guildwars2.com/images/7/7c/Might.png"
-              },
-              "duration_bar": true,
-              "duration_text": false,
-              "stacks_text": true,
-              "tint": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ],
-              "size": [
-                24.0,
-                24.0
-              ]
-            },
-            {
-              "enabled": true,
-              "name": "Fury",
-              "pos": [
-                -148.0,
-                24.0
-              ],
-              "opacity": 1.0,
-              "filter": {
-                "player": {
-                  "combat": null,
-                  "specs": [],
-                  "mounts": []
-                },
-                "map": "Any"
-              },
-              "animation": null,
-              "type": "Icon",
-              "progress": {
-                "source": {
-                  "Buff": 725
-                },
-                "threshold": "Present"
-              },
-              "icon": {
-                "Url": "https://wiki.guildwars2.com/images/4/46/Fury.png"
-              },
-              "duration_bar": true,
-              "duration_text": false,
-              "stacks_text": false,
-              "tint": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ],
-              "size": [
-                24.0,
-                24.0
-              ]
-            },
-            {
-              "enabled": true,
-              "name": "Protection",
-              "pos": [
-                -124.0,
-                48.0
-              ],
-              "opacity": 1.0,
-              "filter": {
-                "player": {
-                  "combat": null,
-                  "specs": [],
-                  "mounts": []
-                },
-                "map": "Any"
-              },
-              "animation": null,
-              "type": "Icon",
-              "progress": {
-                "source": {
-                  "Buff": 717
-                },
-                "threshold": "Present"
-              },
-              "icon": {
-                "Url": "https://wiki.guildwars2.com/images/6/6c/Protection.png"
-              },
-              "duration_bar": true,
-              "duration_text": false,
-              "stacks_text": false,
-              "tint": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ],
-              "size": [
-                24.0,
-                24.0
-              ]
-            },
-            {
-              "enabled": true,
-              "name": "Resolution",
-              "pos": [
-                -148.0,
-                48.0
-              ],
-              "opacity": 1.0,
-              "filter": {
-                "player": {
-                  "combat": null,
-                  "specs": [],
-                  "mounts": []
-                },
-                "map": "Any"
-              },
-              "animation": null,
-              "type": "Icon",
-              "progress": {
-                "source": {
-                  "Buff": 873
-                },
-                "threshold": "Present"
-              },
-              "icon": {
-                "Url": "https://wiki.guildwars2.com/images/0/06/Resolution.png"
-              },
-              "duration_bar": true,
-              "duration_text": false,
-              "stacks_text": false,
-              "tint": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ],
-              "size": [
-                24.0,
-                24.0
-              ]
-            },
-            {
-              "enabled": true,
-              "name": "Regeneration",
-              "pos": [
-                -124.0,
-                72.0
-              ],
-              "opacity": 1.0,
-              "filter": {
-                "player": {
-                  "combat": null,
-                  "specs": [],
-                  "mounts": []
-                },
-                "map": "Any"
-              },
-              "animation": null,
-              "type": "Icon",
-              "progress": {
-                "source": {
-                  "Buff": 718
-                },
-                "threshold": "Present"
-              },
-              "icon": {
-                "Url": "https://wiki.guildwars2.com/images/5/53/Regeneration.png"
-              },
-              "duration_bar": true,
-              "duration_text": false,
-              "stacks_text": false,
-              "tint": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ],
-              "size": [
-                24.0,
-                24.0
-              ]
-            },
-            {
-              "enabled": true,
-              "name": "Vigor",
-              "pos": [
-                -148.0,
-                72.0
-              ],
-              "opacity": 1.0,
-              "filter": {
-                "player": {
-                  "combat": null,
-                  "specs": [],
-                  "mounts": []
-                },
-                "map": "Any"
-              },
-              "animation": null,
-              "type": "Icon",
-              "progress": {
-                "source": {
-                  "Buff": 726
-                },
-                "threshold": "Present"
-              },
-              "icon": {
-                "Url": "https://wiki.guildwars2.com/images/f/f4/Vigor.png"
-              },
-              "duration_bar": true,
-              "duration_text": false,
-              "stacks_text": false,
-              "tint": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ],
-              "size": [
-                24.0,
-                24.0
-              ]
-            },
-            {
-              "enabled": true,
-              "name": "SwiftResist",
-              "pos": [
-                0.0,
-                0.0
-              ],
-              "opacity": 1.0,
-              "filter": {
-                "player": {
-                  "combat": null,
-                  "specs": [],
-                  "mounts": []
-                },
-                "map": "Any"
-              },
-              "animation": null,
-              "type": "Group",
-              "members": [
-                {
-                  "enabled": true,
-                  "name": "Resistance",
-                  "pos": [
-                    -172.0,
-                    36.0
-                  ],
-                  "opacity": 1.0,
-                  "filter": {
-                    "player": {
-                      "combat": null,
-                      "specs": [],
-                      "mounts": []
-                    },
-                    "map": "Any"
-                  },
-                  "animation": null,
-                  "type": "Icon",
-                  "progress": {
-                    "source": {
-                      "Buff": 26980
-                    },
-                    "threshold": "Present"
-                  },
-                  "icon": {
-                    "Url": "https://wiki.guildwars2.com/images/4/4b/Resistance.png"
-                  },
-                  "duration_bar": true,
-                  "duration_text": false,
-                  "stacks_text": false,
-                  "tint": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                  ],
-                  "size": [
-                    24.0,
-                    24.0
-                  ]
-                },
-                {
-                  "enabled": true,
-                  "name": "Swiftness",
-                  "pos": [
-                    -172.0,
-                    60.0
-                  ],
-                  "opacity": 1.0,
-                  "filter": {
-                    "player": {
-                      "combat": null,
-                      "specs": [],
-                      "mounts": []
-                    },
-                    "map": "Any"
-                  },
-                  "animation": null,
-                  "type": "Icon",
-                  "progress": {
-                    "source": {
-                      "Buff": 719
-                    },
-                    "threshold": "Present"
-                  },
-                  "icon": {
-                    "Url": "https://wiki.guildwars2.com/images/a/af/Swiftness.png"
-                  },
-                  "duration_bar": true,
-                  "duration_text": false,
-                  "stacks_text": false,
-                  "tint": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                  ],
-                  "size": [
-                    24.0,
-                    24.0
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "enabled": true,
-          "name": "HealthAndBarrier",
-          "pos": [
-            124.0,
-            0.0
-          ],
-          "opacity": 1.0,
-          "filter": {
-            "player": {
-              "combat": true,
-              "specs": [],
-              "mounts": []
-            },
-            "map": "Any"
-          },
-          "animation": null,
-          "type": "Group",
-          "members": [
-            {
-              "enabled": true,
-              "name": "Health",
-              "pos": [
-                0.0,
-                0.0
-              ],
-              "opacity": 1.0,
-              "filter": {
-                "player": {
-                  "combat": null,
-                  "specs": [],
-                  "mounts": []
-                },
-                "map": "Any"
-              },
-              "animation": null,
-              "type": "Bar",
-              "progress_trigger": {
-                "source": "Health",
-                "threshold": "Always"
-              },
-              "progress_kind": "Duration",
-              "max": 25,
-              "size": [
-                12.0,
-                128.0
-              ],
-              "align": "Down",
-              "direction": "Up",
-              "fill": [
-                0.6431373,
-                0.08627451,
-                0.0,
-                1.0
-              ],
-              "background": [
-                0.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "border": true,
-              "border_size": 0.0,
-              "border_color": [
-                1.0,
-                0.99999,
-                0.99999,
-                0.3144654
-              ],
-              "tick_size": 1.0,
-              "tick_color": [
-                1.0,
-                0.99999,
-                0.99999,
-                1.0
-              ],
-              "tick_unit": "Percent",
-              "ticks": [
-                0.9,
-                0.75,
-                0.5,
-                0.25
-              ]
-            },
-            {
-              "enabled": true,
-              "name": "Barrier",
-              "pos": [
-                0.0,
-                0.0
-              ],
-              "opacity": 1.0,
-              "filter": {
-                "player": {
-                  "combat": null,
-                  "specs": [],
-                  "mounts": []
-                },
-                "map": "Any"
-              },
-              "animation": null,
-              "type": "Bar",
-              "progress_trigger": {
-                "source": "Barrier",
-                "threshold": "Always"
-              },
-              "progress_kind": "Duration",
-              "max": 25,
-              "size": [
-                12.0,
-                128.0
-              ],
-              "align": "Down",
-              "direction": "Up",
-              "fill": [
-                0.9433962,
-                0.62958926,
-                0.23733236,
-                1.0
-              ],
-              "background": [
-                0.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "border": true,
-              "border_size": 0.0,
-              "border_color": [
-                1.0,
-                0.99999,
-                0.99999,
-                0.0
-              ],
-              "tick_size": 1.0,
-              "tick_color": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ],
-              "tick_unit": "Percent",
-              "ticks": [
-                0.9,
-                0.75,
-                0.5,
-                0.25
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "enabled": true,
       "name": "Classes",
       "pos": [
         0.0,
@@ -2047,7 +1241,7 @@
                 "threshold": "Present"
               },
               "icon": {
-                "File": "FBPages.png"
+                "File": "ClassResources\\FBPages.png"
               },
               "duration_bar": false,
               "duration_text": false,
@@ -9528,7 +8722,7 @@
                 "threshold": "Always"
               },
               "icon": {
-                "File": "ThiefInitiative.png"
+                "File": "ClassResources\\ThiefInitiative.png"
               },
               "duration_bar": false,
               "duration_text": false,
@@ -12560,7 +11754,7 @@
                             "threshold": "Present"
                           },
                           "icon": {
-                            "File": "EleFire.png"
+                            "File": "ClassResources\\EleFire.png"
                           },
                           "duration_bar": true,
                           "duration_text": false,
@@ -12601,7 +11795,7 @@
                             "threshold": "Present"
                           },
                           "icon": {
-                            "File": "EleWater.png"
+                            "File": "ClassResources\\EleWater.png"
                           },
                           "duration_bar": true,
                           "duration_text": false,
@@ -12642,7 +11836,7 @@
                             "threshold": "Present"
                           },
                           "icon": {
-                            "File": "EleAir.png"
+                            "File": "ClassResources\\EleAir.png"
                           },
                           "duration_bar": true,
                           "duration_text": false,
@@ -12683,7 +11877,7 @@
                             "threshold": "Present"
                           },
                           "icon": {
-                            "File": "EleEarth.png"
+                            "File": "ClassResources\\EleEarth.png"
                           },
                           "duration_bar": true,
                           "duration_text": false,
@@ -12745,7 +11939,7 @@
                             "threshold": "Present"
                           },
                           "icon": {
-                            "File": "EleFire.png"
+                            "File": "ClassResources\\EleFire.png"
                           },
                           "duration_bar": true,
                           "duration_text": false,
@@ -12786,7 +11980,7 @@
                             "threshold": "Present"
                           },
                           "icon": {
-                            "File": "EleWater.png"
+                            "File": "ClassResources\\EleWater.png"
                           },
                           "duration_bar": true,
                           "duration_text": false,
@@ -12827,7 +12021,7 @@
                             "threshold": "Present"
                           },
                           "icon": {
-                            "File": "EleAir.png"
+                            "File": "ClassResources\\EleAir.png"
                           },
                           "duration_bar": true,
                           "duration_text": false,
@@ -12868,7 +12062,7 @@
                             "threshold": "Present"
                           },
                           "icon": {
-                            "File": "EleEarth.png"
+                            "File": "ClassResources\\EleEarth.png"
                           },
                           "duration_bar": true,
                           "duration_text": false,
@@ -14463,7 +13657,7 @@
                     }
                   },
                   "icon": {
-                    "File": "Mesmer0Clones.png"
+                    "File": "ClassResources\\Mesmer0Clones.png"
                   },
                   "duration_bar": false,
                   "duration_text": false,
@@ -14504,7 +13698,7 @@
                     }
                   },
                   "icon": {
-                    "File": "Mesmer1Clone.png"
+                    "File": "ClassResources\\Mesmer1Clone.png"
                   },
                   "duration_bar": false,
                   "duration_text": false,
@@ -14545,7 +13739,7 @@
                     }
                   },
                   "icon": {
-                    "File": "Mesmer2Clones.png"
+                    "File": "ClassResources\\Mesmer2Clones.png"
                   },
                   "duration_bar": false,
                   "duration_text": false,
@@ -14586,7 +13780,7 @@
                     }
                   },
                   "icon": {
-                    "File": "Mesmer3Clones.png"
+                    "File": "ClassResources\\Mesmer3Clones.png"
                   },
                   "duration_bar": false,
                   "duration_text": false,
@@ -14687,7 +13881,7 @@
                     }
                   },
                   "icon": {
-                    "File": "Virtuoso0Blades.png"
+                    "File": "ClassResources\\Virtuoso0Blades.png"
                   },
                   "duration_bar": false,
                   "duration_text": false,
@@ -14728,7 +13922,7 @@
                     }
                   },
                   "icon": {
-                    "File": "Virtuoso1Blade.png"
+                    "File": "ClassResources\\Virtuoso1Blade.png"
                   },
                   "duration_bar": false,
                   "duration_text": false,
@@ -14769,7 +13963,7 @@
                     }
                   },
                   "icon": {
-                    "File": "Virtuoso2Blades.png"
+                    "File": "ClassResources\\Virtuoso2Blades.png"
                   },
                   "duration_bar": false,
                   "duration_text": false,
@@ -14810,7 +14004,7 @@
                     }
                   },
                   "icon": {
-                    "File": "Virtuoso3Blades.png"
+                    "File": "ClassResources\\Virtuoso3Blades.png"
                   },
                   "duration_bar": false,
                   "duration_text": false,
@@ -14851,7 +14045,7 @@
                     }
                   },
                   "icon": {
-                    "File": "Virtuoso4Blades.png"
+                    "File": "ClassResources\\Virtuoso4Blades.png"
                   },
                   "duration_bar": false,
                   "duration_text": false,
@@ -14892,7 +14086,7 @@
                     }
                   },
                   "icon": {
-                    "File": "Virtuoso5Blades.png"
+                    "File": "ClassResources\\Virtuoso5Blades.png"
                   },
                   "duration_bar": false,
                   "duration_text": false,
@@ -16216,7 +15410,7 @@
                     }
                   },
                   "icon": {
-                    "File": "Scourge0Shades.png"
+                    "File": "ClassResources\\Scourge0Shades.png"
                   },
                   "duration_bar": false,
                   "duration_text": false,
@@ -16257,7 +15451,7 @@
                     }
                   },
                   "icon": {
-                    "File": "Scourge1Shade.png"
+                    "File": "ClassResources\\Scourge1Shade.png"
                   },
                   "duration_bar": false,
                   "duration_text": false,
@@ -16298,7 +15492,7 @@
                     }
                   },
                   "icon": {
-                    "File": "Scourge2Shades.png"
+                    "File": "ClassResources\\Scourge2Shades.png"
                   },
                   "duration_bar": false,
                   "duration_text": false,
@@ -16339,7 +15533,7 @@
                     }
                   },
                   "icon": {
-                    "File": "Scourge3Shades.png"
+                    "File": "ClassResources\\Scourge3Shades.png"
                   },
                   "duration_bar": false,
                   "duration_text": false,
@@ -17308,7 +16502,7 @@
       "name": "Relics",
       "pos": [
         0.0,
-        0.0
+        6.0
       ],
       "opacity": 1.0,
       "filter": {
@@ -17941,6 +17135,560 @@
     },
     {
       "enabled": true,
+      "name": "Sigils",
+      "pos": [
+        0.0,
+        6.0
+      ],
+      "opacity": 1.0,
+      "filter": {
+        "player": {
+          "combat": null,
+          "specs": [],
+          "mounts": []
+        },
+        "map": "Any"
+      },
+      "animation": null,
+      "type": "Group",
+      "members": [
+        {
+          "enabled": true,
+          "name": "Benevolence",
+          "pos": [
+            -132.0,
+            96.0
+          ],
+          "opacity": 1.0,
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "progress": {
+            "source": {
+              "Buff": 9398
+            },
+            "threshold": "Present"
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/9/91/Superior_Sigil_of_Sanctuary.png"
+          },
+          "duration_bar": false,
+          "duration_text": false,
+          "stacks_text": true,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Bloodlust",
+          "pos": [
+            -132.0,
+            96.0
+          ],
+          "opacity": 1.0,
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "progress": {
+            "source": {
+              "Buff": 9286
+            },
+            "threshold": "Present"
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/f/fb/Superior_Sigil_of_Bloodlust.png"
+          },
+          "duration_bar": false,
+          "duration_text": false,
+          "stacks_text": true,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Bounty",
+          "pos": [
+            -132.0,
+            96.0
+          ],
+          "opacity": 1.0,
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "progress": {
+            "source": {
+              "Buff": 38588
+            },
+            "threshold": "Present"
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/f/f8/Superior_Sigil_of_Bounty.png"
+          },
+          "duration_bar": false,
+          "duration_text": false,
+          "stacks_text": true,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Corruption",
+          "pos": [
+            -132.0,
+            96.0
+          ],
+          "opacity": 1.0,
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "progress": {
+            "source": {
+              "Buff": 9374
+            },
+            "threshold": "Present"
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/1/18/Superior_Sigil_of_Corruption.png"
+          },
+          "duration_bar": false,
+          "duration_text": false,
+          "stacks_text": true,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Cruelty",
+          "pos": [
+            -132.0,
+            96.0
+          ],
+          "opacity": 1.0,
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "progress": {
+            "source": {
+              "Buff": 25526
+            },
+            "threshold": "Present"
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/2/26/Superior_Sigil_of_Cruelty.png"
+          },
+          "duration_bar": false,
+          "duration_text": false,
+          "stacks_text": true,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Life",
+          "pos": [
+            -132.0,
+            96.0
+          ],
+          "opacity": 1.0,
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "progress": {
+            "source": {
+              "Buff": 9386
+            },
+            "threshold": "Present"
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/a/a7/Superior_Sigil_of_Life.png"
+          },
+          "duration_bar": false,
+          "duration_text": false,
+          "stacks_text": true,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Momentum",
+          "pos": [
+            -132.0,
+            96.0
+          ],
+          "opacity": 1.0,
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "progress": {
+            "source": {
+              "Buff": 22144
+            },
+            "threshold": "Present"
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/3/30/Superior_Sigil_of_Momentum.png"
+          },
+          "duration_bar": false,
+          "duration_text": false,
+          "stacks_text": true,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Perception",
+          "pos": [
+            -132.0,
+            96.0
+          ],
+          "opacity": 1.0,
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "progress": {
+            "source": {
+              "Buff": 9385
+            },
+            "threshold": "Present"
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/c/cc/Superior_Sigil_of_Perception.png"
+          },
+          "duration_bar": false,
+          "duration_text": false,
+          "stacks_text": true,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Stars",
+          "pos": [
+            -132.0,
+            96.0
+          ],
+          "opacity": 1.0,
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "progress": {
+            "source": {
+              "Buff": 46953
+            },
+            "threshold": "Present"
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/d/dc/Superior_Sigil_of_the_Stars.png"
+          },
+          "duration_bar": false,
+          "duration_text": false,
+          "stacks_text": true,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Doom",
+          "pos": [
+            256.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "progress": {
+            "source": {
+              "Buff": 9441
+            },
+            "threshold": "Present"
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/6/67/Superior_Sigil_of_Doom.png"
+          },
+          "duration_bar": false,
+          "duration_text": false,
+          "stacks_text": false,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Leeching",
+          "pos": [
+            256.0,
+            32.0
+          ],
+          "opacity": 1.0,
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "progress": {
+            "source": {
+              "Buff": 9416
+            },
+            "threshold": "Present"
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/0/05/Superior_Sigil_of_Leeching.png"
+          },
+          "duration_bar": false,
+          "duration_text": false,
+          "stacks_text": false,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Severance",
+          "pos": [
+            256.0,
+            64.0
+          ],
+          "opacity": 1.0,
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "progress": {
+            "source": {
+              "Buff": 43930
+            },
+            "threshold": "Present"
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/c/c2/Superior_Sigil_of_Severance.png"
+          },
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": false,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Vision",
+          "pos": [
+            256.0,
+            96.0
+          ],
+          "opacity": 1.0,
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "progress": {
+            "source": {
+              "Buff": 9422
+            },
+            "threshold": "Present"
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/4/4f/Superior_Sigil_of_Vision.png"
+          },
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": false,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        }
+      ]
+    },
+    {
+      "enabled": true,
       "name": "OtherEffects",
       "pos": [
         0.0,
@@ -18549,6 +18297,3462 @@
               "size": [
                 24.0,
                 24.0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "name": "BoonsCondisHealth",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "opacity": 1.0,
+      "filter": {
+        "player": {
+          "combat": null,
+          "specs": [],
+          "mounts": []
+        },
+        "map": "Any"
+      },
+      "animation": null,
+      "type": "Group",
+      "members": [
+        {
+          "enabled": true,
+          "name": "HealthAndBarrier",
+          "pos": [
+            124.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "filter": {
+            "player": {
+              "combat": true,
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "Health",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "mounts": []
+                },
+                "map": "Any"
+              },
+              "animation": null,
+              "type": "Bar",
+              "progress_trigger": {
+                "source": "Health",
+                "threshold": "Always"
+              },
+              "progress_kind": "Duration",
+              "max": 25,
+              "size": [
+                12.0,
+                128.0
+              ],
+              "align": "Down",
+              "direction": "Up",
+              "fill": [
+                0.6431373,
+                0.08627451,
+                0.0,
+                1.0
+              ],
+              "background": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "border": true,
+              "border_size": 0.0,
+              "border_color": [
+                1.0,
+                0.99999,
+                0.99999,
+                0.3144654
+              ],
+              "tick_size": 1.0,
+              "tick_color": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "tick_unit": "Percent",
+              "ticks": [
+                0.9,
+                0.75,
+                0.5,
+                0.25
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Barrier",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "mounts": []
+                },
+                "map": "Any"
+              },
+              "animation": null,
+              "type": "Bar",
+              "progress_trigger": {
+                "source": "Barrier",
+                "threshold": "Always"
+              },
+              "progress_kind": "Duration",
+              "max": 25,
+              "size": [
+                12.0,
+                128.0
+              ],
+              "align": "Down",
+              "direction": "Up",
+              "fill": [
+                0.9433962,
+                0.62958926,
+                0.23733236,
+                1.0
+              ],
+              "background": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "border": true,
+              "border_size": 0.0,
+              "border_color": [
+                1.0,
+                0.99999,
+                0.99999,
+                0.0
+              ],
+              "tick_size": 1.0,
+              "tick_color": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "tick_unit": "Percent",
+              "ticks": [
+                0.9,
+                0.75,
+                0.5,
+                0.25
+              ]
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "BoonsAndCondisOverlayed",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "BoonsBackground",
+              "pos": [
+                -4.0,
+                0.0
+              ],
+              "opacity": 0.4,
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "mounts": []
+                },
+                "map": "Any"
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "Might",
+                  "pos": [
+                    -124.0,
+                    24.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 740
+                    },
+                    "threshold": "Missing"
+                  },
+                  "icon": {
+                    "File": "BoonsAndConditions\\GrayedBoons\\MightGray.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    0.99999,
+                    0.99999,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Fury",
+                  "pos": [
+                    -148.0,
+                    24.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 725
+                    },
+                    "threshold": "Missing"
+                  },
+                  "icon": {
+                    "File": "BoonsAndConditions\\GrayedBoons\\FuryGray.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Protection",
+                  "pos": [
+                    -124.0,
+                    48.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 717
+                    },
+                    "threshold": "Missing"
+                  },
+                  "icon": {
+                    "File": "BoonsAndConditions\\GrayedBoons\\ProtectionGray.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Resolution",
+                  "pos": [
+                    -148.0,
+                    48.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 873
+                    },
+                    "threshold": "Missing"
+                  },
+                  "icon": {
+                    "File": "BoonsAndConditions\\GrayedBoons\\ResolutionGray.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Regeneration",
+                  "pos": [
+                    -124.0,
+                    72.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 718
+                    },
+                    "threshold": "Missing"
+                  },
+                  "icon": {
+                    "File": "BoonsAndConditions\\GrayedBoons\\RegenerationGray.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Vigor",
+                  "pos": [
+                    -148.0,
+                    72.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 726
+                    },
+                    "threshold": "Missing"
+                  },
+                  "icon": {
+                    "File": "BoonsAndConditions\\GrayedBoons\\VigorGray.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Aegis",
+                  "pos": [
+                    104.0,
+                    32.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 743
+                    },
+                    "threshold": "Missing"
+                  },
+                  "icon": {
+                    "File": "BoonsAndConditions\\GrayedBoons\\AegisGray.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Resistance",
+                  "pos": [
+                    -172.0,
+                    36.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 26980
+                    },
+                    "threshold": "Missing"
+                  },
+                  "icon": {
+                    "File": "BoonsAndConditions\\GrayedBoons\\ResistanceGray.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Swiftness",
+                  "pos": [
+                    -172.0,
+                    60.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 719
+                    },
+                    "threshold": "Missing"
+                  },
+                  "icon": {
+                    "File": "BoonsAndConditions\\GrayedBoons\\SwiftnessGray.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Alacrity",
+                  "pos": [
+                    -96.0,
+                    64.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 30328
+                    },
+                    "threshold": "Missing"
+                  },
+                  "icon": {
+                    "File": "BoonsAndConditions\\GrayedBoons\\AlacrityGray.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Quickness",
+                  "pos": [
+                    -96.0,
+                    32.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 1187
+                    },
+                    "threshold": "Missing"
+                  },
+                  "icon": {
+                    "File": "BoonsAndConditions\\GrayedBoons\\QuicknessGray.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Stability",
+                  "pos": [
+                    104.0,
+                    64.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 1122
+                    },
+                    "threshold": "Missing"
+                  },
+                  "icon": {
+                    "File": "BoonsAndConditions\\GrayedBoons\\StabilityGray.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                }
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "BoonsOverlayed",
+              "pos": [
+                -4.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "mounts": []
+                },
+                "map": "Any"
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "Might",
+                  "pos": [
+                    -124.0,
+                    24.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 740
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/7/7c/Might.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": true,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Fury",
+                  "pos": [
+                    -148.0,
+                    24.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 725
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/4/46/Fury.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Protection",
+                  "pos": [
+                    -124.0,
+                    48.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 717
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/6/6c/Protection.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Resolution",
+                  "pos": [
+                    -148.0,
+                    48.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 873
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/0/06/Resolution.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Regeneration",
+                  "pos": [
+                    -124.0,
+                    72.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 718
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/5/53/Regeneration.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Vigor",
+                  "pos": [
+                    -148.0,
+                    72.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 726
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/f/f4/Vigor.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Aegis",
+                  "pos": [
+                    104.0,
+                    32.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 743
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/e/e5/Aegis.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Resistance",
+                  "pos": [
+                    -172.0,
+                    36.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 26980
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/4/4b/Resistance.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Swiftness",
+                  "pos": [
+                    -172.0,
+                    60.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 719
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/a/af/Swiftness.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Alacrity",
+                  "pos": [
+                    -96.0,
+                    64.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 30328
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/4/4c/Alacrity.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Quickness",
+                  "pos": [
+                    -96.0,
+                    32.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 1187
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/b/b4/Quickness.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Stability",
+                  "pos": [
+                    104.0,
+                    64.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 1122
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/a/ae/Stability.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": true,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                }
+              ]
+            },
+            {
+              "enabled": false,
+              "name": "ConditionsOverlayed",
+              "pos": [
+                -4.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "mounts": []
+                },
+                "map": "Any"
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "Weakness",
+                  "pos": [
+                    -127.0,
+                    21.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 742
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/f/f9/Weakness.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    18.0,
+                    18.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Blind",
+                  "pos": [
+                    -151.0,
+                    21.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 720
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/3/33/Blinded.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    18.0,
+                    18.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Vulnerability",
+                  "pos": [
+                    -127.0,
+                    45.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 738
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/a/af/Vulnerability.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": true,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    18.0,
+                    18.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Confusion",
+                  "pos": [
+                    -151.0,
+                    45.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 861
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/e/e6/Confusion.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": true,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    18.0,
+                    18.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Poison",
+                  "pos": [
+                    -127.0,
+                    69.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 723
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/1/11/Poisoned.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": true,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    18.0,
+                    18.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Bleeding",
+                  "pos": [
+                    -151.0,
+                    69.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 736
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/3/33/Bleeding.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    18.0,
+                    18.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Burning",
+                  "pos": [
+                    111.0,
+                    24.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 737
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/4/45/Burning.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    16.0,
+                    16.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Immobilize",
+                  "pos": [
+                    -175.0,
+                    33.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 727
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/3/32/Immobile.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    18.0,
+                    18.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Cripple",
+                  "pos": [
+                    -175.0,
+                    57.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 721
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/f/fb/Crippled.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    18.0,
+                    18.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Chill",
+                  "pos": [
+                    -103.0,
+                    56.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 722
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/a/a6/Chilled.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    16.0,
+                    16.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Slow",
+                  "pos": [
+                    -103.0,
+                    24.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 26766
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/f/f5/Slow.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    16.0,
+                    16.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Fear",
+                  "pos": [
+                    111.0,
+                    56.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 791
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/e/e6/Fear.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    16.0,
+                    16.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Taunt",
+                  "pos": [
+                    97.0,
+                    56.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 27705
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/c/cc/Taunt.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    16.0,
+                    16.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Torment",
+                  "pos": [
+                    -127.0,
+                    3.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 19426
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/0/08/Torment.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": true,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    18.0,
+                    18.0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "enabled": false,
+          "name": "BoonsAndCondisSpaced",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "BoonsBackground",
+              "pos": [
+                -4.0,
+                0.0
+              ],
+              "opacity": 0.4,
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "mounts": []
+                },
+                "map": "Any"
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "Might",
+                  "pos": [
+                    -124.0,
+                    24.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 740
+                    },
+                    "threshold": "Missing"
+                  },
+                  "icon": {
+                    "File": "BoonsAndConditions\\GrayedBoons\\MightGray.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    0.99999,
+                    0.99999,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Fury",
+                  "pos": [
+                    -148.0,
+                    24.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 725
+                    },
+                    "threshold": "Missing"
+                  },
+                  "icon": {
+                    "File": "BoonsAndConditions\\GrayedBoons\\FuryGray.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Protection",
+                  "pos": [
+                    -124.0,
+                    48.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 717
+                    },
+                    "threshold": "Missing"
+                  },
+                  "icon": {
+                    "File": "BoonsAndConditions\\GrayedBoons\\ProtectionGray.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Resolution",
+                  "pos": [
+                    -148.0,
+                    48.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 873
+                    },
+                    "threshold": "Missing"
+                  },
+                  "icon": {
+                    "File": "BoonsAndConditions\\GrayedBoons\\ResolutionGray.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Regeneration",
+                  "pos": [
+                    -124.0,
+                    72.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 718
+                    },
+                    "threshold": "Missing"
+                  },
+                  "icon": {
+                    "File": "BoonsAndConditions\\GrayedBoons\\RegenerationGray.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Vigor",
+                  "pos": [
+                    -148.0,
+                    72.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 726
+                    },
+                    "threshold": "Missing"
+                  },
+                  "icon": {
+                    "File": "BoonsAndConditions\\GrayedBoons\\VigorGray.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Aegis",
+                  "pos": [
+                    104.0,
+                    32.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 743
+                    },
+                    "threshold": "Missing"
+                  },
+                  "icon": {
+                    "File": "BoonsAndConditions\\GrayedBoons\\AegisGray.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Resistance",
+                  "pos": [
+                    -172.0,
+                    36.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 26980
+                    },
+                    "threshold": "Missing"
+                  },
+                  "icon": {
+                    "File": "BoonsAndConditions\\GrayedBoons\\ResistanceGray.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Swiftness",
+                  "pos": [
+                    -172.0,
+                    60.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 719
+                    },
+                    "threshold": "Missing"
+                  },
+                  "icon": {
+                    "File": "BoonsAndConditions\\GrayedBoons\\SwiftnessGray.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Alacrity",
+                  "pos": [
+                    -96.0,
+                    64.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 30328
+                    },
+                    "threshold": "Missing"
+                  },
+                  "icon": {
+                    "File": "BoonsAndConditions\\GrayedBoons\\AlacrityGray.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Quickness",
+                  "pos": [
+                    -96.0,
+                    32.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 1187
+                    },
+                    "threshold": "Missing"
+                  },
+                  "icon": {
+                    "File": "BoonsAndConditions\\GrayedBoons\\QuicknessGray.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Stability",
+                  "pos": [
+                    104.0,
+                    64.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 1122
+                    },
+                    "threshold": "Missing"
+                  },
+                  "icon": {
+                    "File": "BoonsAndConditions\\GrayedBoons\\StabilityGray.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                }
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Boons",
+              "pos": [
+                -4.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "mounts": []
+                },
+                "map": "Any"
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "Might",
+                  "pos": [
+                    -124.0,
+                    24.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 740
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/7/7c/Might.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": true,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Fury",
+                  "pos": [
+                    -148.0,
+                    24.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 725
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/4/46/Fury.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Protection",
+                  "pos": [
+                    -124.0,
+                    48.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 717
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/6/6c/Protection.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Resolution",
+                  "pos": [
+                    -148.0,
+                    48.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 873
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/0/06/Resolution.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Regeneration",
+                  "pos": [
+                    -124.0,
+                    72.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 718
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/5/53/Regeneration.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Vigor",
+                  "pos": [
+                    -148.0,
+                    72.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 726
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/f/f4/Vigor.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Aegis",
+                  "pos": [
+                    104.0,
+                    32.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 743
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/e/e5/Aegis.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Resistance",
+                  "pos": [
+                    -172.0,
+                    36.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 26980
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/4/4b/Resistance.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Swiftness",
+                  "pos": [
+                    -172.0,
+                    60.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 719
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/a/af/Swiftness.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Alacrity",
+                  "pos": [
+                    -96.0,
+                    64.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 30328
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/4/4c/Alacrity.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Quickness",
+                  "pos": [
+                    -96.0,
+                    32.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 1187
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/b/b4/Quickness.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Stability",
+                  "pos": [
+                    104.0,
+                    64.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 1122
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/a/ae/Stability.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": true,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                }
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Conditions",
+              "pos": [
+                -4.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "mounts": []
+                },
+                "map": "Any"
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "Weakness",
+                  "pos": [
+                    -134.0,
+                    6.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 742
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/f/f9/Weakness.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Blind",
+                  "pos": [
+                    -158.0,
+                    6.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 720
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/3/33/Blinded.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Vulnerability",
+                  "pos": [
+                    -195.0,
+                    48.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 738
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/a/af/Vulnerability.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": true,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Confusion",
+                  "pos": [
+                    -217.0,
+                    48.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 861
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/e/e6/Confusion.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": true,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Poison",
+                  "pos": [
+                    -124.0,
+                    96.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 723
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/1/11/Poisoned.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": true,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Bleeding",
+                  "pos": [
+                    -148.0,
+                    96.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 736
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/3/33/Bleeding.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Burning",
+                  "pos": [
+                    92.0,
+                    10.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 737
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/4/45/Burning.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Immobilize",
+                  "pos": [
+                    -182.0,
+                    18.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 727
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/3/32/Immobile.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Cripple",
+                  "pos": [
+                    -182.0,
+                    84.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 721
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/f/fb/Crippled.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Chill",
+                  "pos": [
+                    -84.0,
+                    92.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 722
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/a/a6/Chilled.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Slow",
+                  "pos": [
+                    -84.0,
+                    10.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 26766
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/f/f5/Slow.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Fear",
+                  "pos": [
+                    93.0,
+                    92.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 791
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/e/e6/Fear.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Taunt",
+                  "pos": [
+                    114.0,
+                    92.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 27705
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/c/cc/Taunt.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Torment",
+                  "pos": [
+                    -114.0,
+                    6.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": {
+                      "Buff": 19426
+                    },
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/0/08/Torment.png"
+                  },
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": true,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    24.0,
+                    24.0
+                  ]
+                }
               ]
             }
           ]
