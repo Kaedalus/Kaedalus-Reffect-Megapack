@@ -6,13 +6,14 @@ Every image is pulled directly from the Wiki, except for: Firebrand Pages, Thief
 
 Reffect Version of latest update: v0.2.1
 
-[> Direct download link <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.0.0/KaedalusReffectMegapack.zip)
+[> Direct download link <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.1.0/Kaedalus-Reffect-Megapack.zip)
 
 [> Link to screenshots on imgur <](https://imgur.com/a/AKNGE3r)
 
 Please let me know if you find any errors or missing effects!
 
-Currently the main issue is that icons take quite a while to load when starting up, due to the large amount. Another issue is that text with increased size is blurry, so some numbers look a bit ugly.
+Currently the main issue is that icons take quite a while to load when starting up, due to the large amount.
+To fix blurry numbers, change your Reffect font to the largest possible size.
 Still thinking of how to implement conditions in a neat manner. Also, no underwater exclusive stuff for the moment (Whirlpool, for instance), sorry!
 
 # In the pack:
@@ -21,8 +22,10 @@ Still thinking of how to implement conditions in a neat manner. Also, no underwa
 - **Health**, with ticks for health-based effects (90%, 75%, 50%, 25%).
 - **Barrier** overlayed on health.
 - **Boons**, with emphasis on quickness, alacrity, stability and aegis.
+- **Conditions** (optional, disabled by default, WIP layouts).
 - **Auras**.
 - **All Relics**.
+- **Sigil effects** (thanks to Tommyball and Zerthox in the GW2Clarity repo for help).
 - **Trait effects**, all classes.
 - **Other effects**: Stealth/Hide in Shadows, Revealed, Superspeed, Unblockable and Invulnerable.
 
