@@ -25,7 +25,7 @@ Still thinking of how to implement conditions in a neat manner. Also, no underwa
 - **Conditions** (optional, disabled by default, WIP layouts).
 - **Auras**.
 - **All Relics**.
-- **Sigil effects** (thanks to Tommyball and Zerthox in the GW2Clarity repo for help).
+- **Sigil effects** _(thanks to Tommyball and Zerthox in the GW2Clarity repo for help)_.
 - **Trait effects**, all classes.
 - **Other effects**: Stealth/Hide in Shadows, Revealed, Superspeed, Unblockable and Invulnerable.
 
@@ -72,3 +72,17 @@ Still thinking of how to implement conditions in a neat manner. Also, no underwa
 - **Life Force**, bar with ticks for 50% and 10% (for Unholy Sanctuary trait, 25% when Scourge).
 - **Scourge Shades**, numbers and icons + segmented bar (both options so you can choose whichever you prefer).
 - **Skill Effects**: Signets, Spectral, Shroud and Sand Swell.
+
+# Changelog
+**1.1.1:**
+- Added missing **Soul Barbs** Necromancer trait effect.
+- Moved all class resource bars (not icons) into a single group _ClassBars_ for easier relocation.
+
+**1.1.0:**
+- Added Sigil effects (thanks to Tommyball and Zerthox in the GW2Clarity repo for help).
+- Added grayed out Boon backgrounds.
+- Added options for Conditions display (disabled by default, two options: overlayed on boons, and displaced).
+- Reorganized the images inside the icons folder.
+
+**1.0.0:**
+- First release.
