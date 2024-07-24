@@ -31,6 +31,1292 @@
       "members": [
         {
           "enabled": true,
+          "name": "ClassBars",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "Warrior",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [
+                    "Warrior",
+                    "Berserker",
+                    "Spellbreaker",
+                    "Bladesworn"
+                  ],
+                  "mounts": []
+                },
+                "map": "Any"
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "Adrenaline",
+                  "pos": [
+                    136.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": true,
+                      "specs": [
+                        "Warrior",
+                        "Berserker",
+                        "Bladesworn"
+                      ],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Bar",
+                  "progress_trigger": {
+                    "source": "PrimaryResource",
+                    "threshold": "Always"
+                  },
+                  "progress_kind": "Duration",
+                  "max": 25,
+                  "size": [
+                    12.0,
+                    128.0
+                  ],
+                  "align": "Down",
+                  "direction": "Up",
+                  "fill": [
+                    0.918239,
+                    0.504285,
+                    0.16170245,
+                    1.0
+                  ],
+                  "background": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "border": true,
+                  "border_size": 0.0,
+                  "border_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.3137255
+                  ],
+                  "tick_size": 1.0,
+                  "tick_color": [
+                    1.0,
+                    0.99999,
+                    0.99999,
+                    1.0
+                  ],
+                  "tick_unit": "Percent",
+                  "ticks": [
+                    0.66,
+                    0.33
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "AdrenalineSpellbreaker",
+                  "pos": [
+                    136.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": true,
+                      "specs": [
+                        "Spellbreaker"
+                      ],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Bar",
+                  "progress_trigger": {
+                    "source": "PrimaryResource",
+                    "threshold": "Always"
+                  },
+                  "progress_kind": "Duration",
+                  "max": 25,
+                  "size": [
+                    12.0,
+                    128.0
+                  ],
+                  "align": "Down",
+                  "direction": "Up",
+                  "fill": [
+                    0.918239,
+                    0.504285,
+                    0.16170245,
+                    1.0
+                  ],
+                  "background": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "border": true,
+                  "border_size": 0.0,
+                  "border_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.3137255
+                  ],
+                  "tick_size": 1.0,
+                  "tick_color": [
+                    1.0,
+                    0.99999,
+                    0.99999,
+                    1.0
+                  ],
+                  "tick_unit": "Percent",
+                  "ticks": [
+                    0.5
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Charges",
+                  "pos": [
+                    148.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Bladesworn"
+                      ],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Bar",
+                  "progress_trigger": {
+                    "source": "SecondaryResource",
+                    "threshold": "Present"
+                  },
+                  "progress_kind": "Duration",
+                  "max": 25,
+                  "size": [
+                    12.0,
+                    128.0
+                  ],
+                  "align": "Down",
+                  "direction": "Up",
+                  "fill": [
+                    0.7421384,
+                    0.27503237,
+                    0.107353315,
+                    1.0
+                  ],
+                  "background": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "border": true,
+                  "border_size": 0.0,
+                  "border_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.3137255
+                  ],
+                  "tick_size": 1.0,
+                  "tick_color": [
+                    1.0,
+                    0.99999,
+                    0.99999,
+                    1.0
+                  ],
+                  "tick_unit": "Percent",
+                  "ticks": [
+                    0.9,
+                    0.8,
+                    0.7,
+                    0.6,
+                    0.5,
+                    0.4,
+                    0.3,
+                    0.2,
+                    0.1
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "ChargesCount",
+                  "pos": [
+                    131.0,
+                    129.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Bladesworn"
+                      ],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": "SecondaryResource",
+                    "threshold": "Present"
+                  },
+                  "icon": "Empty",
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": true,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    50.0,
+                    50.0
+                  ]
+                }
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Revenant",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [
+                    "Revenant",
+                    "Herald",
+                    "Renegade",
+                    "Vindicator"
+                  ],
+                  "mounts": []
+                },
+                "map": "Any"
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "Energy",
+                  "pos": [
+                    136.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": true,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Bar",
+                  "progress_trigger": {
+                    "source": "PrimaryResource",
+                    "threshold": "Present"
+                  },
+                  "progress_kind": "Intensity",
+                  "max": 100,
+                  "size": [
+                    12.0,
+                    128.0
+                  ],
+                  "align": "Down",
+                  "direction": "Up",
+                  "fill": [
+                    0.6627451,
+                    0.20392157,
+                    0.20392157,
+                    1.0
+                  ],
+                  "background": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "border": true,
+                  "border_size": 0.0,
+                  "border_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.3137255
+                  ],
+                  "tick_size": 1.0,
+                  "tick_color": [
+                    1.0,
+                    0.99999,
+                    0.99999,
+                    1.0
+                  ],
+                  "tick_unit": "Percent",
+                  "ticks": [
+                    0.5,
+                    0.1
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "EnergyCount",
+                  "pos": [
+                    118.0,
+                    129.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": true,
+                      "specs": [
+                        "Revenant",
+                        "Herald",
+                        "Renegade",
+                        "Vindicator"
+                      ],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": "PrimaryResource",
+                    "threshold": "Present"
+                  },
+                  "icon": "Empty",
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": true,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    50.0,
+                    50.0
+                  ]
+                }
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Engineer",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [
+                    "Engineer",
+                    "Scrapper",
+                    "Holosmith",
+                    "Mechanist"
+                  ],
+                  "mounts": []
+                },
+                "map": "Any"
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "Heat",
+                  "pos": [
+                    136.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Holosmith"
+                      ],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Bar",
+                  "progress_trigger": {
+                    "source": "SecondaryResource",
+                    "threshold": "Present"
+                  },
+                  "progress_kind": "Duration",
+                  "max": 25,
+                  "size": [
+                    12.0,
+                    128.0
+                  ],
+                  "align": "Down",
+                  "direction": "Up",
+                  "fill": [
+                    0.918239,
+                    0.504285,
+                    0.16170245,
+                    1.0
+                  ],
+                  "background": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "border": true,
+                  "border_size": 0.0,
+                  "border_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.3137255
+                  ],
+                  "tick_size": 1.0,
+                  "tick_color": [
+                    1.0,
+                    0.99999,
+                    0.99999,
+                    1.0
+                  ],
+                  "tick_unit": "Percent",
+                  "ticks": [
+                    0.66,
+                    0.33,
+                    0.5,
+                    0.85
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "HeatCount",
+                  "pos": [
+                    118.0,
+                    129.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Holosmith"
+                      ],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": "SecondaryResource",
+                    "threshold": "Present"
+                  },
+                  "icon": "Empty",
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": true,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    50.0,
+                    50.0
+                  ]
+                }
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Ranger",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [
+                    "Ranger",
+                    "Druid",
+                    "Soulbeast",
+                    "Untamed"
+                  ],
+                  "mounts": []
+                },
+                "map": "Any"
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "AstralForce",
+                  "pos": [
+                    136.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Druid"
+                      ],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Bar",
+                  "progress_trigger": {
+                    "source": "SecondaryResource",
+                    "threshold": "Present"
+                  },
+                  "progress_kind": "Duration",
+                  "max": 25,
+                  "size": [
+                    12.0,
+                    128.0
+                  ],
+                  "align": "Down",
+                  "direction": "Up",
+                  "fill": [
+                    0.17483488,
+                    0.73271793,
+                    0.8176101,
+                    1.0
+                  ],
+                  "background": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "border": true,
+                  "border_size": 0.0,
+                  "border_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.3137255
+                  ],
+                  "tick_size": 1.0,
+                  "tick_color": [
+                    1.0,
+                    0.99999,
+                    0.99999,
+                    1.0
+                  ],
+                  "tick_unit": "Percent",
+                  "ticks": [
+                    0.75,
+                    0.5,
+                    0.25
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "AstralForceCount",
+                  "pos": [
+                    118.0,
+                    129.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Druid"
+                      ],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": "SecondaryResource",
+                    "threshold": "Present"
+                  },
+                  "icon": "Empty",
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": true,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    50.0,
+                    50.0
+                  ]
+                }
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Thief",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [
+                    "Thief",
+                    "Daredevil",
+                    "Deadeye",
+                    "Specter"
+                  ],
+                  "mounts": []
+                },
+                "map": "Any"
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "ShadowForce",
+                  "pos": [
+                    136.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": true,
+                      "specs": [
+                        "Specter"
+                      ],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Bar",
+                  "progress_trigger": {
+                    "source": "SecondaryResource",
+                    "threshold": "Always"
+                  },
+                  "progress_kind": "Duration",
+                  "max": 25,
+                  "size": [
+                    12.0,
+                    128.0
+                  ],
+                  "align": "Down",
+                  "direction": "Up",
+                  "fill": [
+                    0.51269644,
+                    0.0,
+                    0.5471698,
+                    1.0
+                  ],
+                  "background": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "border": true,
+                  "border_size": 0.0,
+                  "border_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.3137255
+                  ],
+                  "tick_size": 1.0,
+                  "tick_color": [
+                    1.0,
+                    0.99999,
+                    0.99999,
+                    1.0
+                  ],
+                  "tick_unit": "Percent",
+                  "ticks": [
+                    0.5
+                  ]
+                }
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Elementalist",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [
+                    "Elementalist",
+                    "Tempest",
+                    "Weaver",
+                    "Catalyst"
+                  ],
+                  "mounts": []
+                },
+                "map": "Any"
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "JadeSphere",
+                  "pos": [
+                    136.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": true,
+                      "specs": [
+                        "Catalyst"
+                      ],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Bar",
+                  "progress_trigger": {
+                    "source": "SecondaryResource",
+                    "threshold": "Always"
+                  },
+                  "progress_kind": "Duration",
+                  "max": 25,
+                  "size": [
+                    12.0,
+                    128.0
+                  ],
+                  "align": "Down",
+                  "direction": "Up",
+                  "fill": [
+                    0.735849,
+                    0.097187616,
+                    0.16948906,
+                    1.0
+                  ],
+                  "background": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "border": true,
+                  "border_size": 0.0,
+                  "border_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.3137255
+                  ],
+                  "tick_size": 1.0,
+                  "tick_color": [
+                    1.0,
+                    0.99999,
+                    0.99999,
+                    1.0
+                  ],
+                  "tick_unit": "Percent",
+                  "ticks": [
+                    0.33,
+                    0.66
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "JadeSphereCount",
+                  "pos": [
+                    118.0,
+                    129.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": true,
+                      "specs": [
+                        "Catalyst"
+                      ],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": "SecondaryResource",
+                    "threshold": "Present"
+                  },
+                  "icon": "Empty",
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": true,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    50.0,
+                    50.0
+                  ]
+                }
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Mesmer",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [
+                    "Mesmer",
+                    "Chronomancer",
+                    "Mirage",
+                    "Virtuoso"
+                  ],
+                  "mounts": []
+                },
+                "map": "Any"
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "ClonesBar",
+                  "pos": [
+                    136.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": true,
+                      "specs": [
+                        "Mesmer",
+                        "Chronomancer",
+                        "Mirage"
+                      ],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Bar",
+                  "progress_trigger": {
+                    "source": "PrimaryResource",
+                    "threshold": "Always"
+                  },
+                  "progress_kind": "Duration",
+                  "max": 25,
+                  "size": [
+                    12.0,
+                    128.0
+                  ],
+                  "align": "Down",
+                  "direction": "Up",
+                  "fill": [
+                    0.7321198,
+                    0.11676753,
+                    0.7735849,
+                    1.0
+                  ],
+                  "background": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "border": true,
+                  "border_size": 0.0,
+                  "border_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.3137255
+                  ],
+                  "tick_size": 1.0,
+                  "tick_color": [
+                    1.0,
+                    0.99999,
+                    0.99999,
+                    1.0
+                  ],
+                  "tick_unit": "Percent",
+                  "ticks": [
+                    0.66,
+                    0.33
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "BladesBar",
+                  "pos": [
+                    136.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": true,
+                      "specs": [
+                        "Virtuoso"
+                      ],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Bar",
+                  "progress_trigger": {
+                    "source": "PrimaryResource",
+                    "threshold": "Always"
+                  },
+                  "progress_kind": "Duration",
+                  "max": 25,
+                  "size": [
+                    12.0,
+                    128.0
+                  ],
+                  "align": "Down",
+                  "direction": "Up",
+                  "fill": [
+                    0.73333335,
+                    0.11764706,
+                    0.77254903,
+                    1.0
+                  ],
+                  "background": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "border": true,
+                  "border_size": 0.0,
+                  "border_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.3137255
+                  ],
+                  "tick_size": 1.0,
+                  "tick_color": [
+                    1.0,
+                    0.99999,
+                    0.99999,
+                    1.0
+                  ],
+                  "tick_unit": "Percent",
+                  "ticks": [
+                    0.8,
+                    0.6,
+                    0.4,
+                    0.2
+                  ]
+                }
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Necromancer",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [
+                    "Necromancer",
+                    "Reaper",
+                    "Scourge",
+                    "Harbinger"
+                  ],
+                  "mounts": []
+                },
+                "map": "Any"
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "LifeForce",
+                  "pos": [
+                    136.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": true,
+                      "specs": [
+                        "Necromancer",
+                        "Reaper",
+                        "Harbinger"
+                      ],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Bar",
+                  "progress_trigger": {
+                    "source": "PrimaryResource",
+                    "threshold": "Always"
+                  },
+                  "progress_kind": "Duration",
+                  "max": 25,
+                  "size": [
+                    12.0,
+                    128.0
+                  ],
+                  "align": "Down",
+                  "direction": "Up",
+                  "fill": [
+                    0.14391899,
+                    0.6100629,
+                    0.084411226,
+                    1.0
+                  ],
+                  "background": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "border": true,
+                  "border_size": 0.0,
+                  "border_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.3137255
+                  ],
+                  "tick_size": 1.0,
+                  "tick_color": [
+                    1.0,
+                    0.99999,
+                    0.99999,
+                    1.0
+                  ],
+                  "tick_unit": "Percent",
+                  "ticks": [
+                    0.5,
+                    0.1
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "LifeForceScourge",
+                  "pos": [
+                    136.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": true,
+                      "specs": [
+                        "Scourge"
+                      ],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Bar",
+                  "progress_trigger": {
+                    "source": "PrimaryResource",
+                    "threshold": "Always"
+                  },
+                  "progress_kind": "Duration",
+                  "max": 25,
+                  "size": [
+                    12.0,
+                    128.0
+                  ],
+                  "align": "Down",
+                  "direction": "Up",
+                  "fill": [
+                    0.6918239,
+                    0.5550517,
+                    0.2654167,
+                    1.0
+                  ],
+                  "background": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "border": true,
+                  "border_size": 0.0,
+                  "border_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.3137255
+                  ],
+                  "tick_size": 1.0,
+                  "tick_color": [
+                    1.0,
+                    0.99999,
+                    0.99999,
+                    1.0
+                  ],
+                  "tick_unit": "Percent",
+                  "ticks": [
+                    0.5,
+                    0.25
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "ShadesBar",
+                  "pos": [
+                    148.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": true,
+                      "specs": [
+                        "Scourge"
+                      ],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Bar",
+                  "progress_trigger": {
+                    "source": "SecondaryResource",
+                    "threshold": "Always"
+                  },
+                  "progress_kind": "Duration",
+                  "max": 25,
+                  "size": [
+                    12.0,
+                    128.0
+                  ],
+                  "align": "Down",
+                  "direction": "Up",
+                  "fill": [
+                    0.8930818,
+                    0.775127,
+                    0.0,
+                    1.0
+                  ],
+                  "background": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "border": true,
+                  "border_size": 0.0,
+                  "border_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.3137255
+                  ],
+                  "tick_size": 1.0,
+                  "tick_color": [
+                    1.0,
+                    0.99999,
+                    0.99999,
+                    1.0
+                  ],
+                  "tick_unit": "Percent",
+                  "ticks": [
+                    0.66,
+                    0.33
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "enabled": true,
           "name": "Guardian",
           "pos": [
             0.0,
@@ -1617,137 +2903,6 @@
           "members": [
             {
               "enabled": true,
-              "name": "Adrenaline",
-              "pos": [
-                136.0,
-                0.0
-              ],
-              "opacity": 1.0,
-              "filter": {
-                "player": {
-                  "combat": true,
-                  "specs": [
-                    "Warrior",
-                    "Berserker",
-                    "Bladesworn"
-                  ],
-                  "mounts": []
-                },
-                "map": "Any"
-              },
-              "animation": null,
-              "type": "Bar",
-              "progress_trigger": {
-                "source": "PrimaryResource",
-                "threshold": "Always"
-              },
-              "progress_kind": "Duration",
-              "max": 25,
-              "size": [
-                12.0,
-                128.0
-              ],
-              "align": "Down",
-              "direction": "Up",
-              "fill": [
-                0.918239,
-                0.504285,
-                0.16170245,
-                1.0
-              ],
-              "background": [
-                0.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "border": true,
-              "border_size": 0.0,
-              "border_color": [
-                1.0,
-                1.0,
-                1.0,
-                0.3137255
-              ],
-              "tick_size": 1.0,
-              "tick_color": [
-                1.0,
-                0.99999,
-                0.99999,
-                1.0
-              ],
-              "tick_unit": "Percent",
-              "ticks": [
-                0.66,
-                0.33
-              ]
-            },
-            {
-              "enabled": true,
-              "name": "AdrenalineSpellbreaker",
-              "pos": [
-                136.0,
-                0.0
-              ],
-              "opacity": 1.0,
-              "filter": {
-                "player": {
-                  "combat": true,
-                  "specs": [
-                    "Spellbreaker"
-                  ],
-                  "mounts": []
-                },
-                "map": "Any"
-              },
-              "animation": null,
-              "type": "Bar",
-              "progress_trigger": {
-                "source": "PrimaryResource",
-                "threshold": "Always"
-              },
-              "progress_kind": "Duration",
-              "max": 25,
-              "size": [
-                12.0,
-                128.0
-              ],
-              "align": "Down",
-              "direction": "Up",
-              "fill": [
-                0.918239,
-                0.504285,
-                0.16170245,
-                1.0
-              ],
-              "background": [
-                0.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "border": true,
-              "border_size": 0.0,
-              "border_color": [
-                1.0,
-                1.0,
-                1.0,
-                0.3137255
-              ],
-              "tick_size": 1.0,
-              "tick_color": [
-                1.0,
-                0.99999,
-                0.99999,
-                1.0
-              ],
-              "tick_unit": "Percent",
-              "ticks": [
-                0.5
-              ]
-            },
-            {
-              "enabled": true,
               "name": "Berserk",
               "pos": [
                 100.0,
@@ -1787,117 +2942,6 @@
               "size": [
                 32.0,
                 32.0
-              ]
-            },
-            {
-              "enabled": true,
-              "name": "Charges",
-              "pos": [
-                148.0,
-                0.0
-              ],
-              "opacity": 1.0,
-              "filter": {
-                "player": {
-                  "combat": null,
-                  "specs": [
-                    "Bladesworn"
-                  ],
-                  "mounts": []
-                },
-                "map": "Any"
-              },
-              "animation": null,
-              "type": "Bar",
-              "progress_trigger": {
-                "source": "SecondaryResource",
-                "threshold": "Present"
-              },
-              "progress_kind": "Duration",
-              "max": 25,
-              "size": [
-                12.0,
-                128.0
-              ],
-              "align": "Down",
-              "direction": "Up",
-              "fill": [
-                0.7421384,
-                0.27503237,
-                0.107353315,
-                1.0
-              ],
-              "background": [
-                0.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "border": true,
-              "border_size": 0.0,
-              "border_color": [
-                1.0,
-                1.0,
-                1.0,
-                0.3137255
-              ],
-              "tick_size": 1.0,
-              "tick_color": [
-                1.0,
-                0.99999,
-                0.99999,
-                1.0
-              ],
-              "tick_unit": "Percent",
-              "ticks": [
-                0.9,
-                0.8,
-                0.7,
-                0.6,
-                0.5,
-                0.4,
-                0.3,
-                0.2,
-                0.1
-              ]
-            },
-            {
-              "enabled": true,
-              "name": "ChargesCount",
-              "pos": [
-                131.0,
-                129.0
-              ],
-              "opacity": 1.0,
-              "filter": {
-                "player": {
-                  "combat": null,
-                  "specs": [
-                    "Bladesworn"
-                  ],
-                  "mounts": []
-                },
-                "map": "Any"
-              },
-              "animation": null,
-              "type": "Icon",
-              "progress": {
-                "source": "SecondaryResource",
-                "threshold": "Present"
-              },
-              "icon": "Empty",
-              "duration_bar": false,
-              "duration_text": false,
-              "stacks_text": true,
-              "tint": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ],
-              "size": [
-                50.0,
-                50.0
               ]
             },
             {
@@ -3403,111 +4447,6 @@
           "animation": null,
           "type": "Group",
           "members": [
-            {
-              "enabled": true,
-              "name": "Energy",
-              "pos": [
-                136.0,
-                0.0
-              ],
-              "opacity": 1.0,
-              "filter": {
-                "player": {
-                  "combat": true,
-                  "specs": [],
-                  "mounts": []
-                },
-                "map": "Any"
-              },
-              "animation": null,
-              "type": "Bar",
-              "progress_trigger": {
-                "source": "PrimaryResource",
-                "threshold": "Present"
-              },
-              "progress_kind": "Intensity",
-              "max": 100,
-              "size": [
-                12.0,
-                128.0
-              ],
-              "align": "Down",
-              "direction": "Up",
-              "fill": [
-                0.6627451,
-                0.20392157,
-                0.20392157,
-                1.0
-              ],
-              "background": [
-                0.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "border": true,
-              "border_size": 0.0,
-              "border_color": [
-                1.0,
-                1.0,
-                1.0,
-                0.3137255
-              ],
-              "tick_size": 1.0,
-              "tick_color": [
-                1.0,
-                0.99999,
-                0.99999,
-                1.0
-              ],
-              "tick_unit": "Percent",
-              "ticks": [
-                0.5,
-                0.1
-              ]
-            },
-            {
-              "enabled": true,
-              "name": "EnergyCount",
-              "pos": [
-                118.0,
-                129.0
-              ],
-              "opacity": 1.0,
-              "filter": {
-                "player": {
-                  "combat": true,
-                  "specs": [
-                    "Revenant",
-                    "Herald",
-                    "Renegade",
-                    "Vindicator"
-                  ],
-                  "mounts": []
-                },
-                "map": "Any"
-              },
-              "animation": null,
-              "type": "Icon",
-              "progress": {
-                "source": "PrimaryResource",
-                "threshold": "Present"
-              },
-              "icon": "Empty",
-              "duration_bar": false,
-              "duration_text": false,
-              "stacks_text": true,
-              "tint": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ],
-              "size": [
-                50.0,
-                50.0
-              ]
-            },
             {
               "enabled": true,
               "name": "TraitEffects",
@@ -5324,112 +6263,6 @@
           "members": [
             {
               "enabled": true,
-              "name": "Heat",
-              "pos": [
-                136.0,
-                0.0
-              ],
-              "opacity": 1.0,
-              "filter": {
-                "player": {
-                  "combat": null,
-                  "specs": [
-                    "Holosmith"
-                  ],
-                  "mounts": []
-                },
-                "map": "Any"
-              },
-              "animation": null,
-              "type": "Bar",
-              "progress_trigger": {
-                "source": "SecondaryResource",
-                "threshold": "Present"
-              },
-              "progress_kind": "Duration",
-              "max": 25,
-              "size": [
-                12.0,
-                128.0
-              ],
-              "align": "Down",
-              "direction": "Up",
-              "fill": [
-                0.918239,
-                0.504285,
-                0.16170245,
-                1.0
-              ],
-              "background": [
-                0.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "border": true,
-              "border_size": 0.0,
-              "border_color": [
-                1.0,
-                1.0,
-                1.0,
-                0.3137255
-              ],
-              "tick_size": 1.0,
-              "tick_color": [
-                1.0,
-                0.99999,
-                0.99999,
-                1.0
-              ],
-              "tick_unit": "Percent",
-              "ticks": [
-                0.66,
-                0.33,
-                0.5,
-                0.85
-              ]
-            },
-            {
-              "enabled": true,
-              "name": "HeatCount",
-              "pos": [
-                118.0,
-                129.0
-              ],
-              "opacity": 1.0,
-              "filter": {
-                "player": {
-                  "combat": null,
-                  "specs": [
-                    "Holosmith"
-                  ],
-                  "mounts": []
-                },
-                "map": "Any"
-              },
-              "animation": null,
-              "type": "Icon",
-              "progress": {
-                "source": "SecondaryResource",
-                "threshold": "Present"
-              },
-              "icon": "Empty",
-              "duration_bar": false,
-              "duration_text": false,
-              "stacks_text": true,
-              "tint": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ],
-              "size": [
-                50.0,
-                50.0
-              ]
-            },
-            {
-              "enabled": true,
               "name": "Overheat",
               "pos": [
                 100.0,
@@ -6591,111 +7424,6 @@
           "animation": null,
           "type": "Group",
           "members": [
-            {
-              "enabled": true,
-              "name": "AstralForce",
-              "pos": [
-                136.0,
-                0.0
-              ],
-              "opacity": 1.0,
-              "filter": {
-                "player": {
-                  "combat": null,
-                  "specs": [
-                    "Druid"
-                  ],
-                  "mounts": []
-                },
-                "map": "Any"
-              },
-              "animation": null,
-              "type": "Bar",
-              "progress_trigger": {
-                "source": "SecondaryResource",
-                "threshold": "Present"
-              },
-              "progress_kind": "Duration",
-              "max": 25,
-              "size": [
-                12.0,
-                128.0
-              ],
-              "align": "Down",
-              "direction": "Up",
-              "fill": [
-                0.17483488,
-                0.73271793,
-                0.8176101,
-                1.0
-              ],
-              "background": [
-                0.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "border": true,
-              "border_size": 0.0,
-              "border_color": [
-                1.0,
-                1.0,
-                1.0,
-                0.3137255
-              ],
-              "tick_size": 1.0,
-              "tick_color": [
-                1.0,
-                0.99999,
-                0.99999,
-                1.0
-              ],
-              "tick_unit": "Percent",
-              "ticks": [
-                0.75,
-                0.5,
-                0.25
-              ]
-            },
-            {
-              "enabled": true,
-              "name": "AstralForceCount",
-              "pos": [
-                118.0,
-                129.0
-              ],
-              "opacity": 1.0,
-              "filter": {
-                "player": {
-                  "combat": null,
-                  "specs": [
-                    "Druid"
-                  ],
-                  "mounts": []
-                },
-                "map": "Any"
-              },
-              "animation": null,
-              "type": "Icon",
-              "progress": {
-                "source": "SecondaryResource",
-                "threshold": "Present"
-              },
-              "icon": "Empty",
-              "duration_bar": false,
-              "duration_text": false,
-              "stacks_text": true,
-              "tint": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ],
-              "size": [
-                50.0,
-                50.0
-              ]
-            },
             {
               "enabled": true,
               "name": "CelestialAvatar",
@@ -8857,70 +9585,6 @@
             },
             {
               "enabled": true,
-              "name": "ShadowForce",
-              "pos": [
-                136.0,
-                0.0
-              ],
-              "opacity": 1.0,
-              "filter": {
-                "player": {
-                  "combat": true,
-                  "specs": [
-                    "Specter"
-                  ],
-                  "mounts": []
-                },
-                "map": "Any"
-              },
-              "animation": null,
-              "type": "Bar",
-              "progress_trigger": {
-                "source": "SecondaryResource",
-                "threshold": "Always"
-              },
-              "progress_kind": "Duration",
-              "max": 25,
-              "size": [
-                12.0,
-                128.0
-              ],
-              "align": "Down",
-              "direction": "Up",
-              "fill": [
-                0.51269644,
-                0.0,
-                0.5471698,
-                1.0
-              ],
-              "background": [
-                0.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "border": true,
-              "border_size": 0.0,
-              "border_color": [
-                1.0,
-                1.0,
-                1.0,
-                0.3137255
-              ],
-              "tick_size": 1.0,
-              "tick_color": [
-                1.0,
-                0.99999,
-                0.99999,
-                1.0
-              ],
-              "tick_unit": "Percent",
-              "ticks": [
-                0.5
-              ]
-            },
-            {
-              "enabled": true,
               "name": "TraitEffects",
               "pos": [
                 0.0,
@@ -10398,110 +11062,6 @@
           "animation": null,
           "type": "Group",
           "members": [
-            {
-              "enabled": true,
-              "name": "JadeSphereCount",
-              "pos": [
-                118.0,
-                129.0
-              ],
-              "opacity": 1.0,
-              "filter": {
-                "player": {
-                  "combat": true,
-                  "specs": [
-                    "Catalyst"
-                  ],
-                  "mounts": []
-                },
-                "map": "Any"
-              },
-              "animation": null,
-              "type": "Icon",
-              "progress": {
-                "source": "SecondaryResource",
-                "threshold": "Present"
-              },
-              "icon": "Empty",
-              "duration_bar": false,
-              "duration_text": false,
-              "stacks_text": true,
-              "tint": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ],
-              "size": [
-                50.0,
-                50.0
-              ]
-            },
-            {
-              "enabled": true,
-              "name": "JadeSphere",
-              "pos": [
-                136.0,
-                0.0
-              ],
-              "opacity": 1.0,
-              "filter": {
-                "player": {
-                  "combat": true,
-                  "specs": [
-                    "Catalyst"
-                  ],
-                  "mounts": []
-                },
-                "map": "Any"
-              },
-              "animation": null,
-              "type": "Bar",
-              "progress_trigger": {
-                "source": "SecondaryResource",
-                "threshold": "Always"
-              },
-              "progress_kind": "Duration",
-              "max": 25,
-              "size": [
-                12.0,
-                128.0
-              ],
-              "align": "Down",
-              "direction": "Up",
-              "fill": [
-                0.735849,
-                0.097187616,
-                0.16948906,
-                1.0
-              ],
-              "background": [
-                0.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "border": true,
-              "border_size": 0.0,
-              "border_color": [
-                1.0,
-                1.0,
-                1.0,
-                0.3137255
-              ],
-              "tick_size": 1.0,
-              "tick_color": [
-                1.0,
-                0.99999,
-                0.99999,
-                1.0
-              ],
-              "tick_unit": "Percent",
-              "ticks": [
-                0.33,
-                0.66
-              ]
-            },
             {
               "enabled": true,
               "name": "TraitEffects",
@@ -13477,140 +14037,6 @@
           "members": [
             {
               "enabled": true,
-              "name": "ClonesBar",
-              "pos": [
-                136.0,
-                0.0
-              ],
-              "opacity": 1.0,
-              "filter": {
-                "player": {
-                  "combat": true,
-                  "specs": [
-                    "Mesmer",
-                    "Chronomancer",
-                    "Mirage"
-                  ],
-                  "mounts": []
-                },
-                "map": "Any"
-              },
-              "animation": null,
-              "type": "Bar",
-              "progress_trigger": {
-                "source": "PrimaryResource",
-                "threshold": "Always"
-              },
-              "progress_kind": "Duration",
-              "max": 25,
-              "size": [
-                12.0,
-                128.0
-              ],
-              "align": "Down",
-              "direction": "Up",
-              "fill": [
-                0.7321198,
-                0.11676753,
-                0.7735849,
-                1.0
-              ],
-              "background": [
-                0.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "border": true,
-              "border_size": 0.0,
-              "border_color": [
-                1.0,
-                1.0,
-                1.0,
-                0.3137255
-              ],
-              "tick_size": 1.0,
-              "tick_color": [
-                1.0,
-                0.99999,
-                0.99999,
-                1.0
-              ],
-              "tick_unit": "Percent",
-              "ticks": [
-                0.66,
-                0.33
-              ]
-            },
-            {
-              "enabled": true,
-              "name": "BladesBar",
-              "pos": [
-                136.0,
-                0.0
-              ],
-              "opacity": 1.0,
-              "filter": {
-                "player": {
-                  "combat": true,
-                  "specs": [
-                    "Virtuoso"
-                  ],
-                  "mounts": []
-                },
-                "map": "Any"
-              },
-              "animation": null,
-              "type": "Bar",
-              "progress_trigger": {
-                "source": "PrimaryResource",
-                "threshold": "Always"
-              },
-              "progress_kind": "Duration",
-              "max": 25,
-              "size": [
-                12.0,
-                128.0
-              ],
-              "align": "Down",
-              "direction": "Up",
-              "fill": [
-                0.73333335,
-                0.11764706,
-                0.77254903,
-                1.0
-              ],
-              "background": [
-                0.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "border": true,
-              "border_size": 0.0,
-              "border_color": [
-                1.0,
-                1.0,
-                1.0,
-                0.3137255
-              ],
-              "tick_size": 1.0,
-              "tick_color": [
-                1.0,
-                0.99999,
-                0.99999,
-                1.0
-              ],
-              "tick_unit": "Percent",
-              "ticks": [
-                0.8,
-                0.6,
-                0.4,
-                0.2
-              ]
-            },
-            {
-              "enabled": true,
               "name": "Clones",
               "pos": [
                 0.0,
@@ -15169,203 +15595,6 @@
           "members": [
             {
               "enabled": true,
-              "name": "LifeForce",
-              "pos": [
-                136.0,
-                0.0
-              ],
-              "opacity": 1.0,
-              "filter": {
-                "player": {
-                  "combat": true,
-                  "specs": [
-                    "Necromancer",
-                    "Reaper",
-                    "Harbinger"
-                  ],
-                  "mounts": []
-                },
-                "map": "Any"
-              },
-              "animation": null,
-              "type": "Bar",
-              "progress_trigger": {
-                "source": "PrimaryResource",
-                "threshold": "Always"
-              },
-              "progress_kind": "Duration",
-              "max": 25,
-              "size": [
-                12.0,
-                128.0
-              ],
-              "align": "Down",
-              "direction": "Up",
-              "fill": [
-                0.14391899,
-                0.6100629,
-                0.084411226,
-                1.0
-              ],
-              "background": [
-                0.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "border": true,
-              "border_size": 0.0,
-              "border_color": [
-                1.0,
-                1.0,
-                1.0,
-                0.3137255
-              ],
-              "tick_size": 1.0,
-              "tick_color": [
-                1.0,
-                0.99999,
-                0.99999,
-                1.0
-              ],
-              "tick_unit": "Percent",
-              "ticks": [
-                0.5,
-                0.1
-              ]
-            },
-            {
-              "enabled": true,
-              "name": "LifeForceScourge",
-              "pos": [
-                136.0,
-                0.0
-              ],
-              "opacity": 1.0,
-              "filter": {
-                "player": {
-                  "combat": true,
-                  "specs": [
-                    "Scourge"
-                  ],
-                  "mounts": []
-                },
-                "map": "Any"
-              },
-              "animation": null,
-              "type": "Bar",
-              "progress_trigger": {
-                "source": "PrimaryResource",
-                "threshold": "Always"
-              },
-              "progress_kind": "Duration",
-              "max": 25,
-              "size": [
-                12.0,
-                128.0
-              ],
-              "align": "Down",
-              "direction": "Up",
-              "fill": [
-                0.6918239,
-                0.5550517,
-                0.2654167,
-                1.0
-              ],
-              "background": [
-                0.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "border": true,
-              "border_size": 0.0,
-              "border_color": [
-                1.0,
-                1.0,
-                1.0,
-                0.3137255
-              ],
-              "tick_size": 1.0,
-              "tick_color": [
-                1.0,
-                0.99999,
-                0.99999,
-                1.0
-              ],
-              "tick_unit": "Percent",
-              "ticks": [
-                0.5,
-                0.25
-              ]
-            },
-            {
-              "enabled": true,
-              "name": "ShadesBar",
-              "pos": [
-                148.0,
-                0.0
-              ],
-              "opacity": 1.0,
-              "filter": {
-                "player": {
-                  "combat": true,
-                  "specs": [
-                    "Scourge"
-                  ],
-                  "mounts": []
-                },
-                "map": "Any"
-              },
-              "animation": null,
-              "type": "Bar",
-              "progress_trigger": {
-                "source": "SecondaryResource",
-                "threshold": "Always"
-              },
-              "progress_kind": "Duration",
-              "max": 25,
-              "size": [
-                12.0,
-                128.0
-              ],
-              "align": "Down",
-              "direction": "Up",
-              "fill": [
-                0.8930818,
-                0.775127,
-                0.0,
-                1.0
-              ],
-              "background": [
-                0.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "border": true,
-              "border_size": 0.0,
-              "border_color": [
-                1.0,
-                1.0,
-                1.0,
-                0.3137255
-              ],
-              "tick_size": 1.0,
-              "tick_color": [
-                1.0,
-                0.99999,
-                0.99999,
-                1.0
-              ],
-              "tick_unit": "Percent",
-              "ticks": [
-                0.66,
-                0.33
-              ]
-            },
-            {
-              "enabled": true,
               "name": "Shades",
               "pos": [
                 0.0,
@@ -15753,6 +15982,47 @@
                         32.0,
                         32.0
                       ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "SoulBarbs",
+                      "pos": [
+                        -32.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "mounts": []
+                        },
+                        "map": "Any"
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "progress": {
+                        "source": {
+                          "Buff": 53489
+                        },
+                        "threshold": "Present"
+                      },
+                      "icon": {
+                        "Url": "https://wiki.guildwars2.com/images/b/bd/Soul_Barbs.png"
+                      },
+                      "duration_bar": true,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "tint": [
+                        1.0,
+                        0.99999,
+                        0.99999,
+                        1.0
+                      ],
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
                     }
                   ]
                 },
@@ -15825,7 +16095,7 @@
                       "enabled": true,
                       "name": "ImplacableFoe",
                       "pos": [
-                        -32.0,
+                        -64.0,
                         0.0
                       ],
                       "opacity": 1.0,
@@ -15930,7 +16200,7 @@
                   "enabled": true,
                   "name": "Shroud",
                   "pos": [
-                    -128.0,
+                    0.0,
                     0.0
                   ],
                   "opacity": 1.0,
@@ -15949,8 +16219,8 @@
                       "enabled": true,
                       "name": "DarkPath",
                       "pos": [
-                        64.0,
-                        0.0
+                        0.0,
+                        -32.0
                       ],
                       "opacity": 1.0,
                       "filter": {
@@ -15990,8 +16260,8 @@
                       "enabled": true,
                       "name": "InfusingTerror",
                       "pos": [
-                        64.0,
-                        0.0
+                        0.0,
+                        -32.0
                       ],
                       "opacity": 1.0,
                       "filter": {
