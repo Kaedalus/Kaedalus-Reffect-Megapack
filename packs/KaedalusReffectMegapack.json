@@ -1575,7 +1575,7 @@
                   "name": "Firebrand",
                   "pos": [
                     0.0,
-                    32.0
+                    0.0
                   ],
                   "opacity": 1.0,
                   "filter": {
@@ -1593,10 +1593,10 @@
                   "members": [
                     {
                       "enabled": true,
-                      "name": "AshesOfTheJust",
+                      "name": "SwiftScholar",
                       "pos": [
-                        -32.0,
-                        0.0
+                        100.0,
+                        -72.0
                       ],
                       "opacity": 1.0,
                       "filter": {
@@ -1611,98 +1611,16 @@
                       "type": "Icon",
                       "progress": {
                         "source": {
-                          "Buff": 41957
+                          "Buff": 68601
                         },
                         "threshold": "Present"
                       },
                       "icon": {
-                        "Url": "https://wiki.guildwars2.com/images/6/6d/Epilogue-_Ashes_of_the_Just.png"
+                        "Url": "https://wiki.guildwars2.com/images/6/6a/Swift_Scholar.png"
                       },
                       "duration_bar": true,
                       "duration_text": false,
                       "stacks_text": true,
-                      "tint": [
-                        1.0,
-                        0.99999,
-                        0.99999,
-                        1.0
-                      ],
-                      "size": [
-                        32.0,
-                        32.0
-                      ]
-                    },
-                    {
-                      "enabled": true,
-                      "name": "EternalOasis",
-                      "pos": [
-                        0.0,
-                        0.0
-                      ],
-                      "opacity": 1.0,
-                      "filter": {
-                        "player": {
-                          "combat": null,
-                          "specs": [],
-                          "mounts": []
-                        },
-                        "map": "Any"
-                      },
-                      "animation": null,
-                      "type": "Icon",
-                      "progress": {
-                        "source": {
-                          "Buff": 44871
-                        },
-                        "threshold": "Present"
-                      },
-                      "icon": {
-                        "Url": "https://wiki.guildwars2.com/images/5/5f/Epilogue-_Eternal_Oasis.png"
-                      },
-                      "duration_bar": true,
-                      "duration_text": false,
-                      "stacks_text": false,
-                      "tint": [
-                        1.0,
-                        1.0,
-                        1.0,
-                        1.0
-                      ],
-                      "size": [
-                        32.0,
-                        32.0
-                      ]
-                    },
-                    {
-                      "enabled": true,
-                      "name": "UnbrokenLines",
-                      "pos": [
-                        32.0,
-                        0.0
-                      ],
-                      "opacity": 1.0,
-                      "filter": {
-                        "player": {
-                          "combat": null,
-                          "specs": [],
-                          "mounts": []
-                        },
-                        "map": "Any"
-                      },
-                      "animation": null,
-                      "type": "Icon",
-                      "progress": {
-                        "source": {
-                          "Buff": 43194
-                        },
-                        "threshold": "Present"
-                      },
-                      "icon": {
-                        "Url": "https://wiki.guildwars2.com/images/d/d8/Epilogue-_Unbroken_Lines.png"
-                      },
-                      "duration_bar": true,
-                      "duration_text": false,
-                      "stacks_text": false,
                       "tint": [
                         1.0,
                         1.0,
@@ -2864,6 +2782,152 @@
                         1.0,
                         0.99999,
                         0.99999,
+                        1.0
+                      ],
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Tomes",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Firebrand"
+                      ],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "AshesOfTheJust",
+                      "pos": [
+                        -32.0,
+                        32.0
+                      ],
+                      "opacity": 1.0,
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "mounts": []
+                        },
+                        "map": "Any"
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "progress": {
+                        "source": {
+                          "Buff": 41957
+                        },
+                        "threshold": "Present"
+                      },
+                      "icon": {
+                        "Url": "https://wiki.guildwars2.com/images/6/6d/Epilogue-_Ashes_of_the_Just.png"
+                      },
+                      "duration_bar": true,
+                      "duration_text": false,
+                      "stacks_text": true,
+                      "tint": [
+                        1.0,
+                        0.99999,
+                        0.99999,
+                        1.0
+                      ],
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "EternalOasis",
+                      "pos": [
+                        0.0,
+                        32.0
+                      ],
+                      "opacity": 1.0,
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "mounts": []
+                        },
+                        "map": "Any"
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "progress": {
+                        "source": {
+                          "Buff": 44871
+                        },
+                        "threshold": "Present"
+                      },
+                      "icon": {
+                        "Url": "https://wiki.guildwars2.com/images/5/5f/Epilogue-_Eternal_Oasis.png"
+                      },
+                      "duration_bar": true,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "UnbrokenLines",
+                      "pos": [
+                        32.0,
+                        32.0
+                      ],
+                      "opacity": 1.0,
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "mounts": []
+                        },
+                        "map": "Any"
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "progress": {
+                        "source": {
+                          "Buff": 43194
+                        },
+                        "threshold": "Present"
+                      },
+                      "icon": {
+                        "Url": "https://wiki.guildwars2.com/images/d/d8/Epilogue-_Unbroken_Lines.png"
+                      },
+                      "duration_bar": true,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
                         1.0
                       ],
                       "size": [
