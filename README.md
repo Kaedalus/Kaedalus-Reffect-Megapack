@@ -6,7 +6,7 @@ Every image is pulled directly from the Wiki, except for: Firebrand Pages, Thief
 
 Reffect Version of latest update: v0.2.1
 
-[> Direct download link <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.1.0/Kaedalus-Reffect-Megapack.zip)
+[> Direct download link <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.1.1/Kaedalus-Reffect-Megapack.zip)
 
 [> Link to screenshots on imgur <](https://imgur.com/a/AKNGE3r)
 
