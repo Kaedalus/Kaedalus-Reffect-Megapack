@@ -6,7 +6,7 @@ Every image is pulled directly from the Wiki, except for: Firebrand Pages, Thief
 
 Reffect Version of latest update: v0.2.1
 
-[> Direct download link <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.1.1/Kaedalus-Reffect-Megapack.zip)
+[> Direct download link <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.1.3/Kaedalus-Reffect-Megapack.zip)
 
 [> Link to screenshots on imgur <](https://imgur.com/a/AKNGE3r)
 
@@ -74,6 +74,14 @@ Still thinking of how to implement conditions in a neat manner. Also, no underwa
 - **Skill Effects**: Signets, Spectral, Shroud and Sand Swell.
 
 # Changelog
+**1.1.3**
+- Added background (toggleable) to Health and Resource bars and icons for better visibility.
+
+**1.1.2**
+- Added missing Swift Scholar Firebrand trait effect.
+- Moved Firebrand Tome effects from Trait effects to Skills under Tomes
+
+
 **1.1.1:**
 - Added missing **Soul Barbs** Necromancer trait effect.
 - Moved all class resource bars (not icons) into a single group _ClassBars_ for easier relocation.
