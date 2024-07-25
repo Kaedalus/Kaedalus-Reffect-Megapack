@@ -58,7 +58,7 @@
               "opacity": 1.0,
               "filter": {
                 "player": {
-                  "combat": null,
+                  "combat": true,
                   "specs": [
                     "Warrior",
                     "Berserker",
@@ -74,6 +74,45 @@
               "members": [
                 {
                   "enabled": true,
+                  "name": "Background",
+                  "pos": [
+                    136.0,
+                    64.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": "None",
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "File": "Other\\Black.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    12.0,
+                    128.0
+                  ]
+                },
+                {
+                  "enabled": true,
                   "name": "Adrenaline",
                   "pos": [
                     136.0,
@@ -82,7 +121,7 @@
                   "opacity": 1.0,
                   "filter": {
                     "player": {
-                      "combat": true,
+                      "combat": null,
                       "specs": [
                         "Warrior",
                         "Berserker",
@@ -149,7 +188,7 @@
                   "opacity": 1.0,
                   "filter": {
                     "player": {
-                      "combat": true,
+                      "combat": null,
                       "specs": [
                         "Spellbreaker"
                       ],
@@ -201,6 +240,45 @@
                   "tick_unit": "Percent",
                   "ticks": [
                     0.5
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "ChargesBackground",
+                  "pos": [
+                    148.0,
+                    64.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": "SecondaryResource",
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "File": "Other\\Black.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    12.0,
+                    128.0
                   ]
                 },
                 {
@@ -326,7 +404,7 @@
               "opacity": 1.0,
               "filter": {
                 "player": {
-                  "combat": null,
+                  "combat": true,
                   "specs": [
                     "Revenant",
                     "Herald",
@@ -342,6 +420,45 @@
               "members": [
                 {
                   "enabled": true,
+                  "name": "Background",
+                  "pos": [
+                    136.0,
+                    64.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": "None",
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "File": "Other\\Black.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    12.0,
+                    128.0
+                  ]
+                },
+                {
+                  "enabled": true,
                   "name": "Energy",
                   "pos": [
                     136.0,
@@ -350,7 +467,7 @@
                   "opacity": 1.0,
                   "filter": {
                     "player": {
-                      "combat": true,
+                      "combat": null,
                       "specs": [],
                       "mounts": []
                     },
@@ -413,7 +530,7 @@
                   "opacity": 1.0,
                   "filter": {
                     "player": {
-                      "combat": true,
+                      "combat": null,
                       "specs": [
                         "Revenant",
                         "Herald",
@@ -457,7 +574,7 @@
               "opacity": 1.0,
               "filter": {
                 "player": {
-                  "combat": null,
+                  "combat": true,
                   "specs": [
                     "Engineer",
                     "Scrapper",
@@ -471,6 +588,47 @@
               "animation": null,
               "type": "Group",
               "members": [
+                {
+                  "enabled": true,
+                  "name": "Background",
+                  "pos": [
+                    136.0,
+                    64.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Holosmith"
+                      ],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": "None",
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "File": "Other\\Black.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    12.0,
+                    128.0
+                  ]
+                },
                 {
                   "enabled": true,
                   "name": "Heat",
@@ -589,7 +747,7 @@
               "opacity": 1.0,
               "filter": {
                 "player": {
-                  "combat": null,
+                  "combat": true,
                   "specs": [
                     "Ranger",
                     "Druid",
@@ -603,6 +761,47 @@
               "animation": null,
               "type": "Group",
               "members": [
+                {
+                  "enabled": true,
+                  "name": "Background",
+                  "pos": [
+                    136.0,
+                    64.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Druid"
+                      ],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": "None",
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "File": "Other\\Black.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    12.0,
+                    128.0
+                  ]
+                },
                 {
                   "enabled": true,
                   "name": "AstralForce",
@@ -720,7 +919,7 @@
               "opacity": 1.0,
               "filter": {
                 "player": {
-                  "combat": null,
+                  "combat": true,
                   "specs": [
                     "Thief",
                     "Daredevil",
@@ -736,6 +935,47 @@
               "members": [
                 {
                   "enabled": true,
+                  "name": "Background",
+                  "pos": [
+                    136.0,
+                    64.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Specter"
+                      ],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": "None",
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "File": "Other\\Black.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    12.0,
+                    128.0
+                  ]
+                },
+                {
+                  "enabled": true,
                   "name": "ShadowForce",
                   "pos": [
                     136.0,
@@ -744,7 +984,7 @@
                   "opacity": 1.0,
                   "filter": {
                     "player": {
-                      "combat": true,
+                      "combat": null,
                       "specs": [
                         "Specter"
                       ],
@@ -810,7 +1050,7 @@
               "opacity": 1.0,
               "filter": {
                 "player": {
-                  "combat": null,
+                  "combat": true,
                   "specs": [
                     "Elementalist",
                     "Tempest",
@@ -826,6 +1066,47 @@
               "members": [
                 {
                   "enabled": true,
+                  "name": "Background",
+                  "pos": [
+                    136.0,
+                    64.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Catalyst"
+                      ],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": "None",
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "File": "Other\\Black.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    12.0,
+                    128.0
+                  ]
+                },
+                {
+                  "enabled": true,
                   "name": "JadeSphere",
                   "pos": [
                     136.0,
@@ -834,7 +1115,7 @@
                   "opacity": 1.0,
                   "filter": {
                     "player": {
-                      "combat": true,
+                      "combat": null,
                       "specs": [
                         "Catalyst"
                       ],
@@ -899,7 +1180,7 @@
                   "opacity": 1.0,
                   "filter": {
                     "player": {
-                      "combat": true,
+                      "combat": null,
                       "specs": [
                         "Catalyst"
                       ],
@@ -940,7 +1221,7 @@
               "opacity": 1.0,
               "filter": {
                 "player": {
-                  "combat": null,
+                  "combat": true,
                   "specs": [
                     "Mesmer",
                     "Chronomancer",
@@ -954,6 +1235,45 @@
               "animation": null,
               "type": "Group",
               "members": [
+                {
+                  "enabled": true,
+                  "name": "Background",
+                  "pos": [
+                    136.0,
+                    64.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": "None",
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "File": "Other\\Black.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    12.0,
+                    128.0
+                  ]
+                },
                 {
                   "enabled": true,
                   "name": "ClonesBar",
@@ -1100,7 +1420,7 @@
               "opacity": 1.0,
               "filter": {
                 "player": {
-                  "combat": null,
+                  "combat": true,
                   "specs": [
                     "Necromancer",
                     "Reaper",
@@ -1116,6 +1436,45 @@
               "members": [
                 {
                   "enabled": true,
+                  "name": "Background",
+                  "pos": [
+                    136.0,
+                    64.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": "None",
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "File": "Other\\Black.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    12.0,
+                    128.0
+                  ]
+                },
+                {
+                  "enabled": true,
                   "name": "LifeForce",
                   "pos": [
                     136.0,
@@ -1124,7 +1483,7 @@
                   "opacity": 1.0,
                   "filter": {
                     "player": {
-                      "combat": true,
+                      "combat": null,
                       "specs": [
                         "Necromancer",
                         "Reaper",
@@ -1191,7 +1550,7 @@
                   "opacity": 1.0,
                   "filter": {
                     "player": {
-                      "combat": true,
+                      "combat": null,
                       "specs": [
                         "Scourge"
                       ],
@@ -1248,6 +1607,47 @@
                 },
                 {
                   "enabled": true,
+                  "name": "ChargesBackground",
+                  "pos": [
+                    148.0,
+                    64.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Scourge"
+                      ],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": "SecondaryResource",
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "File": "Other\\Black.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    12.0,
+                    128.0
+                  ]
+                },
+                {
+                  "enabled": true,
                   "name": "ShadesBar",
                   "pos": [
                     148.0,
@@ -1256,7 +1656,7 @@
                   "opacity": 1.0,
                   "filter": {
                     "player": {
-                      "combat": true,
+                      "combat": null,
                       "specs": [
                         "Scourge"
                       ],
@@ -2418,6 +2818,47 @@
                     }
                   ]
                 }
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "PageBG",
+              "pos": [
+                100.0,
+                96.0
+              ],
+              "opacity": 1.0,
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [
+                    "Firebrand"
+                  ],
+                  "mounts": []
+                },
+                "map": "Any"
+              },
+              "animation": null,
+              "type": "Icon",
+              "progress": {
+                "source": "None",
+                "threshold": "Present"
+              },
+              "icon": {
+                "File": "Other\\BlackFaded.png"
+              },
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "size": [
+                32.0,
+                32.0
               ]
             },
             {
@@ -6809,6 +7250,47 @@
                   "members": [
                     {
                       "enabled": true,
+                      "name": "MechanicalGeniusBG",
+                      "pos": [
+                        100.0,
+                        -104.0
+                      ],
+                      "opacity": 1.0,
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "mounts": []
+                        },
+                        "map": "Any"
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "progress": {
+                        "source": {
+                          "Buff": 68612
+                        },
+                        "threshold": "Present"
+                      },
+                      "icon": {
+                        "File": "Other\\BlackFaded.png"
+                      },
+                      "duration_bar": true,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "tint": [
+                        1.0,
+                        0.9999994,
+                        0.99999,
+                        1.0
+                      ],
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
                       "name": "MechanicalGenius",
                       "pos": [
                         100.0,
@@ -9493,6 +9975,45 @@
           "members": [
             {
               "enabled": true,
+              "name": "InitiativeBG",
+              "pos": [
+                100.0,
+                96.0
+              ],
+              "opacity": 1.0,
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "mounts": []
+                },
+                "map": "Any"
+              },
+              "animation": null,
+              "type": "Icon",
+              "progress": {
+                "source": "None",
+                "threshold": "Present"
+              },
+              "icon": {
+                "File": "Other\\BlackFaded.png"
+              },
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "size": [
+                32.0,
+                32.0
+              ]
+            },
+            {
+              "enabled": true,
               "name": "Initative",
               "pos": [
                 100.0,
@@ -9569,9 +10090,50 @@
             },
             {
               "enabled": true,
+              "name": "MaliceBG",
+              "pos": [
+                100.0,
+                128.0
+              ],
+              "opacity": 1.0,
+              "filter": {
+                "player": {
+                  "combat": true,
+                  "specs": [
+                    "Deadeye"
+                  ],
+                  "mounts": []
+                },
+                "map": "Any"
+              },
+              "animation": null,
+              "type": "Icon",
+              "progress": {
+                "source": "None",
+                "threshold": "Present"
+              },
+              "icon": {
+                "File": "Other\\BlackFaded.png"
+              },
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "size": [
+                32.0,
+                32.0
+              ]
+            },
+            {
+              "enabled": true,
               "name": "Malice",
               "pos": [
-                99.0,
+                100.0,
                 128.0
               ],
               "opacity": 1.0,
@@ -14124,6 +14686,49 @@
               "members": [
                 {
                   "enabled": true,
+                  "name": "CloneBG",
+                  "pos": [
+                    100.0,
+                    96.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Mesmer",
+                        "Chronomancer",
+                        "Mirage"
+                      ],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": "None",
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "File": "Other\\BlackFaded.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
                   "name": "Clones0",
                   "pos": [
                     100.0,
@@ -14346,6 +14951,47 @@
               "animation": null,
               "type": "Group",
               "members": [
+                {
+                  "enabled": true,
+                  "name": "BladeBG",
+                  "pos": [
+                    100.0,
+                    96.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Virtuoso"
+                      ],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": "None",
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "File": "Other\\BlackFaded.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
                 {
                   "enabled": true,
                   "name": "Blades0",
@@ -15680,9 +16326,50 @@
               "members": [
                 {
                   "enabled": true,
-                  "name": "Shades0",
+                  "name": "ShadesBG",
                   "pos": [
                     100.0,
+                    96.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Scourge"
+                      ],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": "None",
+                    "threshold": "Present"
+                  },
+                  "icon": {
+                    "File": "Other\\BlackFaded.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    32.0,
+                    32.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Shades0",
+                  "pos": [
+                    102.0,
                     96.0
                   ],
                   "opacity": 1.0,
@@ -15723,7 +16410,7 @@
                   "enabled": true,
                   "name": "Shades1",
                   "pos": [
-                    100.0,
+                    102.0,
                     96.0
                   ],
                   "opacity": 1.0,
@@ -15764,7 +16451,7 @@
                   "enabled": true,
                   "name": "Shades2",
                   "pos": [
-                    100.0,
+                    102.0,
                     96.0
                   ],
                   "opacity": 1.0,
@@ -15805,7 +16492,7 @@
                   "enabled": true,
                   "name": "Shades3",
                   "pos": [
-                    100.0,
+                    102.0,
                     96.0
                   ],
                   "opacity": 1.0,
@@ -15846,7 +16533,7 @@
                   "enabled": true,
                   "name": "ShadeCount",
                   "pos": [
-                    70.0,
+                    72.0,
                     84.0
                   ],
                   "opacity": 1.0,
@@ -18675,6 +19362,45 @@
           "animation": null,
           "type": "Group",
           "members": [
+            {
+              "enabled": true,
+              "name": "Background",
+              "pos": [
+                0.0,
+                64.0
+              ],
+              "opacity": 1.0,
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "mounts": []
+                },
+                "map": "Any"
+              },
+              "animation": null,
+              "type": "Icon",
+              "progress": {
+                "source": "None",
+                "threshold": "Present"
+              },
+              "icon": {
+                "File": "Other\\Black.png"
+              },
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "size": [
+                12.0,
+                128.0
+              ]
+            },
             {
               "enabled": true,
               "name": "Health",
