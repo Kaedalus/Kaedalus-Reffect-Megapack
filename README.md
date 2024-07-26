@@ -31,7 +31,7 @@ Still thinking of how to implement conditions in a neat manner. Also, no underwa
 
 ## Guardian
 - **Virtues**, with timers for Active effects such as Willbender Flames.
-- **Firebrand Tome Pages**, numbers.
+- **Firebrand Tome Pages**, numbers and bar.
 - **Skill Effects**: Signets, Litany of Wrath.
 
 ## Warrior
