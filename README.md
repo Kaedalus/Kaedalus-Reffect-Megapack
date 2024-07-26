@@ -6,7 +6,7 @@ Every image is pulled directly from the Wiki, except for: Firebrand Pages, Thief
 
 Reffect Version of latest update: v0.2.3
 
-[> Direct download link <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.2.0/Kaedalus-Reffect-Megapack.zip)
+[> Direct download link <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.2.1/Kaedalus-Reffect-Megapack.zip)
 
 [> Link to screenshots on imgur <](https://imgur.com/a/AKNGE3r)
 
@@ -74,6 +74,9 @@ Still thinking of how to implement conditions in a neat manner. Also, no underwa
 - **Skill Effects**: Signets, Spectral, Shroud and Sand Swell.
 
 # Changelog
+**1.2.1**
+- Added trait filters for Firebrand Virtue cooldowns (hides recharging icon based on Grandmaster Major).
+
 **1.2.0**
 - **Update to Reffect v0.2.3**
 - Added trait filter for Holosmith Heat (100 or 150 heat).
@@ -90,7 +93,6 @@ _* Currently checking for any of the three Major Adept traits in the Trickery sp
 **1.1.2**
 - Added missing Swift Scholar Firebrand trait effect.
 - Moved Firebrand Tome effects from Trait effects to Skills under Tomes
-
 
 **1.1.1:**
 - Added missing **Soul Barbs** Necromancer trait effect.
