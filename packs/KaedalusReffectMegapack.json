@@ -52,6 +52,232 @@
           "members": [
             {
               "enabled": true,
+              "name": "Guardian",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": "Any"
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "Background",
+                  "pos": [
+                    136.0,
+                    64.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Firebrand"
+                      ],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "progress": {
+                    "source": "None",
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "icon": {
+                    "File": "Other\\Black.png"
+                  },
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "size": [
+                    12.0,
+                    128.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Pages5",
+                  "pos": [
+                    136.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Firebrand"
+                      ],
+                      "traits": [
+                        {
+                          "id": 2086,
+                          "present": false
+                        }
+                      ],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Bar",
+                  "progress_trigger": {
+                    "source": "SecondaryResource",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "progress_kind": "Duration",
+                  "max": 25,
+                  "lower_bound": 0.0,
+                  "progress_factor": 1.0,
+                  "size": [
+                    12.0,
+                    128.0
+                  ],
+                  "align": "Down",
+                  "direction": "Up",
+                  "fill": [
+                    0.0,
+                    0.79246426,
+                    1.0,
+                    1.0
+                  ],
+                  "background": [
+                    0.000001,
+                    9.9999e-7,
+                    9.9999e-7,
+                    0.0
+                  ],
+                  "border": true,
+                  "border_size": 0.0,
+                  "border_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.3137255
+                  ],
+                  "tick_size": 1.0,
+                  "tick_color": [
+                    1.0,
+                    0.99999,
+                    0.99999,
+                    1.0
+                  ],
+                  "tick_unit": "Percent",
+                  "ticks": [
+                    0.2,
+                    0.4,
+                    0.6,
+                    0.8
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Pages8",
+                  "pos": [
+                    136.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Firebrand"
+                      ],
+                      "traits": [
+                        {
+                          "id": 2086,
+                          "present": true
+                        }
+                      ],
+                      "mounts": []
+                    },
+                    "map": "Any"
+                  },
+                  "animation": null,
+                  "type": "Bar",
+                  "progress_trigger": {
+                    "source": "SecondaryResource",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "progress_kind": "Duration",
+                  "max": 25,
+                  "lower_bound": 0.0,
+                  "progress_factor": 1.0,
+                  "size": [
+                    12.0,
+                    128.0
+                  ],
+                  "align": "Down",
+                  "direction": "Up",
+                  "fill": [
+                    0.0,
+                    0.79246426,
+                    1.0,
+                    1.0
+                  ],
+                  "background": [
+                    0.000001,
+                    9.9999e-7,
+                    9.9999e-7,
+                    0.0
+                  ],
+                  "border": true,
+                  "border_size": 0.0,
+                  "border_color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.3137255
+                  ],
+                  "tick_size": 1.0,
+                  "tick_color": [
+                    1.0,
+                    0.99999,
+                    0.99999,
+                    1.0
+                  ],
+                  "tick_unit": "Percent",
+                  "ticks": [
+                    0.125,
+                    0.25,
+                    0.375,
+                    0.5,
+                    0.625,
+                    0.75,
+                    0.875
+                  ]
+                }
+              ]
+            },
+            {
+              "enabled": true,
               "name": "Warrior",
               "pos": [
                 0.0,
