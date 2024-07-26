@@ -4,9 +4,9 @@
 All neatly organized so you can easily toggle and move anything you want! Also already filtered so only relevant stuff for your current profession will be displayed. :)
 Every image is pulled directly from the Wiki, except for: Firebrand Pages, Thief Initiative, Elementalist Attunements, Mesmer Clones/Blades, Scourge Shades.
 
-Reffect Version of latest update: v0.2.1
+Reffect Version of latest update: v0.2.3
 
-[> Direct download link <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.1.3/Kaedalus-Reffect-Megapack.zip)
+[> Direct download link <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.2.0/Kaedalus-Reffect-Megapack.zip)
 
 [> Link to screenshots on imgur <](https://imgur.com/a/AKNGE3r)
 
@@ -45,7 +45,7 @@ Still thinking of how to implement conditions in a neat manner. Also, no underwa
 - **Skill Effects**: All legend skill effects and upkeeps, Imperial Guard stacks.
 
 ## Engineer
-- **Holosmith Heat**, number and bar with ticks for 50% and 85%, and for 33% and 66% (Enhanced Capacity), plus Overheat icon.
+- **Holosmith Heat**, number and bar with ticks for 50% and 85% (33% and 66% when traited with Enhanced Capacity), plus Overheat icon.
 - **Skill Effects**: Signets, Exceeds, AED, Slick Shoes, Elixir S, Elixir X.
 
 ## Ranger
@@ -74,6 +74,16 @@ Still thinking of how to implement conditions in a neat manner. Also, no underwa
 - **Skill Effects**: Signets, Spectral, Shroud and Sand Swell.
 
 # Changelog
+**1.2.0**
+- **Update to Reffect v0.2.3**
+- Added trait filter for Holosmith Heat (100 or 150 heat).
+- Added trait filter for Scourge Shade (3 or 1 shades).
+- Added trait filter for Bladesworn Charges (10 or 5 charges max).
+- Added Firebrand Pages bar, with trait filter for Archivist of Wispers (5 or 8 pages).
+- Added Deadeye Malice bar, with trait filter for Maleficent Seven (5 or 7 malice).
+- Added Thief Initiative bar, with trait filters for the amount of Initiative (Preparedness*, Specter).
+_* Currently checking for any of the three Major Adept traits in the Trickery spec, as checking for Preparedness itself is not working._
+
 **1.1.3**
 - Added background (toggleable) to Health and Resource bars and icons for better visibility.
 
