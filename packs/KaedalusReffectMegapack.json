@@ -60,7 +60,7 @@
               "opacity": 1.0,
               "filter": {
                 "player": {
-                  "combat": null,
+                  "combat": true,
                   "specs": [],
                   "traits": [],
                   "mounts": []
@@ -1386,7 +1386,7 @@
               "opacity": 1.0,
               "filter": {
                 "player": {
-                  "combat": null,
+                  "combat": true,
                   "specs": [
                     "Thief",
                     "Daredevil",
@@ -4191,7 +4191,12 @@
                         "player": {
                           "combat": null,
                           "specs": [],
-                          "traits": [],
+                          "traits": [
+                            {
+                              "id": 2179,
+                              "present": false
+                            }
+                          ],
                           "mounts": []
                         },
                         "map": "Any"
@@ -4239,7 +4244,12 @@
                         "player": {
                           "combat": null,
                           "specs": [],
-                          "traits": [],
+                          "traits": [
+                            {
+                              "id": 2159,
+                              "present": false
+                            }
+                          ],
                           "mounts": []
                         },
                         "map": "Any"
@@ -4287,7 +4297,12 @@
                         "player": {
                           "combat": null,
                           "specs": [],
-                          "traits": [],
+                          "traits": [
+                            {
+                              "id": 2105,
+                              "present": false
+                            }
+                          ],
                           "mounts": []
                         },
                         "map": "Any"
