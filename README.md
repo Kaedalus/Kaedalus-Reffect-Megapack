@@ -8,6 +8,10 @@ Reffect Version of latest update: v0.2.3
 
 [> Direct download link <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.2.1/Kaedalus-Reffect-Megapack.zip)
 
+To install:
+- Install [GW2 Reffect](https://github.com/Zerthox/gw2-reffect/).
+- Extract the .zip file inside ``Guild Wars 2\addons\reffect``.
+
 [> Link to screenshots on imgur <](https://imgur.com/a/AKNGE3r)
 
 Please let me know if you find any errors or missing effects!
