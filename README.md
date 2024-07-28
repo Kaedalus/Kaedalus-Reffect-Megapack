@@ -12,6 +12,11 @@ To install:
 - Install [GW2 Reffect](https://github.com/Zerthox/gw2-reffect/).
 - Extract the .zip file inside ``Guild Wars 2\addons\reffect``.
 
+To increase icon size for resolutions higher than 1080p:
+- [> Download the resizer python script made by **Cronos** <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/blob/main/KaedalusReffectMegapackResizerByCronos.py)
+- Place it inside the ``Guild Wars 2\addons\reffect\packs`` directory.
+- Run the script. It will write a new file called ``KaedalusReffectMegapackScaled.json`` that you can then load.
+
 [> Link to screenshots on imgur <](https://imgur.com/a/AKNGE3r)
 
 Please let me know if you find any errors or missing effects!
