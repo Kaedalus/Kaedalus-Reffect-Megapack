@@ -6,7 +6,7 @@ Every image is pulled directly from the Wiki, except for: Firebrand Pages, Thief
 
 Reffect Version of latest update: v0.2.3
 
-[> Direct download link <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.2.1/Kaedalus-Reffect-Megapack.zip)
+[> Direct download link <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.2.2/Kaedalus-Reffect-Megapack.zip)
 
 To install:
 - Install [GW2 Reffect](https://github.com/Zerthox/gw2-reffect/).
@@ -83,6 +83,9 @@ Still thinking of how to implement conditions in a neat manner. Also, no underwa
 - **Skill Effects**: Signets, Spectral, Shroud and Sand Swell.
 
 # Changelog
+**1.2.2**
+- Fixed wrong image path for Weave Self elements.
+
 **1.2.1**
 - Added trait filters for Firebrand Virtue cooldowns (hides recharging icon based on Grandmaster Major).
 
