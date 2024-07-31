@@ -3718,7 +3718,9 @@
                   "combat": null,
                   "specs": [],
                   "traits": [],
-                  "mounts": []
+                  "mounts": [
+                    "None"
+                  ]
                 },
                 "map": "Any"
               },
@@ -4516,7 +4518,9 @@
                     "Firebrand"
                   ],
                   "traits": [],
-                  "mounts": []
+                  "mounts": [
+                    "None"
+                  ]
                 },
                 "map": "Any"
               },
@@ -4561,7 +4565,9 @@
                     "Firebrand"
                   ],
                   "traits": [],
-                  "mounts": []
+                  "mounts": [
+                    "None"
+                  ]
                 },
                 "map": "Any"
               },
@@ -15067,7 +15073,7 @@
                         }
                       },
                       "icon": {
-                        "File": "EleFire.png"
+                        "File": "ClassResources\\EleFire.png"
                       },
                       "duration_bar": true,
                       "duration_text": false,
@@ -15112,7 +15118,7 @@
                         }
                       },
                       "icon": {
-                        "File": "EleWater.png"
+                        "File": "ClassResources\\EleWater.png"
                       },
                       "duration_bar": true,
                       "duration_text": false,
@@ -15157,7 +15163,7 @@
                         }
                       },
                       "icon": {
-                        "File": "EleAir.png"
+                        "File": "ClassResources\\EleAir.png"
                       },
                       "duration_bar": true,
                       "duration_text": false,
@@ -15202,7 +15208,7 @@
                         }
                       },
                       "icon": {
-                        "File": "EleEarth.png"
+                        "File": "ClassResources\\EleEarth.png"
                       },
                       "duration_bar": true,
                       "duration_text": false,
