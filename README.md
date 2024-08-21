@@ -86,6 +86,7 @@ Still thinking of how to implement conditions in a neat manner. Also, no underwa
 - Added all land Spear skill effects.
 - Switched all icons to local files, no longer pulling any from the Wiki (**HUGE** thanks to Tommyball for the PowerShell script that saved my butt from having to do this manually for over 300 icons).
 - Changed default behavior of Boons to only appear in combat.
+- Added Mesmer Distortion/Blur.
 - Reorganized some skills into subcategories.
 
 **1.2.2**
