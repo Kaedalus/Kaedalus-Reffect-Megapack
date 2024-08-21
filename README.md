@@ -4,9 +4,9 @@
 All neatly organized so you can easily toggle and move anything you want! Also already filtered so only relevant stuff for your current profession will be displayed. :)
 Every image is pulled directly from the Wiki, except for: Firebrand Pages, Thief Initiative, Elementalist Attunements, Mesmer Clones/Blades, Scourge Shades.
 
-Reffect Version of latest update: v0.2.3
+Reffect Version of latest update: v0.3.2
 
-[> Direct download link <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.2.2/Kaedalus-Reffect-Megapack.zip)
+[> Direct download link <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.3.0/Kaedalus-Reffect-Megapack.zip)
 
 To install:
 - Install [GW2 Reffect](https://github.com/Zerthox/gw2-reffect/).
@@ -21,7 +21,6 @@ To increase icon size for resolutions higher than 1080p:
 
 Please let me know if you find any errors or missing effects!
 
-Currently the main issue is that icons take quite a while to load when starting up, due to the large amount.
 To fix blurry numbers, change your Reffect font to the largest possible size.
 Still thinking of how to implement conditions in a neat manner. Also, no underwater exclusive stuff for the moment (Whirlpool, for instance), sorry!
 
@@ -83,6 +82,12 @@ Still thinking of how to implement conditions in a neat manner. Also, no underwa
 - **Skill Effects**: Signets, Spectral, Shroud and Sand Swell.
 
 # Changelog
+**1.3.0**
+- Added all land Spear skill effects.
+- Switched all icons to local files, no longer pulling any from the Wiki (**HUGE** thanks to Tommyball for the PowerShell script that saved my butt from having to do this manually for over 300 icons).
+- Changed default behavior of Boons to only appear in combat.
+- Reorganized some skills into subcategories.
+
 **1.2.2**
 - Fixed wrong image path for Weave Self elements.
 
