@@ -5125,114 +5125,6 @@
             },
             {
               "enabled": true,
-              "name": "PageBG",
-              "pos": [
-                100.0,
-                96.0
-              ],
-              "opacity": 1.0,
-              "trigger": {
-                "source": "Always",
-                "threshold": {
-                  "threshold_type": "Present",
-                  "amount_type": "Intensity"
-                }
-              },
-              "filter": {
-                "player": {
-                  "combat": null,
-                  "specs": [
-                    "Firebrand"
-                  ],
-                  "traits": [],
-                  "mounts": [
-                    "None"
-                  ]
-                },
-                "map": {
-                  "category": [],
-                  "whitelist": true,
-                  "ids": []
-                }
-              },
-              "animation": null,
-              "type": "Icon",
-              "icon": {
-                "File": "Other\\BlackFaded.png"
-              },
-              "tint": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ],
-              "zoom": 1.0,
-              "round": 0.0,
-              "conditions": [],
-              "duration_bar": false,
-              "duration_text": false,
-              "stacks_text": false,
-              "size": [
-                32.0,
-                32.0
-              ]
-            },
-            {
-              "enabled": true,
-              "name": "Pages",
-              "pos": [
-                100.0,
-                96.0
-              ],
-              "opacity": 1.0,
-              "trigger": {
-                "source": "SecondaryResource",
-                "threshold": {
-                  "threshold_type": "Present",
-                  "amount_type": "Intensity"
-                }
-              },
-              "filter": {
-                "player": {
-                  "combat": null,
-                  "specs": [
-                    "Firebrand"
-                  ],
-                  "traits": [],
-                  "mounts": [
-                    "None"
-                  ]
-                },
-                "map": {
-                  "category": [],
-                  "whitelist": true,
-                  "ids": []
-                }
-              },
-              "animation": null,
-              "type": "Icon",
-              "icon": {
-                "File": "ClassResources\\FBPages.png"
-              },
-              "tint": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ],
-              "zoom": 1.0,
-              "round": 0.0,
-              "conditions": [],
-              "duration_bar": false,
-              "duration_text": false,
-              "stacks_text": true,
-              "size": [
-                32.0,
-                32.0
-              ]
-            },
-            {
-              "enabled": true,
               "name": "Skills",
               "pos": [
                 0.0,
@@ -5889,7 +5781,7 @@
                       "name": "Illuminated",
                       "pos": [
                         64.0,
-                        0.0
+                        -32.0
                       ],
                       "opacity": 1.0,
                       "trigger": {
@@ -5941,7 +5833,7 @@
                       "name": "SymbolOfLuminance",
                       "pos": [
                         96.0,
-                        0.0
+                        -32.0
                       ],
                       "opacity": 1.0,
                       "trigger": {
@@ -5983,6 +5875,321 @@
                       "duration_bar": false,
                       "duration_text": false,
                       "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Firebrand",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": "Inherit",
+                "threshold": {
+                  "threshold_type": "Always",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "OutOfCombat",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 0.35,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": false,
+                      "specs": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "PageBG",
+                      "pos": [
+                        100.0,
+                        96.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "Always",
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [
+                            "Firebrand"
+                          ],
+                          "traits": [],
+                          "mounts": [
+                            "None"
+                          ]
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "Other\\BlackFaded.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Pages",
+                      "pos": [
+                        100.0,
+                        96.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "SecondaryResource",
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [
+                            "Firebrand"
+                          ],
+                          "traits": [],
+                          "mounts": [
+                            "None"
+                          ]
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "ClassResources\\FBPages.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": true,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "InCombat",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": true,
+                      "specs": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "PageBG",
+                      "pos": [
+                        100.0,
+                        96.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "Always",
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [
+                            "Firebrand"
+                          ],
+                          "traits": [],
+                          "mounts": [
+                            "None"
+                          ]
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "Other\\BlackFaded.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Pages",
+                      "pos": [
+                        100.0,
+                        96.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "SecondaryResource",
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [
+                            "Firebrand"
+                          ],
+                          "traits": [],
+                          "mounts": [
+                            "None"
+                          ]
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "ClassResources\\FBPages.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": true,
                       "size": [
                         32.0,
                         32.0
@@ -26542,6 +26749,214 @@
             32.0,
             32.0
           ]
+        },
+        {
+          "enabled": true,
+          "name": "Sorrow",
+          "pos": [
+            -100.0,
+            96.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": {
+              "Buff": 74410
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Icon",
+          "icon": {
+            "File": "Relic_of_Sorrow.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": false,
+          "size": [
+            32.0,
+            32.0
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Claw",
+          "pos": [
+            -100.0,
+            96.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": {
+              "Buff": 73955
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Icon",
+          "icon": {
+            "File": "Relic_of_the_Claw.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": false,
+          "size": [
+            32.0,
+            32.0
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Stormsinger",
+          "pos": [
+            -100.0,
+            96.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": {
+              "Buff": 73455
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Icon",
+          "icon": {
+            "File": "Relic_of_the_Stormsinger.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": false,
+          "size": [
+            32.0,
+            32.0
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Blightbringer",
+          "pos": [
+            -100.0,
+            96.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": {
+              "Buff": 73181
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Icon",
+          "icon": {
+            "File": "Relic_of_the_Blightbringer.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": true,
+          "size": [
+            32.0,
+            32.0
+          ]
         }
       ]
     },
@@ -28039,7 +28454,7 @@
               "conditions": [],
               "duration_bar": true,
               "duration_text": false,
-              "stacks_text": true,
+              "stacks_text": false,
               "size": [
                 24.0,
                 24.0
