@@ -1,8 +1,7 @@
 # Kaedalus Reffect Megapack
- A Reffect pack with all classes' resources, traits and skills, as well as additional useful general stuff.
+A Reffect pack with all classes' resources, traits and skills, as well as additional useful general stuff. Made by Kaedalus (Nick Kaedalus.9526).
 
 All neatly organized so you can easily toggle and move anything you want! Also already filtered so only relevant stuff for your current profession will be displayed. :)
-Every image is pulled directly from the Wiki, except for: Firebrand Pages, Thief Initiative, Elementalist Attunements, Mesmer Clones/Blades, Scourge Shades.
 
 Reffect Version of latest update: v0.3.2
 
