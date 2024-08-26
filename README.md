@@ -5,7 +5,7 @@ All neatly organized so you can easily toggle and move anything you want! Also a
 
 Reffect Version of latest update: v0.3.2
 
-[> Direct download link <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.3.0/Kaedalus-Reffect-Megapack.zip)
+[> Direct download link <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.3.1/Kaedalus-Reffect-Megapack.zip)
 
 To install:
 - Install [GW2 Reffect](https://github.com/Zerthox/gw2-reffect/).
@@ -81,6 +81,11 @@ Still thinking of how to implement conditions in a neat manner. Also, no underwa
 - **Skill Effects**: Signets, Spectral, Shroud and Sand Swell.
 
 # Changelog
+**1.3.1**
+- Added new Janthir Wilds Relics.
+- Made Firebrand Pages less opaque when out of combat.
+- Fixed Guardian Spear effects' positioning.
+
 **1.3.0**
 - Added all land Spear skill effects.
 - Switched all icons to local files, no longer pulling any from the Wiki (**HUGE** thanks to Tommyball for the PowerShell script that saved my butt from having to do this manually for over 300 icons).
