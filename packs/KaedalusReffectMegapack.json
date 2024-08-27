@@ -34,10 +34,12 @@
       },
       "filter": {
         "player": {
-          "combat": null,
+          "combat": true,
           "specs": [],
           "traits": [],
-          "mounts": []
+          "mounts": [
+            "None"
+          ]
         },
         "map": {
           "category": [],
@@ -15240,7 +15242,7 @@
               },
               "filter": {
                 "player": {
-                  "combat": null,
+                  "combat": true,
                   "specs": [],
                   "traits": [],
                   "mounts": []
@@ -15290,7 +15292,7 @@
               },
               "filter": {
                 "player": {
-                  "combat": null,
+                  "combat": true,
                   "specs": [],
                   "traits": [],
                   "mounts": []
@@ -15340,7 +15342,7 @@
               },
               "filter": {
                 "player": {
-                  "combat": null,
+                  "combat": true,
                   "specs": [],
                   "traits": [],
                   "mounts": []
@@ -25956,7 +25958,7 @@
       },
       "filter": {
         "player": {
-          "combat": null,
+          "combat": true,
           "specs": [],
           "traits": [],
           "mounts": []
@@ -26977,7 +26979,7 @@
       },
       "filter": {
         "player": {
-          "combat": null,
+          "combat": true,
           "specs": [],
           "traits": [],
           "mounts": []
@@ -27717,7 +27719,7 @@
           },
           "filter": {
             "player": {
-              "combat": null,
+              "combat": true,
               "specs": [],
               "traits": [],
               "mounts": []
