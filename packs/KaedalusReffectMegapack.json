@@ -54,7 +54,7 @@
           "enabled": true,
           "name": "ClassBars",
           "pos": [
-            0.0,
+            12.0,
             0.0
           ],
           "opacity": 1.0,
@@ -67,7 +67,7 @@
           },
           "filter": {
             "player": {
-              "combat": null,
+              "combat": true,
               "specs": [],
               "traits": [],
               "mounts": []
@@ -98,8 +98,13 @@
               },
               "filter": {
                 "player": {
-                  "combat": true,
-                  "specs": [],
+                  "combat": null,
+                  "specs": [
+                    "Guardian",
+                    "Dragonhunter",
+                    "Firebrand",
+                    "Willbender"
+                  ],
                   "traits": [],
                   "mounts": []
                 },
@@ -112,58 +117,6 @@
               "animation": null,
               "type": "Group",
               "members": [
-                {
-                  "enabled": true,
-                  "name": "Background",
-                  "pos": [
-                    136.0,
-                    64.0
-                  ],
-                  "opacity": 1.0,
-                  "trigger": {
-                    "source": "Always",
-                    "threshold": {
-                      "threshold_type": "Present",
-                      "amount_type": "Intensity"
-                    }
-                  },
-                  "filter": {
-                    "player": {
-                      "combat": null,
-                      "specs": [
-                        "Firebrand"
-                      ],
-                      "traits": [],
-                      "mounts": []
-                    },
-                    "map": {
-                      "category": [],
-                      "whitelist": true,
-                      "ids": []
-                    }
-                  },
-                  "animation": null,
-                  "type": "Icon",
-                  "icon": {
-                    "File": "Other\\Black.png"
-                  },
-                  "tint": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                  ],
-                  "zoom": 1.0,
-                  "round": 0.0,
-                  "conditions": [],
-                  "duration_bar": false,
-                  "duration_text": false,
-                  "stacks_text": false,
-                  "size": [
-                    12.0,
-                    128.0
-                  ]
-                },
                 {
                   "enabled": true,
                   "name": "Pages5",
@@ -212,12 +165,12 @@
                     1.0
                   ],
                   "background": [
-                    0.000001,
-                    9.9999e-7,
-                    9.9999e-7,
-                    0.0
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.5294118
                   ],
-                  "border_size": 0.0,
+                  "border_size": 0.1,
                   "border_color": [
                     1.0,
                     1.0,
@@ -294,12 +247,12 @@
                     1.0
                   ],
                   "background": [
-                    0.000001,
-                    9.9999e-7,
-                    9.9999e-7,
-                    0.0
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.5294118
                   ],
-                  "border_size": 0.0,
+                  "border_size": 0.1,
                   "border_color": [
                     1.0,
                     1.0,
@@ -350,7 +303,7 @@
               },
               "filter": {
                 "player": {
-                  "combat": true,
+                  "combat": null,
                   "specs": [
                     "Warrior",
                     "Berserker",
@@ -369,56 +322,6 @@
               "animation": null,
               "type": "Group",
               "members": [
-                {
-                  "enabled": true,
-                  "name": "Background",
-                  "pos": [
-                    136.0,
-                    64.0
-                  ],
-                  "opacity": 1.0,
-                  "trigger": {
-                    "source": "Always",
-                    "threshold": {
-                      "threshold_type": "Present",
-                      "amount_type": "Intensity"
-                    }
-                  },
-                  "filter": {
-                    "player": {
-                      "combat": null,
-                      "specs": [],
-                      "traits": [],
-                      "mounts": []
-                    },
-                    "map": {
-                      "category": [],
-                      "whitelist": true,
-                      "ids": []
-                    }
-                  },
-                  "animation": null,
-                  "type": "Icon",
-                  "icon": {
-                    "File": "Other\\Black.png"
-                  },
-                  "tint": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                  ],
-                  "zoom": 1.0,
-                  "round": 0.0,
-                  "conditions": [],
-                  "duration_bar": false,
-                  "duration_text": false,
-                  "stacks_text": false,
-                  "size": [
-                    12.0,
-                    128.0
-                  ]
-                },
                 {
                   "enabled": true,
                   "name": "Adrenaline",
@@ -467,9 +370,9 @@
                     0.0,
                     0.0,
                     0.0,
-                    0.0
+                    0.5294118
                   ],
-                  "border_size": 0.0,
+                  "border_size": 0.1,
                   "border_color": [
                     1.0,
                     1.0,
@@ -542,9 +445,9 @@
                     0.0,
                     0.0,
                     0.0,
-                    0.0
+                    0.5294118
                   ],
-                  "border_size": 0.0,
+                  "border_size": 0.1,
                   "border_color": [
                     1.0,
                     1.0,
@@ -568,56 +471,6 @@
                   "tick_unit": "Percent",
                   "ticks": [
                     0.5
-                  ]
-                },
-                {
-                  "enabled": true,
-                  "name": "ChargesBackground",
-                  "pos": [
-                    148.0,
-                    64.0
-                  ],
-                  "opacity": 1.0,
-                  "trigger": {
-                    "source": "SecondaryResource",
-                    "threshold": {
-                      "threshold_type": "Present",
-                      "amount_type": "Intensity"
-                    }
-                  },
-                  "filter": {
-                    "player": {
-                      "combat": null,
-                      "specs": [],
-                      "traits": [],
-                      "mounts": []
-                    },
-                    "map": {
-                      "category": [],
-                      "whitelist": true,
-                      "ids": []
-                    }
-                  },
-                  "animation": null,
-                  "type": "Icon",
-                  "icon": {
-                    "File": "Other\\Black.png"
-                  },
-                  "tint": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                  ],
-                  "zoom": 1.0,
-                  "round": 0.0,
-                  "conditions": [],
-                  "duration_bar": false,
-                  "duration_text": false,
-                  "stacks_text": false,
-                  "size": [
-                    12.0,
-                    128.0
                   ]
                 },
                 {
@@ -671,9 +524,9 @@
                     0.0,
                     0.0,
                     0.0,
-                    0.0
+                    0.5294118
                   ],
-                  "border_size": 0.0,
+                  "border_size": 0.1,
                   "border_color": [
                     1.0,
                     1.0,
@@ -758,9 +611,9 @@
                     0.0,
                     0.0,
                     0.0,
-                    0.0
+                    0.5294118
                   ],
-                  "border_size": 0.0,
+                  "border_size": 0.1,
                   "border_color": [
                     1.0,
                     1.0,
@@ -858,7 +711,7 @@
               },
               "filter": {
                 "player": {
-                  "combat": true,
+                  "combat": null,
                   "specs": [
                     "Revenant",
                     "Herald",
@@ -877,56 +730,6 @@
               "animation": null,
               "type": "Group",
               "members": [
-                {
-                  "enabled": true,
-                  "name": "Background",
-                  "pos": [
-                    136.0,
-                    64.0
-                  ],
-                  "opacity": 1.0,
-                  "trigger": {
-                    "source": "Always",
-                    "threshold": {
-                      "threshold_type": "Present",
-                      "amount_type": "Intensity"
-                    }
-                  },
-                  "filter": {
-                    "player": {
-                      "combat": null,
-                      "specs": [],
-                      "traits": [],
-                      "mounts": []
-                    },
-                    "map": {
-                      "category": [],
-                      "whitelist": true,
-                      "ids": []
-                    }
-                  },
-                  "animation": null,
-                  "type": "Icon",
-                  "icon": {
-                    "File": "Other\\Black.png"
-                  },
-                  "tint": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                  ],
-                  "zoom": 1.0,
-                  "round": 0.0,
-                  "conditions": [],
-                  "duration_bar": false,
-                  "duration_text": false,
-                  "stacks_text": false,
-                  "size": [
-                    12.0,
-                    128.0
-                  ]
-                },
                 {
                   "enabled": true,
                   "name": "Energy",
@@ -971,9 +774,9 @@
                     0.0,
                     0.0,
                     0.0,
-                    0.0
+                    0.5294118
                   ],
-                  "border_size": 0.0,
+                  "border_size": 0.1,
                   "border_color": [
                     1.0,
                     1.0,
@@ -1072,7 +875,7 @@
               },
               "filter": {
                 "player": {
-                  "combat": true,
+                  "combat": null,
                   "specs": [
                     "Engineer",
                     "Scrapper",
@@ -1091,58 +894,6 @@
               "animation": null,
               "type": "Group",
               "members": [
-                {
-                  "enabled": true,
-                  "name": "Background",
-                  "pos": [
-                    136.0,
-                    64.0
-                  ],
-                  "opacity": 1.0,
-                  "trigger": {
-                    "source": "Always",
-                    "threshold": {
-                      "threshold_type": "Present",
-                      "amount_type": "Intensity"
-                    }
-                  },
-                  "filter": {
-                    "player": {
-                      "combat": null,
-                      "specs": [
-                        "Holosmith"
-                      ],
-                      "traits": [],
-                      "mounts": []
-                    },
-                    "map": {
-                      "category": [],
-                      "whitelist": true,
-                      "ids": []
-                    }
-                  },
-                  "animation": null,
-                  "type": "Icon",
-                  "icon": {
-                    "File": "Other\\Black.png"
-                  },
-                  "tint": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                  ],
-                  "zoom": 1.0,
-                  "round": 0.0,
-                  "conditions": [],
-                  "duration_bar": false,
-                  "duration_text": false,
-                  "stacks_text": false,
-                  "size": [
-                    12.0,
-                    128.0
-                  ]
-                },
                 {
                   "enabled": true,
                   "name": "Heat",
@@ -1194,9 +945,9 @@
                     0.0,
                     0.0,
                     0.0,
-                    0.0
+                    0.5294118
                   ],
-                  "border_size": 0.0,
+                  "border_size": 0.1,
                   "border_color": [
                     1.0,
                     1.0,
@@ -1274,9 +1025,9 @@
                     0.0,
                     0.0,
                     0.0,
-                    0.0
+                    0.5294118
                   ],
-                  "border_size": 0.0,
+                  "border_size": 0.1,
                   "border_color": [
                     1.0,
                     1.0,
@@ -1373,7 +1124,7 @@
               },
               "filter": {
                 "player": {
-                  "combat": true,
+                  "combat": null,
                   "specs": [
                     "Ranger",
                     "Druid",
@@ -1392,58 +1143,6 @@
               "animation": null,
               "type": "Group",
               "members": [
-                {
-                  "enabled": true,
-                  "name": "Background",
-                  "pos": [
-                    136.0,
-                    64.0
-                  ],
-                  "opacity": 1.0,
-                  "trigger": {
-                    "source": "Always",
-                    "threshold": {
-                      "threshold_type": "Present",
-                      "amount_type": "Intensity"
-                    }
-                  },
-                  "filter": {
-                    "player": {
-                      "combat": null,
-                      "specs": [
-                        "Druid"
-                      ],
-                      "traits": [],
-                      "mounts": []
-                    },
-                    "map": {
-                      "category": [],
-                      "whitelist": true,
-                      "ids": []
-                    }
-                  },
-                  "animation": null,
-                  "type": "Icon",
-                  "icon": {
-                    "File": "Other\\Black.png"
-                  },
-                  "tint": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                  ],
-                  "zoom": 1.0,
-                  "round": 0.0,
-                  "conditions": [],
-                  "duration_bar": false,
-                  "duration_text": false,
-                  "stacks_text": false,
-                  "size": [
-                    12.0,
-                    128.0
-                  ]
-                },
                 {
                   "enabled": true,
                   "name": "AstralForce",
@@ -1490,9 +1189,9 @@
                     0.0,
                     0.0,
                     0.0,
-                    0.0
+                    0.5294118
                   ],
-                  "border_size": 0.0,
+                  "border_size": 0.1,
                   "border_color": [
                     1.0,
                     1.0,
@@ -1589,7 +1288,7 @@
               },
               "filter": {
                 "player": {
-                  "combat": true,
+                  "combat": null,
                   "specs": [
                     "Thief",
                     "Daredevil",
@@ -1608,109 +1307,6 @@
               "animation": null,
               "type": "Group",
               "members": [
-                {
-                  "enabled": true,
-                  "name": "Background",
-                  "pos": [
-                    136.0,
-                    64.0
-                  ],
-                  "opacity": 1.0,
-                  "trigger": {
-                    "source": "Always",
-                    "threshold": {
-                      "threshold_type": "Present",
-                      "amount_type": "Intensity"
-                    }
-                  },
-                  "filter": {
-                    "player": {
-                      "combat": null,
-                      "specs": [],
-                      "traits": [],
-                      "mounts": []
-                    },
-                    "map": {
-                      "category": [],
-                      "whitelist": true,
-                      "ids": []
-                    }
-                  },
-                  "animation": null,
-                  "type": "Icon",
-                  "icon": {
-                    "File": "Other\\Black.png"
-                  },
-                  "tint": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                  ],
-                  "zoom": 1.0,
-                  "round": 0.0,
-                  "conditions": [],
-                  "duration_bar": false,
-                  "duration_text": false,
-                  "stacks_text": false,
-                  "size": [
-                    12.0,
-                    128.0
-                  ]
-                },
-                {
-                  "enabled": true,
-                  "name": "Background",
-                  "pos": [
-                    148.0,
-                    64.0
-                  ],
-                  "opacity": 1.0,
-                  "trigger": {
-                    "source": "Always",
-                    "threshold": {
-                      "threshold_type": "Present",
-                      "amount_type": "Intensity"
-                    }
-                  },
-                  "filter": {
-                    "player": {
-                      "combat": null,
-                      "specs": [
-                        "Deadeye",
-                        "Specter"
-                      ],
-                      "traits": [],
-                      "mounts": []
-                    },
-                    "map": {
-                      "category": [],
-                      "whitelist": true,
-                      "ids": []
-                    }
-                  },
-                  "animation": null,
-                  "type": "Icon",
-                  "icon": {
-                    "File": "Other\\Black.png"
-                  },
-                  "tint": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                  ],
-                  "zoom": 1.0,
-                  "round": 0.0,
-                  "conditions": [],
-                  "duration_bar": false,
-                  "duration_text": false,
-                  "stacks_text": false,
-                  "size": [
-                    12.0,
-                    128.0
-                  ]
-                },
                 {
                   "enabled": true,
                   "name": "ShadowForce",
@@ -1757,9 +1353,9 @@
                     0.0,
                     0.0,
                     0.0,
-                    0.0
+                    0.5294118
                   ],
-                  "border_size": 0.0,
+                  "border_size": 0.1,
                   "border_color": [
                     1.0,
                     1.0,
@@ -1846,9 +1442,9 @@
                     0.0,
                     0.0,
                     0.0,
-                    0.0
+                    0.5294118
                   ],
-                  "border_size": 0.0,
+                  "border_size": 0.1,
                   "border_color": [
                     1.0,
                     1.0,
@@ -1945,9 +1541,9 @@
                     0.0,
                     0.0,
                     0.0,
-                    0.0
+                    0.5294118
                   ],
-                  "border_size": 0.0,
+                  "border_size": 0.1,
                   "border_color": [
                     1.0,
                     1.0,
@@ -2047,9 +1643,9 @@
                     0.0,
                     0.0,
                     0.0,
-                    0.0
+                    0.5294118
                   ],
-                  "border_size": 0.0,
+                  "border_size": 0.1,
                   "border_color": [
                     1.0,
                     1.0,
@@ -2149,9 +1745,9 @@
                     0.0,
                     0.0,
                     0.0,
-                    0.0
+                    0.5294118
                   ],
-                  "border_size": 0.0,
+                  "border_size": 0.1,
                   "border_color": [
                     1.0,
                     1.0,
@@ -2246,12 +1842,12 @@
                     1.0
                   ],
                   "background": [
-                    0.98039216,
-                    0.25882354,
                     0.0,
-                    0.0
+                    0.0,
+                    0.0,
+                    0.5294118
                   ],
-                  "border_size": 0.0,
+                  "border_size": 0.1,
                   "border_color": [
                     1.0,
                     1.0,
@@ -2343,9 +1939,9 @@
                     0.0,
                     0.0,
                     0.0,
-                    0.0
+                    0.5294118
                   ],
-                  "border_size": 0.0,
+                  "border_size": 0.1,
                   "border_color": [
                     1.0,
                     1.0,
@@ -2440,9 +2036,9 @@
                     0.0,
                     0.0,
                     0.0,
-                    0.0
+                    0.5294118
                   ],
-                  "border_size": 0.0,
+                  "border_size": 0.1,
                   "border_color": [
                     1.0,
                     1.0,
@@ -2537,9 +2133,9 @@
                     0.0,
                     0.0,
                     0.0,
-                    0.0
+                    0.5294118
                   ],
-                  "border_size": 0.0,
+                  "border_size": 0.1,
                   "border_color": [
                     1.0,
                     1.0,
@@ -2623,12 +2219,12 @@
                     1.0
                   ],
                   "background": [
-                    0.000001,
-                    9.9999e-7,
-                    9.9999e-7,
-                    0.0
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.5294118
                   ],
-                  "border_size": 0.0,
+                  "border_size": 0.1,
                   "border_color": [
                     1.0,
                     1.0,
@@ -2708,9 +2304,9 @@
                     0.0,
                     0.0,
                     0.0,
-                    0.0
+                    0.5294118
                   ],
-                  "border_size": 0.0,
+                  "border_size": 0.1,
                   "border_color": [
                     1.0,
                     1.0,
@@ -2760,7 +2356,7 @@
               },
               "filter": {
                 "player": {
-                  "combat": true,
+                  "combat": null,
                   "specs": [
                     "Elementalist",
                     "Tempest",
@@ -2779,58 +2375,6 @@
               "animation": null,
               "type": "Group",
               "members": [
-                {
-                  "enabled": true,
-                  "name": "Background",
-                  "pos": [
-                    136.0,
-                    64.0
-                  ],
-                  "opacity": 1.0,
-                  "trigger": {
-                    "source": "Always",
-                    "threshold": {
-                      "threshold_type": "Present",
-                      "amount_type": "Intensity"
-                    }
-                  },
-                  "filter": {
-                    "player": {
-                      "combat": null,
-                      "specs": [
-                        "Catalyst"
-                      ],
-                      "traits": [],
-                      "mounts": []
-                    },
-                    "map": {
-                      "category": [],
-                      "whitelist": true,
-                      "ids": []
-                    }
-                  },
-                  "animation": null,
-                  "type": "Icon",
-                  "icon": {
-                    "File": "Other\\Black.png"
-                  },
-                  "tint": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                  ],
-                  "zoom": 1.0,
-                  "round": 0.0,
-                  "conditions": [],
-                  "duration_bar": false,
-                  "duration_text": false,
-                  "stacks_text": false,
-                  "size": [
-                    12.0,
-                    128.0
-                  ]
-                },
                 {
                   "enabled": true,
                   "name": "JadeSphere",
@@ -2877,9 +2421,9 @@
                     0.0,
                     0.0,
                     0.0,
-                    0.0
+                    0.5294118
                   ],
-                  "border_size": 0.0,
+                  "border_size": 0.1,
                   "border_color": [
                     1.0,
                     1.0,
@@ -2975,7 +2519,7 @@
               },
               "filter": {
                 "player": {
-                  "combat": true,
+                  "combat": null,
                   "specs": [
                     "Mesmer",
                     "Chronomancer",
@@ -2994,56 +2538,6 @@
               "animation": null,
               "type": "Group",
               "members": [
-                {
-                  "enabled": true,
-                  "name": "Background",
-                  "pos": [
-                    136.0,
-                    64.0
-                  ],
-                  "opacity": 1.0,
-                  "trigger": {
-                    "source": "Always",
-                    "threshold": {
-                      "threshold_type": "Present",
-                      "amount_type": "Intensity"
-                    }
-                  },
-                  "filter": {
-                    "player": {
-                      "combat": null,
-                      "specs": [],
-                      "traits": [],
-                      "mounts": []
-                    },
-                    "map": {
-                      "category": [],
-                      "whitelist": true,
-                      "ids": []
-                    }
-                  },
-                  "animation": null,
-                  "type": "Icon",
-                  "icon": {
-                    "File": "Other\\Black.png"
-                  },
-                  "tint": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                  ],
-                  "zoom": 1.0,
-                  "round": 0.0,
-                  "conditions": [],
-                  "duration_bar": false,
-                  "duration_text": false,
-                  "stacks_text": false,
-                  "size": [
-                    12.0,
-                    128.0
-                  ]
-                },
                 {
                   "enabled": true,
                   "name": "ClonesBar",
@@ -3092,9 +2586,9 @@
                     0.0,
                     0.0,
                     0.0,
-                    0.0
+                    0.5294118
                   ],
-                  "border_size": 0.0,
+                  "border_size": 0.1,
                   "border_color": [
                     1.0,
                     1.0,
@@ -3167,9 +2661,9 @@
                     0.0,
                     0.0,
                     0.0,
-                    0.0
+                    0.5294118
                   ],
-                  "border_size": 0.0,
+                  "border_size": 0.1,
                   "border_color": [
                     1.0,
                     1.0,
@@ -3217,7 +2711,7 @@
               },
               "filter": {
                 "player": {
-                  "combat": true,
+                  "combat": null,
                   "specs": [
                     "Necromancer",
                     "Reaper",
@@ -3236,56 +2730,6 @@
               "animation": null,
               "type": "Group",
               "members": [
-                {
-                  "enabled": true,
-                  "name": "Background",
-                  "pos": [
-                    136.0,
-                    64.0
-                  ],
-                  "opacity": 1.0,
-                  "trigger": {
-                    "source": "Always",
-                    "threshold": {
-                      "threshold_type": "Present",
-                      "amount_type": "Intensity"
-                    }
-                  },
-                  "filter": {
-                    "player": {
-                      "combat": null,
-                      "specs": [],
-                      "traits": [],
-                      "mounts": []
-                    },
-                    "map": {
-                      "category": [],
-                      "whitelist": true,
-                      "ids": []
-                    }
-                  },
-                  "animation": null,
-                  "type": "Icon",
-                  "icon": {
-                    "File": "Other\\Black.png"
-                  },
-                  "tint": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                  ],
-                  "zoom": 1.0,
-                  "round": 0.0,
-                  "conditions": [],
-                  "duration_bar": false,
-                  "duration_text": false,
-                  "stacks_text": false,
-                  "size": [
-                    12.0,
-                    128.0
-                  ]
-                },
                 {
                   "enabled": true,
                   "name": "LifeForce",
@@ -3334,9 +2778,9 @@
                     0.0,
                     0.0,
                     0.0,
-                    0.0
+                    0.5294118
                   ],
-                  "border_size": 0.0,
+                  "border_size": 0.1,
                   "border_color": [
                     1.0,
                     1.0,
@@ -3409,9 +2853,9 @@
                     0.0,
                     0.0,
                     0.0,
-                    0.0
+                    0.5294118
                   ],
-                  "border_size": 0.0,
+                  "border_size": 0.1,
                   "border_color": [
                     1.0,
                     1.0,
@@ -3436,58 +2880,6 @@
                   "ticks": [
                     0.5,
                     0.25
-                  ]
-                },
-                {
-                  "enabled": true,
-                  "name": "ChargesBackground",
-                  "pos": [
-                    148.0,
-                    64.0
-                  ],
-                  "opacity": 1.0,
-                  "trigger": {
-                    "source": "SecondaryResource",
-                    "threshold": {
-                      "threshold_type": "Present",
-                      "amount_type": "Intensity"
-                    }
-                  },
-                  "filter": {
-                    "player": {
-                      "combat": null,
-                      "specs": [
-                        "Scourge"
-                      ],
-                      "traits": [],
-                      "mounts": []
-                    },
-                    "map": {
-                      "category": [],
-                      "whitelist": true,
-                      "ids": []
-                    }
-                  },
-                  "animation": null,
-                  "type": "Icon",
-                  "icon": {
-                    "File": "Other\\Black.png"
-                  },
-                  "tint": [
-                    1.0,
-                    1.0,
-                    1.0,
-                    1.0
-                  ],
-                  "zoom": 1.0,
-                  "round": 0.0,
-                  "conditions": [],
-                  "duration_bar": false,
-                  "duration_text": false,
-                  "stacks_text": false,
-                  "size": [
-                    12.0,
-                    128.0
                   ]
                 },
                 {
@@ -3541,9 +2933,9 @@
                     0.0,
                     0.0,
                     0.0,
-                    0.0
+                    0.5294118
                   ],
-                  "border_size": 0.0,
+                  "border_size": 0.1,
                   "border_color": [
                     1.0,
                     1.0,
@@ -3621,9 +3013,9 @@
                     0.0,
                     0.0,
                     0.0,
-                    0.0
+                    0.5294118
                   ],
-                  "border_size": 0.0,
+                  "border_size": 0.1,
                   "border_color": [
                     1.0,
                     1.0,
@@ -15242,7 +14634,7 @@
               },
               "filter": {
                 "player": {
-                  "combat": true,
+                  "combat": null,
                   "specs": [],
                   "traits": [],
                   "mounts": []
@@ -15292,7 +14684,7 @@
               },
               "filter": {
                 "player": {
-                  "combat": true,
+                  "combat": null,
                   "specs": [],
                   "traits": [],
                   "mounts": []
@@ -15342,7 +14734,7 @@
               },
               "filter": {
                 "player": {
-                  "combat": true,
+                  "combat": null,
                   "specs": [],
                   "traits": [],
                   "mounts": []
@@ -15390,7 +14782,7 @@
               },
               "filter": {
                 "player": {
-                  "combat": true,
+                  "combat": null,
                   "specs": [
                     "Deadeye"
                   ],
@@ -15442,7 +14834,7 @@
               },
               "filter": {
                 "player": {
-                  "combat": true,
+                  "combat": null,
                   "specs": [
                     "Deadeye"
                   ],
@@ -15494,7 +14886,7 @@
               },
               "filter": {
                 "player": {
-                  "combat": true,
+                  "combat": null,
                   "specs": [
                     "Deadeye"
                   ],
@@ -28514,7 +27906,7 @@
           },
           "filter": {
             "player": {
-              "combat": true,
+              "combat": null,
               "specs": [],
               "traits": [],
               "mounts": []
@@ -28528,56 +27920,6 @@
           "animation": null,
           "type": "Group",
           "members": [
-            {
-              "enabled": true,
-              "name": "Background",
-              "pos": [
-                0.0,
-                64.0
-              ],
-              "opacity": 1.0,
-              "trigger": {
-                "source": "Always",
-                "threshold": {
-                  "threshold_type": "Present",
-                  "amount_type": "Intensity"
-                }
-              },
-              "filter": {
-                "player": {
-                  "combat": null,
-                  "specs": [],
-                  "traits": [],
-                  "mounts": []
-                },
-                "map": {
-                  "category": [],
-                  "whitelist": true,
-                  "ids": []
-                }
-              },
-              "animation": null,
-              "type": "Icon",
-              "icon": {
-                "File": "Other\\Black.png"
-              },
-              "tint": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ],
-              "zoom": 1.0,
-              "round": 0.0,
-              "conditions": [],
-              "duration_bar": false,
-              "duration_text": false,
-              "stacks_text": false,
-              "size": [
-                12.0,
-                128.0
-              ]
-            },
             {
               "enabled": true,
               "name": "Health",
@@ -28622,7 +27964,7 @@
                 0.0,
                 0.0,
                 0.0,
-                0.0
+                0.5294118
               ],
               "border_size": 0.0,
               "border_color": [
@@ -28699,12 +28041,12 @@
                 0.0,
                 0.0
               ],
-              "border_size": 0.0,
+              "border_size": 0.1,
               "border_color": [
                 1.0,
                 0.99999,
                 0.99999,
-                0.0
+                0.3584906
               ],
               "tick_size": 1.0,
               "tick_color": [
@@ -28726,6 +28068,189 @@
                 0.75,
                 0.5,
                 0.25
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Endurance",
+              "pos": [
+                12.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": "Endurance",
+                "threshold": {
+                  "threshold_type": "Always",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [
+                    "Guardian",
+                    "Dragonhunter",
+                    "Firebrand",
+                    "Willbender",
+                    "Warrior",
+                    "Berserker",
+                    "Spellbreaker",
+                    "Bladesworn",
+                    "Revenant",
+                    "Herald",
+                    "Renegade",
+                    "Vindicator",
+                    "Engineer",
+                    "Scrapper",
+                    "Holosmith",
+                    "Mechanist",
+                    "Ranger",
+                    "Druid",
+                    "Soulbeast",
+                    "Untamed",
+                    "Thief",
+                    "Deadeye",
+                    "Specter",
+                    "Elementalist",
+                    "Tempest",
+                    "Weaver",
+                    "Catalyst",
+                    "Mesmer",
+                    "Chronomancer",
+                    "Mirage",
+                    "Virtuoso",
+                    "Necromancer",
+                    "Reaper",
+                    "Scourge",
+                    "Harbinger"
+                  ],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Bar",
+              "progress_kind": "Duration",
+              "max": 25,
+              "lower_bound": 0.0,
+              "progress_factor": 1.0,
+              "fill": [
+                0.8805032,
+                0.52901244,
+                0.23812352,
+                1.0
+              ],
+              "background": [
+                0.0,
+                0.0,
+                0.0,
+                0.5283019
+              ],
+              "border_size": 0.1,
+              "border_color": [
+                1.0,
+                0.99999,
+                0.99999,
+                0.3144654
+              ],
+              "tick_size": 1.0,
+              "tick_color": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "conditions": [],
+              "size": [
+                12.0,
+                128.0
+              ],
+              "align": "Down",
+              "direction": "Up",
+              "tick_unit": "Percent",
+              "ticks": [
+                0.5
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "EnduranceDaredevil",
+              "pos": [
+                12.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": "Endurance",
+                "threshold": {
+                  "threshold_type": "Always",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [
+                    "Daredevil"
+                  ],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Bar",
+              "progress_kind": "Duration",
+              "max": 25,
+              "lower_bound": 0.0,
+              "progress_factor": 1.0,
+              "fill": [
+                0.8805032,
+                0.52901244,
+                0.23812352,
+                1.0
+              ],
+              "background": [
+                0.0,
+                0.0,
+                0.0,
+                0.5294118
+              ],
+              "border_size": 0.1,
+              "border_color": [
+                1.0,
+                0.99999,
+                0.99999,
+                0.3144654
+              ],
+              "tick_size": 1.0,
+              "tick_color": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "conditions": [],
+              "size": [
+                12.0,
+                128.0
+              ],
+              "align": "Down",
+              "direction": "Up",
+              "tick_unit": "Percent",
+              "ticks": [
+                0.33330002,
+                0.66660005
               ]
             }
           ]
