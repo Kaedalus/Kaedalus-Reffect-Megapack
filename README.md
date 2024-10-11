@@ -6,6 +6,7 @@ All neatly organized so you can easily toggle and move anything you want! Also a
 Reffect Version of latest update: v0.3.6
 
 [> Direct download link <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.4.0/Kaedalus-Reffect-Megapack.zip)
+
 [> Download of larger version for 4k displays <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.4.0/Kaedalus-Reffect-Megapack-Scaled4k.zip) (Made with Cronos' resizer script)
 
 To install:
