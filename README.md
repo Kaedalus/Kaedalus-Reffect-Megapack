@@ -78,6 +78,10 @@ Still thinking of how to implement conditions in a neat manner. There are two op
 - **Skill Effects**: Signets, Spectral, Shroud and Sand Swell.
 
 # Changelog
+**1.4.1**
+- Changed visibility filters of Mesmer and Thief portals so they can be seen out of combat.
+- Moved Continuum Split from Traits to Skills category.
+
 **1.4.0**
 - **Updated to Reffect 0.3.6.**
 - Added Endurance bar (with a separate one for Daredevil).
