@@ -34,7 +34,7 @@
       },
       "filter": {
         "player": {
-          "combat": true,
+          "combat": null,
           "specs": [],
           "traits": [],
           "mounts": [
@@ -3060,7 +3060,7 @@
           },
           "filter": {
             "player": {
-              "combat": null,
+              "combat": true,
               "specs": [
                 "Guardian",
                 "Dragonhunter",
@@ -5612,7 +5612,7 @@
           },
           "filter": {
             "player": {
-              "combat": null,
+              "combat": true,
               "specs": [
                 "Warrior",
                 "Berserker",
@@ -7630,7 +7630,7 @@
           },
           "filter": {
             "player": {
-              "combat": null,
+              "combat": true,
               "specs": [
                 "Revenant",
                 "Herald",
@@ -10093,7 +10093,7 @@
           },
           "filter": {
             "player": {
-              "combat": null,
+              "combat": true,
               "specs": [
                 "Engineer",
                 "Scrapper",
@@ -11924,7 +11924,7 @@
           },
           "filter": {
             "player": {
-              "combat": null,
+              "combat": true,
               "specs": [
                 "Ranger",
                 "Druid",
@@ -14634,7 +14634,7 @@
               },
               "filter": {
                 "player": {
-                  "combat": null,
+                  "combat": true,
                   "specs": [],
                   "traits": [],
                   "mounts": []
@@ -14684,7 +14684,7 @@
               },
               "filter": {
                 "player": {
-                  "combat": null,
+                  "combat": true,
                   "specs": [],
                   "traits": [],
                   "mounts": []
@@ -14734,7 +14734,7 @@
               },
               "filter": {
                 "player": {
-                  "combat": null,
+                  "combat": true,
                   "specs": [],
                   "traits": [],
                   "mounts": []
@@ -14782,7 +14782,7 @@
               },
               "filter": {
                 "player": {
-                  "combat": null,
+                  "combat": true,
                   "specs": [
                     "Deadeye"
                   ],
@@ -14834,7 +14834,7 @@
               },
               "filter": {
                 "player": {
-                  "combat": null,
+                  "combat": true,
                   "specs": [
                     "Deadeye"
                   ],
@@ -14886,7 +14886,7 @@
               },
               "filter": {
                 "player": {
-                  "combat": null,
+                  "combat": true,
                   "specs": [
                     "Deadeye"
                   ],
@@ -14936,7 +14936,7 @@
               },
               "filter": {
                 "player": {
-                  "combat": null,
+                  "combat": true,
                   "specs": [],
                   "traits": [],
                   "mounts": []
@@ -15610,7 +15610,7 @@
                   },
                   "filter": {
                     "player": {
-                      "combat": null,
+                      "combat": true,
                       "specs": [],
                       "traits": [],
                       "mounts": []
@@ -15906,7 +15906,7 @@
                   },
                   "filter": {
                     "player": {
-                      "combat": null,
+                      "combat": true,
                       "specs": [],
                       "traits": [],
                       "mounts": []
@@ -16251,7 +16251,7 @@
                   },
                   "filter": {
                     "player": {
-                      "combat": null,
+                      "combat": true,
                       "specs": [],
                       "traits": [],
                       "mounts": []
@@ -16856,7 +16856,7 @@
                   },
                   "filter": {
                     "player": {
-                      "combat": null,
+                      "combat": true,
                       "specs": [],
                       "traits": [],
                       "mounts": []
@@ -16997,7 +16997,7 @@
           },
           "filter": {
             "player": {
-              "combat": null,
+              "combat": true,
               "specs": [
                 "Elementalist",
                 "Tempest",
@@ -22097,93 +22097,6 @@
                 },
                 {
                   "enabled": true,
-                  "name": "Chronomancer",
-                  "pos": [
-                    0.0,
-                    0.0
-                  ],
-                  "opacity": 1.0,
-                  "trigger": {
-                    "source": "Inherit",
-                    "threshold": {
-                      "threshold_type": "Always",
-                      "amount_type": "Intensity"
-                    }
-                  },
-                  "filter": {
-                    "player": {
-                      "combat": null,
-                      "specs": [
-                        "Chronomancer"
-                      ],
-                      "traits": [],
-                      "mounts": []
-                    },
-                    "map": {
-                      "category": [],
-                      "whitelist": true,
-                      "ids": []
-                    }
-                  },
-                  "animation": null,
-                  "type": "Group",
-                  "members": [
-                    {
-                      "enabled": true,
-                      "name": "ContinuumSplit",
-                      "pos": [
-                        100.0,
-                        -72.0
-                      ],
-                      "opacity": 1.0,
-                      "trigger": {
-                        "source": {
-                          "Buff": 30136
-                        },
-                        "threshold": {
-                          "threshold_type": "Present",
-                          "amount_type": "Intensity"
-                        }
-                      },
-                      "filter": {
-                        "player": {
-                          "combat": null,
-                          "specs": [],
-                          "traits": [],
-                          "mounts": []
-                        },
-                        "map": {
-                          "category": [],
-                          "whitelist": true,
-                          "ids": []
-                        }
-                      },
-                      "animation": null,
-                      "type": "Icon",
-                      "icon": {
-                        "File": "Continuum_Split.png"
-                      },
-                      "tint": [
-                        1.0,
-                        0.9999994,
-                        0.99999,
-                        1.0
-                      ],
-                      "zoom": 1.0,
-                      "round": 0.0,
-                      "conditions": [],
-                      "duration_bar": true,
-                      "duration_text": false,
-                      "stacks_text": false,
-                      "size": [
-                        32.0,
-                        32.0
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "enabled": true,
                   "name": "Mirage",
                   "pos": [
                     0.0,
@@ -22458,7 +22371,7 @@
                   },
                   "filter": {
                     "player": {
-                      "combat": null,
+                      "combat": true,
                       "specs": [],
                       "traits": [],
                       "mounts": []
@@ -22751,7 +22664,7 @@
                   },
                   "filter": {
                     "player": {
-                      "combat": null,
+                      "combat": true,
                       "specs": [],
                       "traits": [],
                       "mounts": []
@@ -23129,7 +23042,7 @@
                       },
                       "filter": {
                         "player": {
-                          "combat": null,
+                          "combat": true,
                           "specs": [],
                           "traits": [],
                           "mounts": []
@@ -23233,7 +23146,7 @@
                   },
                   "filter": {
                     "player": {
-                      "combat": null,
+                      "combat": true,
                       "specs": [],
                       "traits": [],
                       "mounts": []
@@ -23303,21 +23216,16 @@
                 },
                 {
                   "enabled": true,
-                  "name": "Distortion",
+                  "name": "Shatters",
                   "pos": [
-                    64.0,
-                    -32.0
+                    0.0,
+                    0.0
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": {
-                      "AnyBuff": [
-                        10243,
-                        10335
-                      ]
-                    },
+                    "source": "Inherit",
                     "threshold": {
-                      "threshold_type": "Present",
+                      "threshold_type": "Always",
                       "amount_type": "Intensity"
                     }
                   },
@@ -23335,25 +23243,115 @@
                     }
                   },
                   "animation": null,
-                  "type": "Icon",
-                  "icon": {
-                    "File": "Distortion.png"
-                  },
-                  "tint": [
-                    1.0,
-                    0.99999,
-                    0.99999,
-                    1.0
-                  ],
-                  "zoom": 1.0,
-                  "round": 0.0,
-                  "conditions": [],
-                  "duration_bar": true,
-                  "duration_text": false,
-                  "stacks_text": false,
-                  "size": [
-                    32.0,
-                    32.0
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "ContinuumSplit",
+                      "pos": [
+                        100.0,
+                        -72.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": 30136
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "Continuum_Split.png"
+                      },
+                      "tint": [
+                        1.0,
+                        0.9999994,
+                        0.99999,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "conditions": [],
+                      "duration_bar": true,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Distortion",
+                      "pos": [
+                        64.0,
+                        -32.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "AnyBuff": [
+                            10243,
+                            10335
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "Distortion.png"
+                      },
+                      "tint": [
+                        1.0,
+                        0.99999,
+                        0.99999,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "conditions": [],
+                      "duration_bar": true,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    }
                   ]
                 }
               ]
@@ -23377,7 +23375,7 @@
           },
           "filter": {
             "player": {
-              "combat": null,
+              "combat": true,
               "specs": [
                 "Necromancer",
                 "Reaper",
@@ -27080,7 +27078,7 @@
       },
       "filter": {
         "player": {
-          "combat": null,
+          "combat": true,
           "specs": [],
           "traits": [],
           "mounts": []
