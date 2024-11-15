@@ -3,25 +3,22 @@ A Reffect pack with all classes' resources, traits and skills, as well as additi
 
 All neatly organized so you can easily toggle and move anything you want! Also already filtered so only relevant stuff for your current profession will be displayed. :)
 
-Reffect Version of latest update: v0.3.2
+Reffect Version of latest update: v0.3.6
 
-[> Direct download link <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.3.2/Kaedalus-Reffect-Megapack.zip)
+[> Direct download link <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.4.0/Kaedalus-Reffect-Megapack.zip)
+
+[> Download of larger version for 4k displays <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.4.0/Kaedalus-Reffect-Megapack-Scaled4k.zip) (Made with Cronos' resizer script)
 
 To install:
 - Install [GW2 Reffect](https://github.com/Zerthox/gw2-reffect/).
 - Extract the .zip file inside ``Guild Wars 2\addons\reffect``.
 
-To increase icon size for resolutions higher than 1080p:
-- [> Download the resizer python script made by **Cronos** <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/blob/main/KaedalusReffectMegapackResizerByCronos.py)
-- Place it inside the ``Guild Wars 2\addons\reffect\packs`` directory.
-- Run the script. It will write a new file called ``KaedalusReffectMegapackScaled.json`` that you can then load.
-
-[> Link to screenshots on imgur <](https://imgur.com/a/AKNGE3r)
+[> Link to screenshots on imgur <](https://imgur.com/a/AKNGE3r) (Screenshots of version 1.0.0)
 
 Please let me know if you find any errors or missing effects!
 
 To fix blurry numbers, change your Reffect font to the largest possible size.
-Still thinking of how to implement conditions in a neat manner. Also, no underwater exclusive stuff for the moment (Whirlpool, for instance), sorry!
+Still thinking of how to implement conditions in a neat manner. There are two optional Condition displays available (disabled by default) if you want to use them. Also, no underwater exclusive stuff for the moment (Whirlpool, for instance), sorry!
 
 # In the pack:
 
@@ -81,6 +78,13 @@ Still thinking of how to implement conditions in a neat manner. Also, no underwa
 - **Skill Effects**: Signets, Spectral, Shroud and Sand Swell.
 
 # Changelog
+**1.4.0**
+- **Updated to Reffect 0.3.6.**
+- Added Endurance bar (with a separate one for Daredevil).
+- Replaced bars' background images with built-in background property.
+- Added thin borders to all bars.
+- Added pre-scaled version of the pack for 4k displays.
+
 **1.3.2**
 - The whole pack will now only appear while In Combat, with the exception of the _Misc_ category under _OtherEffects_ (Stealth/Revealed, Superspeed, Unblockable, Invulnerable, Agony).
 
