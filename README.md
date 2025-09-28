@@ -3,11 +3,11 @@ A Reffect pack with all classes' resources, traits and skills, as well as additi
 
 All neatly organized so you can easily toggle and move anything you want! Also already filtered so only relevant stuff for your current profession will be displayed. :)
 
-Reffect Version of latest update: v0.3.6
+Reffect Version of latest update: v0.7.1
 
-[> Direct download link <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.4.1/Kaedalus-Reffect-Megapack.zip)
+[> Direct download link <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.5.0/Kaedalus-Reffect-Megapack.zip)
 
-[> Download of larger version for 4k displays <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.4.1/Kaedalus-Reffect-Megapack-Scaled4k.zip) (Made with Cronos' resizer script)
+[> Download of larger version for 4k displays <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.5.0/Kaedalus-Reffect-Megapack-Scaled4k.zip) (Made with Cronos' resizer script)
 
 To install:
 - Install [GW2 Reffect](https://github.com/Zerthox/gw2-reffect/).
@@ -78,6 +78,18 @@ Still thinking of how to implement conditions in a neat manner. There are two op
 - **Skill Effects**: Signets, Spectral, Shroud and Sand Swell.
 
 # Changelog
+**1.5.0**
+- **Updated to Reffect v0.7.1**
+- Changed default visibility settings so most icons appear Out of Combat, with some notable exceptions such as Signets.
+- Class Bars, Health, Endurance and some additional effects are now transparent when Out of Combat. Most are separate and grouped up, so it is easy to disable if you wish to.
+- Added Soulbeast "Sic'em!" tracking and the respective image file.
+- Fixed Druid Astral Force.
+- Fixed Firebrand Pages.
+- Fixed Holosmith Heat.
+- Fixed Catalyst Jade Sphere Energy.
+- Changed Virtuoso Blades to appear Out of Combat (Clones remain hidden when OoC).
+- Added missing Relics: Bloodstone; Mount Balrior; Living City; Thorns; Zephyrite.
+
 **1.4.1**
 - Changed visibility filters of Mesmer and Thief portals so they can be seen out of combat.
 - Moved Continuum Split from Traits to Skills category.
