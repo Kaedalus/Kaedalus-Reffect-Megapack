@@ -5,9 +5,9 @@ All neatly organized so you can easily toggle and move anything you want! Also a
 
 Reffect Version of latest update: v0.7.1
 
-[> Direct download link <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.5.0/Kaedalus-Reffect-Megapack.zip)
+[> Direct download link <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.6.0/Kaedalus-Reffect-Megapack.zip)
 
-[> Download of larger version for 4k displays <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.5.0/Kaedalus-Reffect-Megapack-Scaled4k.zip) (Made with Cronos' resizer script)
+[> Download of larger version for 4k displays <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.6.0/Kaedalus-Reffect-Megapack-Scaled4k.zip) (Made with Cronos' resizer script)
 
 To install:
 - Install [GW2 Reffect](https://github.com/Zerthox/gw2-reffect/).
@@ -78,6 +78,26 @@ Still thinking of how to implement conditions in a neat manner. There are two op
 - **Skill Effects**: Signets, Spectral, Shroud and Sand Swell.
 
 # Changelog
+**1.6.0**
+- **Important: From this version on, the _"Reuse game icons"_ option must be turned on in Reffect settings!**
+## Added skill cooldown tracking
+- Two versions: with **Icons** and **Minimalistic**.
+- Icons is on and Minimalistic is off by default. The objective of both is to be the least intrusive possible while still providing helpful information and reducing cognitive load.
+- Minimalistic version is an experiment and currently only includes Weapon and Slot skills.
+- Skills will be darkened while on cooldown. As their recharge nears completion, they will flash yellow to provide additional feedback.
+- Auto Attack Chains will slowly flash yellow while in progress. The last attack in the Chain will rapidly flash red. This is to aid in finishing Chains.
+- Profession Skills are tentatively arranged, feedback is welcome!
+- Skill Icons have the *show stacks* option enabled. If the numbers prove to be too small, there is the possibility of adding larger overlayed numbers in a future update.
+- Guardian does **not** have a Profession skill section, as Virtue state is already clearly represented by the existing icons.
+- Renegade Profession skill section has an alternative layout available, disabled by default, which places the skills closer to the Energy Bar.
+- Engineer/Scrapper Profession skill section has an alternative layout available, disabled by default, which condenses the skills in the same layout as the weapon skills.
+- Mesmer Profession skill section has an alternative layout ("Unified"), disabled by default, which keeps Shatters 1 through 4 in the same position for every Specialization, and places Shatter 5 above the Clones bar.
+- Special Action Skill has an alternative position that makes it stand out more from the weapon skills.
+
+## Additional changes
+- Added Willbender Virtues cooldown representation.
+- Slightly repositioned Auras and Sigils to provide space for Slot Skills.
+
 **1.5.0**
 - **Updated to Reffect v0.7.1**
 - Changed default visibility settings so most icons appear Out of Combat, with some notable exceptions such as Signets.
