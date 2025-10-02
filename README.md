@@ -12,6 +12,7 @@ Reffect Version of latest update: v0.7.1
 To install:
 - Install [GW2 Reffect](https://github.com/Zerthox/gw2-reffect/).
 - Extract the .zip file inside ``Guild Wars 2\addons\reffect``.
+- Turn on "Reuse game icons" in the Reffect settings.
 
 [> Link to screenshots on imgur <](https://imgur.com/a/AKNGE3r) (Screenshots of version 1.0.0)
 
@@ -27,6 +28,8 @@ Still thinking of how to implement conditions in a neat manner. There are two op
 - **Barrier** overlayed on health.
 - **Boons**, with emphasis on quickness, alacrity, stability and aegis.
 - **Conditions** (optional, disabled by default, WIP layouts).
+- **Endurance**, with 50% tick (33% and 66% for Daredevil).
+- **Skills**: Weapon, Utility, Profession, Special Action and Weapon Swap.
 - **Auras**.
 - **All Relics**.
 - **Sigil effects** _(thanks to Tommyball and Zerthox in the GW2Clarity repo for help)_.
