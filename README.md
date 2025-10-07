@@ -5,9 +5,11 @@ All neatly organized so you can easily toggle and move anything you want! Also a
 
 Reffect Version of latest update: v0.7.1
 
-[> Direct download link <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.6.0/Kaedalus-Reffect-Megapack.zip)
+[> Direct download link <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.6.1/Kaedalus-Reffect-Megapack.zip)
 
-[> Download of larger version for 4k displays <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.6.0/Kaedalus-Reffect-Megapack-Scaled4k.zip) (Made with Cronos' resizer script)
+[> Download of alternate version with larger skill icons <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.6.1/Kaedalus-Reffect-Megapack-LargeSkills.zip)
+
+[> Download of overall larger version for 4k displays <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.6.1/Kaedalus-Reffect-Megapack-Scaled4k.zip) (Made with Cronos' resizer script)
 
 To install:
 - Install [GW2 Reffect](https://github.com/Zerthox/gw2-reffect/).
@@ -81,6 +83,12 @@ Still thinking of how to implement conditions in a neat manner. There are two op
 - **Skill Effects**: Signets, Spectral, Shroud and Sand Swell.
 
 # Changelog
+**1.6.1**
+- Created an additional pack download option with 150% larger Skill icons.
+- Moved sigil display into LeftSide and RightSide groups to edit more easily.
+- Removed erroneous "CelestialAvatar" inside Thief Profession skills.
+- Fixed incorrect naming of groups within "ChronoVirtuoso" group. 
+
 **1.6.0**
 - **Important: From this version on, the _"Reuse game icons"_ option must be turned on in Reffect settings!**
 ## Added skill cooldown tracking
