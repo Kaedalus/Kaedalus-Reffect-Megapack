@@ -158,7 +158,7 @@ Still thinking of how to implement conditions in a neat manner. There are two op
 - Added trait filter for Holosmith Heat (100 or 150 heat).
 - Added trait filter for Scourge Shade (3 or 1 shades).
 - Added trait filter for Bladesworn Charges (10 or 5 charges max).
-- Added Firebrand Pages bar, with trait filter for Archivist of Wispers (5 or 8 pages).
+- Added Firebrand Pages bar, with trait filter for Archivist of Whispers (5 or 8 pages).
 - Added Deadeye Malice bar, with trait filter for Maleficent Seven (5 or 7 malice).
 - Added Thief Initiative bar, with trait filters for the amount of Initiative (Preparedness*, Specter).
 _* Currently checking for any of the three Major Adept traits in the Trickery spec, as checking for Preparedness itself is not working._
