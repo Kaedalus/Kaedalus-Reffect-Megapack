@@ -35599,21 +35599,17 @@
       "members": [
         {
           "enabled": true,
-          "name": "Benevolence",
+          "name": "LeftSide",
           "anchor": "Parent",
           "pos": [
-            -264.0,
-            192.0
+            0.0,
+            0.0
           ],
           "opacity": 1.0,
           "trigger": {
-            "source": {
-              "Buff": [
-                9398
-              ]
-            },
+            "source": "Inherit",
             "threshold": {
-              "threshold_type": "Present",
+              "threshold_type": "Always",
               "amount_type": "Intensity"
             }
           },
@@ -35632,555 +35628,590 @@
             }
           },
           "animation": null,
-          "type": "Icon",
-          "icon": {
-            "File": "Superior_Sigil_of_Sanctuary.png"
-          },
-          "tint": [
-            1.0,
-            1.0,
-            1.0,
-            1.0
-          ],
-          "zoom": 1.0,
-          "round": 0.0,
-          "border_size": 0.0,
-          "border_color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-          ],
-          "conditions": [],
-          "duration_bar": false,
-          "duration_text": false,
-          "stacks_text": true,
-          "size": [
-            64.0,
-            64.0
-          ]
-        },
-        {
-          "enabled": true,
-          "name": "Bloodlust",
-          "anchor": "Parent",
-          "pos": [
-            -264.0,
-            192.0
-          ],
-          "opacity": 1.0,
-          "trigger": {
-            "source": {
-              "Buff": [
-                9286
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "Stars",
+              "anchor": "Parent",
+              "pos": [
+                -264.0,
+                192.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    46953
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "Superior_Sigil_of_the_Stars.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": true,
+              "size": [
+                64.0,
+                64.0
               ]
             },
-            "threshold": {
-              "threshold_type": "Present",
-              "amount_type": "Intensity"
-            }
-          },
-          "filter": {
-            "player": {
-              "combat": null,
-              "specs": [],
-              "weapons": [],
-              "traits": [],
-              "mounts": []
-            },
-            "map": {
-              "category": [],
-              "whitelist": true,
-              "ids": []
-            }
-          },
-          "animation": null,
-          "type": "Icon",
-          "icon": {
-            "File": "Superior_Sigil_of_Bloodlust.png"
-          },
-          "tint": [
-            1.0,
-            1.0,
-            1.0,
-            1.0
-          ],
-          "zoom": 1.0,
-          "round": 0.0,
-          "border_size": 0.0,
-          "border_color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-          ],
-          "conditions": [],
-          "duration_bar": false,
-          "duration_text": false,
-          "stacks_text": true,
-          "size": [
-            64.0,
-            64.0
-          ]
-        },
-        {
-          "enabled": true,
-          "name": "Bounty",
-          "anchor": "Parent",
-          "pos": [
-            -264.0,
-            192.0
-          ],
-          "opacity": 1.0,
-          "trigger": {
-            "source": {
-              "Buff": [
-                38588
+            {
+              "enabled": true,
+              "name": "Perception",
+              "anchor": "Parent",
+              "pos": [
+                -264.0,
+                192.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    9385
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "Superior_Sigil_of_Perception.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": true,
+              "size": [
+                64.0,
+                64.0
               ]
             },
-            "threshold": {
-              "threshold_type": "Present",
-              "amount_type": "Intensity"
-            }
-          },
-          "filter": {
-            "player": {
-              "combat": null,
-              "specs": [],
-              "weapons": [],
-              "traits": [],
-              "mounts": []
-            },
-            "map": {
-              "category": [],
-              "whitelist": true,
-              "ids": []
-            }
-          },
-          "animation": null,
-          "type": "Icon",
-          "icon": {
-            "File": "Superior_Sigil_of_Bounty.png"
-          },
-          "tint": [
-            1.0,
-            1.0,
-            1.0,
-            1.0
-          ],
-          "zoom": 1.0,
-          "round": 0.0,
-          "border_size": 0.0,
-          "border_color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-          ],
-          "conditions": [],
-          "duration_bar": false,
-          "duration_text": false,
-          "stacks_text": true,
-          "size": [
-            64.0,
-            64.0
-          ]
-        },
-        {
-          "enabled": true,
-          "name": "Corruption",
-          "anchor": "Parent",
-          "pos": [
-            -264.0,
-            192.0
-          ],
-          "opacity": 1.0,
-          "trigger": {
-            "source": {
-              "Buff": [
-                9374
+            {
+              "enabled": true,
+              "name": "Momentum",
+              "anchor": "Parent",
+              "pos": [
+                -264.0,
+                192.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    22144
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "Superior_Sigil_of_Momentum.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": true,
+              "size": [
+                64.0,
+                64.0
               ]
             },
-            "threshold": {
-              "threshold_type": "Present",
-              "amount_type": "Intensity"
-            }
-          },
-          "filter": {
-            "player": {
-              "combat": null,
-              "specs": [],
-              "weapons": [],
-              "traits": [],
-              "mounts": []
-            },
-            "map": {
-              "category": [],
-              "whitelist": true,
-              "ids": []
-            }
-          },
-          "animation": null,
-          "type": "Icon",
-          "icon": {
-            "File": "Superior_Sigil_of_Corruption.png"
-          },
-          "tint": [
-            1.0,
-            1.0,
-            1.0,
-            1.0
-          ],
-          "zoom": 1.0,
-          "round": 0.0,
-          "border_size": 0.0,
-          "border_color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-          ],
-          "conditions": [],
-          "duration_bar": false,
-          "duration_text": false,
-          "stacks_text": true,
-          "size": [
-            64.0,
-            64.0
-          ]
-        },
-        {
-          "enabled": true,
-          "name": "Cruelty",
-          "anchor": "Parent",
-          "pos": [
-            -264.0,
-            192.0
-          ],
-          "opacity": 1.0,
-          "trigger": {
-            "source": {
-              "Buff": [
-                25526
+            {
+              "enabled": true,
+              "name": "Life",
+              "anchor": "Parent",
+              "pos": [
+                -264.0,
+                192.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    9386
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "Superior_Sigil_of_Life.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": true,
+              "size": [
+                64.0,
+                64.0
               ]
             },
-            "threshold": {
-              "threshold_type": "Present",
-              "amount_type": "Intensity"
-            }
-          },
-          "filter": {
-            "player": {
-              "combat": null,
-              "specs": [],
-              "weapons": [],
-              "traits": [],
-              "mounts": []
-            },
-            "map": {
-              "category": [],
-              "whitelist": true,
-              "ids": []
-            }
-          },
-          "animation": null,
-          "type": "Icon",
-          "icon": {
-            "File": "Superior_Sigil_of_Cruelty.png"
-          },
-          "tint": [
-            1.0,
-            1.0,
-            1.0,
-            1.0
-          ],
-          "zoom": 1.0,
-          "round": 0.0,
-          "border_size": 0.0,
-          "border_color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-          ],
-          "conditions": [],
-          "duration_bar": false,
-          "duration_text": false,
-          "stacks_text": true,
-          "size": [
-            64.0,
-            64.0
-          ]
-        },
-        {
-          "enabled": true,
-          "name": "Life",
-          "anchor": "Parent",
-          "pos": [
-            -264.0,
-            192.0
-          ],
-          "opacity": 1.0,
-          "trigger": {
-            "source": {
-              "Buff": [
-                9386
+            {
+              "enabled": true,
+              "name": "Cruelty",
+              "anchor": "Parent",
+              "pos": [
+                -264.0,
+                192.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    25526
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "Superior_Sigil_of_Cruelty.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": true,
+              "size": [
+                64.0,
+                64.0
               ]
             },
-            "threshold": {
-              "threshold_type": "Present",
-              "amount_type": "Intensity"
-            }
-          },
-          "filter": {
-            "player": {
-              "combat": null,
-              "specs": [],
-              "weapons": [],
-              "traits": [],
-              "mounts": []
-            },
-            "map": {
-              "category": [],
-              "whitelist": true,
-              "ids": []
-            }
-          },
-          "animation": null,
-          "type": "Icon",
-          "icon": {
-            "File": "Superior_Sigil_of_Life.png"
-          },
-          "tint": [
-            1.0,
-            1.0,
-            1.0,
-            1.0
-          ],
-          "zoom": 1.0,
-          "round": 0.0,
-          "border_size": 0.0,
-          "border_color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-          ],
-          "conditions": [],
-          "duration_bar": false,
-          "duration_text": false,
-          "stacks_text": true,
-          "size": [
-            64.0,
-            64.0
-          ]
-        },
-        {
-          "enabled": true,
-          "name": "Momentum",
-          "anchor": "Parent",
-          "pos": [
-            -264.0,
-            192.0
-          ],
-          "opacity": 1.0,
-          "trigger": {
-            "source": {
-              "Buff": [
-                22144
+            {
+              "enabled": true,
+              "name": "Corruption",
+              "anchor": "Parent",
+              "pos": [
+                -264.0,
+                192.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    9374
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "Superior_Sigil_of_Corruption.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": true,
+              "size": [
+                64.0,
+                64.0
               ]
             },
-            "threshold": {
-              "threshold_type": "Present",
-              "amount_type": "Intensity"
-            }
-          },
-          "filter": {
-            "player": {
-              "combat": null,
-              "specs": [],
-              "weapons": [],
-              "traits": [],
-              "mounts": []
-            },
-            "map": {
-              "category": [],
-              "whitelist": true,
-              "ids": []
-            }
-          },
-          "animation": null,
-          "type": "Icon",
-          "icon": {
-            "File": "Superior_Sigil_of_Momentum.png"
-          },
-          "tint": [
-            1.0,
-            1.0,
-            1.0,
-            1.0
-          ],
-          "zoom": 1.0,
-          "round": 0.0,
-          "border_size": 0.0,
-          "border_color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-          ],
-          "conditions": [],
-          "duration_bar": false,
-          "duration_text": false,
-          "stacks_text": true,
-          "size": [
-            64.0,
-            64.0
-          ]
-        },
-        {
-          "enabled": true,
-          "name": "Perception",
-          "anchor": "Parent",
-          "pos": [
-            -264.0,
-            192.0
-          ],
-          "opacity": 1.0,
-          "trigger": {
-            "source": {
-              "Buff": [
-                9385
+            {
+              "enabled": true,
+              "name": "Bounty",
+              "anchor": "Parent",
+              "pos": [
+                -264.0,
+                192.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    38588
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "Superior_Sigil_of_Bounty.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": true,
+              "size": [
+                64.0,
+                64.0
               ]
             },
-            "threshold": {
-              "threshold_type": "Present",
-              "amount_type": "Intensity"
-            }
-          },
-          "filter": {
-            "player": {
-              "combat": null,
-              "specs": [],
-              "weapons": [],
-              "traits": [],
-              "mounts": []
-            },
-            "map": {
-              "category": [],
-              "whitelist": true,
-              "ids": []
-            }
-          },
-          "animation": null,
-          "type": "Icon",
-          "icon": {
-            "File": "Superior_Sigil_of_Perception.png"
-          },
-          "tint": [
-            1.0,
-            1.0,
-            1.0,
-            1.0
-          ],
-          "zoom": 1.0,
-          "round": 0.0,
-          "border_size": 0.0,
-          "border_color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-          ],
-          "conditions": [],
-          "duration_bar": false,
-          "duration_text": false,
-          "stacks_text": true,
-          "size": [
-            64.0,
-            64.0
-          ]
-        },
-        {
-          "enabled": true,
-          "name": "Stars",
-          "anchor": "Parent",
-          "pos": [
-            -264.0,
-            192.0
-          ],
-          "opacity": 1.0,
-          "trigger": {
-            "source": {
-              "Buff": [
-                46953
+            {
+              "enabled": true,
+              "name": "Bloodlust",
+              "anchor": "Parent",
+              "pos": [
+                -264.0,
+                192.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    9286
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "Superior_Sigil_of_Bloodlust.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": true,
+              "size": [
+                64.0,
+                64.0
               ]
             },
-            "threshold": {
-              "threshold_type": "Present",
-              "amount_type": "Intensity"
+            {
+              "enabled": true,
+              "name": "Benevolence",
+              "anchor": "Parent",
+              "pos": [
+                -264.0,
+                192.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    9398
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "Superior_Sigil_of_Sanctuary.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": true,
+              "size": [
+                64.0,
+                64.0
+              ]
             }
-          },
-          "filter": {
-            "player": {
-              "combat": null,
-              "specs": [],
-              "weapons": [],
-              "traits": [],
-              "mounts": []
-            },
-            "map": {
-              "category": [],
-              "whitelist": true,
-              "ids": []
-            }
-          },
-          "animation": null,
-          "type": "Icon",
-          "icon": {
-            "File": "Superior_Sigil_of_the_Stars.png"
-          },
-          "tint": [
-            1.0,
-            1.0,
-            1.0,
-            1.0
-          ],
-          "zoom": 1.0,
-          "round": 0.0,
-          "border_size": 0.0,
-          "border_color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-          ],
-          "conditions": [],
-          "duration_bar": false,
-          "duration_text": false,
-          "stacks_text": true,
-          "size": [
-            64.0,
-            64.0
           ]
         },
         {
           "enabled": true,
-          "name": "Doom",
+          "name": "RightSide",
           "anchor": "Parent",
           "pos": [
             560.0,
-            -12.0
+            0.0
           ],
           "opacity": 1.0,
           "trigger": {
-            "source": {
-              "Buff": [
-                9441
-              ]
-            },
+            "source": "Inherit",
             "threshold": {
-              "threshold_type": "Present",
+              "threshold_type": "Always",
               "amount_type": "Intensity"
             }
           },
@@ -36199,221 +36230,260 @@
             }
           },
           "animation": null,
-          "type": "Icon",
-          "icon": {
-            "File": "Superior_Sigil_of_Doom.png"
-          },
-          "tint": [
-            1.0,
-            1.0,
-            1.0,
-            1.0
-          ],
-          "zoom": 1.0,
-          "round": 0.0,
-          "border_size": 0.0,
-          "border_color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-          ],
-          "conditions": [],
-          "duration_bar": false,
-          "duration_text": false,
-          "stacks_text": false,
-          "size": [
-            64.0,
-            64.0
-          ]
-        },
-        {
-          "enabled": true,
-          "name": "Leeching",
-          "anchor": "Parent",
-          "pos": [
-            560.0,
-            52.0
-          ],
-          "opacity": 1.0,
-          "trigger": {
-            "source": {
-              "Buff": [
-                9416
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "Vision",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                180.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    9422
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "Superior_Sigil_of_Vision.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                64.0,
+                64.0
               ]
             },
-            "threshold": {
-              "threshold_type": "Present",
-              "amount_type": "Intensity"
-            }
-          },
-          "filter": {
-            "player": {
-              "combat": null,
-              "specs": [],
-              "weapons": [],
-              "traits": [],
-              "mounts": []
-            },
-            "map": {
-              "category": [],
-              "whitelist": true,
-              "ids": []
-            }
-          },
-          "animation": null,
-          "type": "Icon",
-          "icon": {
-            "File": "Superior_Sigil_of_Leeching.png"
-          },
-          "tint": [
-            1.0,
-            1.0,
-            1.0,
-            1.0
-          ],
-          "zoom": 1.0,
-          "round": 0.0,
-          "border_size": 0.0,
-          "border_color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-          ],
-          "conditions": [],
-          "duration_bar": false,
-          "duration_text": false,
-          "stacks_text": false,
-          "size": [
-            64.0,
-            64.0
-          ]
-        },
-        {
-          "enabled": true,
-          "name": "Severance",
-          "anchor": "Parent",
-          "pos": [
-            560.0,
-            116.0
-          ],
-          "opacity": 1.0,
-          "trigger": {
-            "source": {
-              "Buff": [
-                43930
+            {
+              "enabled": true,
+              "name": "Severance",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                116.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    43930
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "Superior_Sigil_of_Severance.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                64.0,
+                64.0
               ]
             },
-            "threshold": {
-              "threshold_type": "Present",
-              "amount_type": "Intensity"
-            }
-          },
-          "filter": {
-            "player": {
-              "combat": null,
-              "specs": [],
-              "weapons": [],
-              "traits": [],
-              "mounts": []
-            },
-            "map": {
-              "category": [],
-              "whitelist": true,
-              "ids": []
-            }
-          },
-          "animation": null,
-          "type": "Icon",
-          "icon": {
-            "File": "Superior_Sigil_of_Severance.png"
-          },
-          "tint": [
-            1.0,
-            1.0,
-            1.0,
-            1.0
-          ],
-          "zoom": 1.0,
-          "round": 0.0,
-          "border_size": 0.0,
-          "border_color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-          ],
-          "conditions": [],
-          "duration_bar": true,
-          "duration_text": false,
-          "stacks_text": false,
-          "size": [
-            64.0,
-            64.0
-          ]
-        },
-        {
-          "enabled": true,
-          "name": "Vision",
-          "anchor": "Parent",
-          "pos": [
-            560.0,
-            180.0
-          ],
-          "opacity": 1.0,
-          "trigger": {
-            "source": {
-              "Buff": [
-                9422
+            {
+              "enabled": true,
+              "name": "Leeching",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                52.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    9416
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "Superior_Sigil_of_Leeching.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                64.0,
+                64.0
               ]
             },
-            "threshold": {
-              "threshold_type": "Present",
-              "amount_type": "Intensity"
+            {
+              "enabled": true,
+              "name": "Doom",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                -12.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    9441
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "Superior_Sigil_of_Doom.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                64.0,
+                64.0
+              ]
             }
-          },
-          "filter": {
-            "player": {
-              "combat": null,
-              "specs": [],
-              "weapons": [],
-              "traits": [],
-              "mounts": []
-            },
-            "map": {
-              "category": [],
-              "whitelist": true,
-              "ids": []
-            }
-          },
-          "animation": null,
-          "type": "Icon",
-          "icon": {
-            "File": "Superior_Sigil_of_Vision.png"
-          },
-          "tint": [
-            1.0,
-            1.0,
-            1.0,
-            1.0
-          ],
-          "zoom": 1.0,
-          "round": 0.0,
-          "border_size": 0.0,
-          "border_color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-          ],
-          "conditions": [],
-          "duration_bar": true,
-          "duration_text": false,
-          "stacks_text": false,
-          "size": [
-            64.0,
-            64.0
           ]
         }
       ]
@@ -63440,312 +63510,6 @@
                               "ticks": []
                             }
                           ]
-                        },
-                        {
-                          "enabled": true,
-                          "name": "CelestialAvatar",
-                          "anchor": "Parent",
-                          "pos": [
-                            296.0,
-                            -24.0
-                          ],
-                          "opacity": 1.0,
-                          "trigger": {
-                            "source": "Inherit",
-                            "threshold": {
-                              "threshold_type": "Always",
-                              "amount_type": "Intensity"
-                            }
-                          },
-                          "filter": {
-                            "player": {
-                              "combat": null,
-                              "specs": [],
-                              "weapons": [],
-                              "traits": [],
-                              "mounts": []
-                            },
-                            "map": {
-                              "category": [],
-                              "whitelist": true,
-                              "ids": []
-                            }
-                          },
-                          "animation": null,
-                          "type": "Group",
-                          "members": [
-                            {
-                              "enabled": true,
-                              "name": "Available",
-                              "anchor": "Parent",
-                              "pos": [
-                                0.0,
-                                0.0
-                              ],
-                              "opacity": 1.0,
-                              "trigger": {
-                                "source": {
-                                  "SkillbarSlot": "Profession5"
-                                },
-                                "threshold": {
-                                  "threshold_type": "Present",
-                                  "amount_type": "Intensity"
-                                }
-                              },
-                              "filter": {
-                                "player": {
-                                  "combat": null,
-                                  "specs": [],
-                                  "weapons": [],
-                                  "traits": [],
-                                  "mounts": []
-                                },
-                                "map": {
-                                  "category": [],
-                                  "whitelist": true,
-                                  "ids": []
-                                }
-                              },
-                              "animation": null,
-                              "type": "Icon",
-                              "icon": "Automatic",
-                              "tint": [
-                                1.0,
-                                1.0,
-                                1.0,
-                                1.0
-                              ],
-                              "zoom": 0.8,
-                              "round": 0.0,
-                              "border_size": 1.0,
-                              "border_color": [
-                                1.0,
-                                1.0,
-                                1.0,
-                                0.48235294
-                              ],
-                              "conditions": [],
-                              "duration_bar": false,
-                              "duration_text": false,
-                              "stacks_text": false,
-                              "size": [
-                                48.0,
-                                48.0
-                              ]
-                            },
-                            {
-                              "enabled": true,
-                              "name": "Unavailable",
-                              "anchor": "Parent",
-                              "pos": [
-                                0.0,
-                                0.0
-                              ],
-                              "opacity": 0.25,
-                              "trigger": {
-                                "source": {
-                                  "SkillbarSlot": "Profession5"
-                                },
-                                "threshold": {
-                                  "threshold_type": "Missing",
-                                  "amount_type": "Intensity"
-                                }
-                              },
-                              "filter": {
-                                "player": {
-                                  "combat": null,
-                                  "specs": [],
-                                  "weapons": [],
-                                  "traits": [],
-                                  "mounts": []
-                                },
-                                "map": {
-                                  "category": [],
-                                  "whitelist": true,
-                                  "ids": []
-                                }
-                              },
-                              "animation": null,
-                              "type": "Icon",
-                              "icon": "Automatic",
-                              "tint": [
-                                1.0,
-                                0.99999,
-                                0.99999,
-                                1.0
-                              ],
-                              "zoom": 0.8,
-                              "round": 0.0,
-                              "border_size": 1.0,
-                              "border_color": [
-                                1.0,
-                                1.0,
-                                1.0,
-                                0.48235294
-                              ],
-                              "conditions": [],
-                              "duration_bar": false,
-                              "duration_text": false,
-                              "stacks_text": false,
-                              "size": [
-                                48.0,
-                                48.0
-                              ]
-                            },
-                            {
-                              "enabled": true,
-                              "name": "Cooldown",
-                              "anchor": "Parent",
-                              "pos": [
-                                0.0,
-                                0.0
-                              ],
-                              "opacity": 1.0,
-                              "trigger": {
-                                "source": {
-                                  "SkillbarSlot": "Profession5"
-                                },
-                                "threshold": {
-                                  "threshold_type": "Missing",
-                                  "amount_type": "Intensity"
-                                }
-                              },
-                              "filter": {
-                                "player": {
-                                  "combat": null,
-                                  "specs": [],
-                                  "weapons": [],
-                                  "traits": [],
-                                  "mounts": []
-                                },
-                                "map": {
-                                  "category": [],
-                                  "whitelist": true,
-                                  "ids": []
-                                }
-                              },
-                              "animation": null,
-                              "type": "Bar",
-                              "progress_kind": "Duration",
-                              "max": 25.0,
-                              "lower_bound": 0.0,
-                              "upper_bound": 1.0,
-                              "fill": [
-                                0.99999,
-                                0.9999971,
-                                1.0,
-                                0.29936308
-                              ],
-                              "background": [
-                                0.0,
-                                0.0,
-                                0.0,
-                                0.5294118
-                              ],
-                              "border_size": 1.0,
-                              "border_color": [
-                                1.0,
-                                1.0,
-                                1.0,
-                                0.3137255
-                              ],
-                              "tick_size": 1.0,
-                              "tick_color": [
-                                0.0,
-                                0.0,
-                                0.0,
-                                1.0
-                              ],
-                              "conditions": [],
-                              "size": [
-                                48.0,
-                                48.0
-                              ],
-                              "align": "Center",
-                              "direction": "Up",
-                              "tick_unit": "Percent",
-                              "ticks": []
-                            },
-                            {
-                              "enabled": true,
-                              "name": "NearlyReady",
-                              "anchor": "Parent",
-                              "pos": [
-                                0.0,
-                                0.0
-                              ],
-                              "opacity": 1.0,
-                              "trigger": {
-                                "source": {
-                                  "SkillbarSlot": "Profession5"
-                                },
-                                "threshold": {
-                                  "threshold_type": {
-                                    "Above": 80.0
-                                  },
-                                  "amount_type": "Percent"
-                                }
-                              },
-                              "filter": {
-                                "player": {
-                                  "combat": null,
-                                  "specs": [],
-                                  "weapons": [],
-                                  "traits": [],
-                                  "mounts": []
-                                },
-                                "map": {
-                                  "category": [],
-                                  "whitelist": true,
-                                  "ids": []
-                                }
-                              },
-                              "animation": {
-                                "kind": "Pulse",
-                                "period": 400
-                              },
-                              "type": "Bar",
-                              "progress_kind": "Duration",
-                              "max": 25.0,
-                              "lower_bound": 0.9,
-                              "upper_bound": 1.0,
-                              "fill": [
-                                1.0,
-                                0.84076434,
-                                0.0,
-                                1.0
-                              ],
-                              "background": [
-                                0.0,
-                                0.0,
-                                0.0,
-                                0.0
-                              ],
-                              "border_size": 1.0,
-                              "border_color": [
-                                1.0,
-                                1.0,
-                                1.0,
-                                0.0
-                              ],
-                              "tick_size": 1.0,
-                              "tick_color": [
-                                0.0,
-                                0.0,
-                                0.0,
-                                1.0
-                              ],
-                              "conditions": [],
-                              "size": [
-                                48.0,
-                                48.0
-                              ],
-                              "align": "Center",
-                              "direction": "Up",
-                              "tick_unit": "Percent",
-                              "ticks": []
-                            }
-                          ]
                         }
                       ]
                     },
@@ -67644,7 +67408,7 @@
                       "members": [
                         {
                           "enabled": true,
-                          "name": "Toolbelt1",
+                          "name": "Shatter1",
                           "anchor": "Parent",
                           "pos": [
                             -468.0,
@@ -67950,7 +67714,7 @@
                         },
                         {
                           "enabled": true,
-                          "name": "Toolbelt2",
+                          "name": "Shatter2",
                           "anchor": "Parent",
                           "pos": [
                             -484.0,
@@ -68256,7 +68020,7 @@
                         },
                         {
                           "enabled": true,
-                          "name": "Toolbelt3",
+                          "name": "Shatter3",
                           "anchor": "Parent",
                           "pos": [
                             -500.0,
@@ -68562,7 +68326,7 @@
                         },
                         {
                           "enabled": true,
-                          "name": "Toolbelt4",
+                          "name": "Shatter4",
                           "anchor": "Parent",
                           "pos": [
                             -484.0,
@@ -68868,7 +68632,7 @@
                         },
                         {
                           "enabled": true,
-                          "name": "Toolbelt5",
+                          "name": "Shatter5",
                           "anchor": "Parent",
                           "pos": [
                             -468.0,
