@@ -5,11 +5,9 @@ All neatly organized so you can easily toggle and move anything you want! Also a
 
 Reffect Version of latest update: v0.7.1
 
-[> Direct download link <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.6.1/Kaedalus-Reffect-Megapack.zip)
+[> Direct download link <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.7.0/Kaedalus-Reffect-Megapack.zip)
 
-[> Download of alternate version with larger skill icons <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.6.1/Kaedalus-Reffect-Megapack-LargeSkills.zip)
-
-[> Download of overall larger version for 4k displays <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.6.1/Kaedalus-Reffect-Megapack-Scaled4k.zip) (Made with Cronos' resizer script)
+As of version 1.7.0, the 4k version has been discontinued, and Large Skills are now the default format of the pack. If you still need larger sizes or smaller skills, you can easily resize the whole pack or group within Reffect with *Right-click > Resize*.
 
 To install:
 - Install [GW2 Reffect](https://github.com/Zerthox/gw2-reffect/).
@@ -23,7 +21,7 @@ Please let me know if you find any errors or missing effects!
 To fix blurry numbers, change your Reffect font to the largest possible size.
 Still thinking of how to implement conditions in a neat manner. There are two optional Condition displays available (disabled by default) if you want to use them. Also, no underwater exclusive stuff for the moment (Whirlpool, for instance), sorry!
 
-# In the pack:
+# In the pack (not up to date):
 
 ## General
 - **Health**, with ticks for health-based effects (90%, 75%, 50%, 25%).
@@ -83,6 +81,15 @@ Still thinking of how to implement conditions in a neat manner. There are two op
 - **Skill Effects**: Signets, Spectral, Shroud and Sand Swell.
 
 # Changelog
+**1.7.0**
+**Important:** Please make sure to extract the updated icons folder as well, as some icons have been added and others have been edited to be more consistent.
+- Discontinued 4k version, and made Large Skills the default format of the pack. If you still need larger sizes or smaller skills, you can easily resize the whole pack or group within Reffect with *Right-click > Resize*.
+- Added trait and skill effects plus cooldown tracking for all 9 Visions of Eternity Elite Specializations.
+- Added Guardian Virtues to skill cooldown tracking.
+- Added Relic of the Scoundrel.
+- Adjusted zoom levels of icons and edited some images to avoid excessive black borders wherever possible.
+- Fixed Elementalist Focus' Obsidian Flesh effect.
+
 **1.6.1**
 - Created an additional pack download option with 150% larger Skill icons.
 - Moved sigil display into LeftSide and RightSide groups to edit more easily.
