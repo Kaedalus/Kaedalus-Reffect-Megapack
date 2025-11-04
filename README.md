@@ -9,10 +9,10 @@ Reffect Version of latest update: v0.7.1
 
 As of version 1.7.0, the 4k version has been discontinued, and Large Skills are now the default format of the pack. If you still need larger sizes or smaller skills, you can easily resize the whole pack or group within Reffect with *Right-click > Resize*.
 
-To install:
+To install (**imporant**):
 - Install [GW2 Reffect](https://github.com/Zerthox/gw2-reffect/).
 - Extract the .zip file inside ``Guild Wars 2\addons\reffect``.
-- Turn on "Reuse game icons" in the Reffect settings.
+- Turn on **"Reuse game icons"** in the Reffect settings.
 
 [> Link to screenshots on imgur <](https://imgur.com/a/AKNGE3r) (Screenshots of version 1.0.0)
 
