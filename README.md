@@ -3,13 +3,13 @@ A Reffect pack with all classes' resources, traits and skills, as well as additi
 
 All neatly organized so you can easily toggle and move anything you want! Also already filtered so only relevant stuff for your current profession will be displayed. :)
 
-Reffect Version of latest update: v0.7.1
+Reffect Version of latest update: v0.8.0
 
 [> Direct download link <](https://github.com/Kaedalus/Kaedalus-Reffect-Megapack/releases/download/v1.7.0/Kaedalus-Reffect-Megapack.zip)
 
 As of version 1.7.0, the 4k version has been discontinued, and Large Skills are now the default format of the pack. If you still need larger sizes or smaller skills, you can easily resize the whole pack or group within Reffect with *Right-click > Resize*.
 
-To install (**imporant**):
+To install (**important**):
 - Install [GW2 Reffect](https://github.com/Zerthox/gw2-reffect/).
 - Extract the .zip file inside ``Guild Wars 2\addons\reffect``.
 - Turn on **"Reuse game icons"** in the Reffect settings.
@@ -81,6 +81,12 @@ Still thinking of how to implement conditions in a neat manner. There are two op
 - **Skill Effects**: Signets, Spectral, Shroud and Sand Swell.
 
 # Changelog
+**1.7.1**
+- **Updated to Reffect 0.8.0.**
+- Added _Pressed_ and _Queued_ states to all skill and profession icons.
+- Updated Ranger Profession Icons to include pet swap.
+- Added support and filters for Soulbeast "Eternal Bond" trait.
+
 **1.7.0**
 **Important:** Please make sure to extract the updated icons folder as well, as some icons have been added and others have been edited to be more consistent.
 - Discontinued 4k version, and made Large Skills the default format of the pack. If you still need larger sizes or smaller skills, you can easily resize the whole pack or group within Reffect with *Right-click > Resize*.
